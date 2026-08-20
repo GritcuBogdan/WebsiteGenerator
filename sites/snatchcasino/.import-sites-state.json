@@ -1,0 +1,44 @@
+{
+  "config": {
+    "slug": "snatchcasino",
+    "domains": [
+      "snatchcasino7.de"
+    ],
+    "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+    "locales": [
+      {
+        "code": "de-DE",
+        "default": true
+      }
+    ],
+    "contentSource": "library",
+    "profile": "starter-casino",
+    "theme": {
+      "primary": "#00CFE0",
+      "secondary": "#1A0F1E",
+      "accent": "#FF4FA3"
+    }
+  },
+  "data": {
+    "brandName": "Snatch Casino",
+    "welcomeBonus": {
+      "amount": 500,
+      "currency": "CHF"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "profile": "starter-casino"
+  }
+}

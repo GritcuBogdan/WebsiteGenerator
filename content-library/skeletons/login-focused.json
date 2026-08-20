@@ -1,0 +1,5 @@
+{
+  "id": "login-focused",
+  "sections": ["intro", "how-to-login", "registration", "forgot-password", "account-access", "two-factor-authentication", "troubleshooting", "security", "faq", "cta"],
+  "optionalSections": ["how-to-login", "forgot-password", "troubleshooting", "two-factor-authentication"]
+}

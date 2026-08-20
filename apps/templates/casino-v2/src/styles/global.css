@@ -1,0 +1,206 @@
+@import "tailwindcss";
+
+/* casino-v2 design system: dark-premium chrome (see src/lib/theme.ts for
+   why background/surface/text are fixed here rather than per-site) with a
+   per-site primary/accent gradient driving CTAs, glows and highlights. */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+  overflow-x: hidden;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  background: var(--background);
+  color: var(--text);
+  font-family:
+    "Plus Jakarta Sans", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--primary, #8b5cf6) 65%, #1d1b33) var(--background, #0a0a14);
+}
+
+html::-webkit-scrollbar {
+  width: 12px;
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--background, #0a0a14);
+}
+
+html::-webkit-scrollbar-thumb {
+  border: 3px solid var(--background, #0a0a14);
+  border-radius: 999px;
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--primary, #8b5cf6) 85%, white),
+    color-mix(in srgb, var(--accent, #f5c542) 55%, var(--primary, #8b5cf6))
+  );
+}
+
+/* Section rhythm: alternating base/muted surfaces plus a soft glow seam
+   between sections, instead of casino-v1's hairline divider. */
+.site-section {
+  position: relative;
+  background: var(--section-bg, transparent);
+  color: var(--section-text, var(--text, #f3f1fa));
+}
+
+.site-section + .site-section {
+  border-top: 1px solid color-mix(in srgb, var(--border, rgba(255, 255, 255, 0.1)) 100%, transparent);
+}
+
+/* Gradient display headline, used by hero/section titles. */
+.gradient-heading {
+  background: linear-gradient(120deg, var(--heading-text, #fff) 30%, var(--primary, #8b5cf6) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Glass card: the base surface for content cards, form cards, slot cards. */
+.glass-card {
+  background: color-mix(in srgb, var(--surface, #151426) 92%, transparent);
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.1));
+  backdrop-filter: blur(12px);
+}
+
+.glow-border {
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--primary, #8b5cf6) 35%, transparent),
+    0 18px 40px -20px color-mix(in srgb, var(--primary, #8b5cf6) 55%, transparent);
+}
+
+/* Primary CTA: gradient fill + hover glow lift. */
+.cta-button {
+  position: relative;
+  isolation: isolate;
+  background: linear-gradient(120deg, var(--primary, #8b5cf6), color-mix(in srgb, var(--accent, #f5c542) 70%, var(--primary, #8b5cf6)));
+  color: #0a0a14;
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.cta-button:hover,
+.cta-button:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 30px -12px color-mix(in srgb, var(--primary, #8b5cf6) 70%, transparent);
+}
+
+.cta-button:active {
+  transform: translateY(0);
+}
+
+/* Breathing glow ring for a hero/banner CTA that needs to read as the one
+   unmissable action on the page (e.g. the offer button overlaid on a hero
+   banner image), rather than every cta-button on the page. */
+.glow-pulse {
+  animation: glow-pulse-ring 2.4s ease-in-out infinite;
+}
+
+@keyframes glow-pulse-ring {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--primary, #8b5cf6) 55%, transparent);
+  }
+  50% {
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--primary, #8b5cf6) 0%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glow-pulse {
+    animation: none;
+  }
+}
+
+/* Secondary/outline button used for Login and demo-style actions. */
+.ghost-button {
+  background: color-mix(in srgb, var(--surface, #151426) 60%, transparent);
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.14));
+  color: var(--text, #f3f1fa);
+  transition:
+    border-color 220ms ease,
+    transform 220ms ease;
+}
+
+.ghost-button:hover,
+.ghost-button:focus-visible {
+  border-color: color-mix(in srgb, var(--primary, #8b5cf6) 60%, transparent);
+  transform: translateY(-2px);
+}
+
+.pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 999px;
+  padding: 0.3rem 0.85rem;
+  font-weight: 800;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  background: color-mix(in srgb, var(--primary, #8b5cf6) 18%, transparent);
+  color: var(--accent, #f5c542);
+  border: 1px solid color-mix(in srgb, var(--primary, #8b5cf6) 35%, transparent);
+}
+
+.fancy-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  color: var(--link, currentColor);
+  transition:
+    color 220ms ease,
+    transform 220ms ease;
+}
+
+.fancy-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.35rem;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: right;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--primary, #8b5cf6), var(--accent, #f5c542));
+  transition: transform 260ms ease;
+}
+
+.fancy-link:hover::after,
+.fancy-link:focus-visible::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.fancy-link:hover,
+.fancy-link:focus-visible {
+  color: var(--link-hover, var(--primary, #8b5cf6));
+}
+
+*:focus-visible {
+  outline: 2px solid var(--accent, #f5c542);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "pages": {
+    "index": {
+      "banner": {
+        "image": "crazytower casino.png",
+        "text" : "5000 kr + 200 Free Spins ",
+        "buttonText" : "HENT BONUS"
+      }
+    },
+    "application": {
+      "banner": {
+        "image": "crazytower online casino.png",
+        "text": "Registrer deg"
+      }
+    },
+    "withdrawal": {
+      "banner": {
+        "text": "Rask uttak med Vipps",
+        "buttonText": "SØK UTTAK"
+      }
+    },
+    "review": {
+      "banner": {
+        "image": "crazytower casino mobile.png",
+        "text": "Er CrazyTower trygt?",
+        "buttonText": "SE VURDERING"
+      }
+    },
+    "free-spins": {
+      "banner": {
+        "text": "200 free spins + ukentlige tilbud",
+        "buttonText": "SE TILBUD"
+      }
+    },
+    "promo-code": {
+      "banner": {
+        "image": "crazytower casino win.png",
+        "text": "Lås opp bonuser med kode",
+        "buttonText": "SE KAMPANJEKODER"
+      }
+    },
+    "slots": {
+      "banner": {
+        "text": "2.500+ spilleautomater",
+        "buttonText": "UTFORSK SPILL"
+      }
+    },
+    "no-deposit-bonus": {
+      "banner": {
+        "text": "100 kr bonuskreditt"
+      }
+    },
+    "bonus": {
+      "banner": {
+        "text": "100 % match på første innskudd opptil 5000 kr",
+        "buttonText": "Hent Bonus"
+      }
+    },
+    "login" : {
+        "banner": {
+          "buttonText": "Logg inn"
+        }
+      }
+  }
+}

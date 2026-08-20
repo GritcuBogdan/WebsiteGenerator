@@ -1,0 +1,54 @@
+---
+import { cssVars } from "../lib/theme";
+
+const { theme = {}, label = "Back to top" } = Astro.props;
+---
+
+<button
+  id="scroll-top-button"
+  type="button"
+  class="cta-button scroll-top-button pointer-events-none flex translate-y-4 items-center justify-center rounded-full opacity-0 shadow-xl transition duration-300 focus-visible:translate-y-0 focus-visible:opacity-100"
+  style={`${cssVars(theme)}`}
+  aria-label={label}
+>
+  <span aria-hidden="true" class="text-xl leading-none">↑</span>
+</button>
+
+<style>
+  .scroll-top-button {
+    position: fixed !important;
+    right: max(1rem, env(safe-area-inset-right)) !important;
+    bottom: calc(max(1rem, env(safe-area-inset-bottom)) + var(--sticky-offset, 0rem)) !important;
+    z-index: 60 !important;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+  }
+
+  @media (min-width: 640px) {
+    .scroll-top-button {
+      right: max(2rem, env(safe-area-inset-right)) !important;
+      bottom: calc(max(2rem, env(safe-area-inset-bottom)) + var(--sticky-offset, 0rem)) !important;
+    }
+  }
+</style>
+
+<script>
+  const scrollButton = document.querySelector<HTMLButtonElement>("#scroll-top-button");
+
+  function syncScrollButton() {
+    const shouldShow = window.scrollY > 420;
+    scrollButton?.classList.toggle("pointer-events-none", !shouldShow);
+    scrollButton?.classList.toggle("translate-y-4", !shouldShow);
+    scrollButton?.classList.toggle("opacity-0", !shouldShow);
+    scrollButton?.classList.toggle("translate-y-0", shouldShow);
+    scrollButton?.classList.toggle("opacity-100", shouldShow);
+  }
+
+  scrollButton?.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  syncScrollButton();
+  window.addEventListener("scroll", syncScrollButton, { passive: true });
+</script>

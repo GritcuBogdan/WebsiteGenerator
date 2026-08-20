@@ -1,0 +1,13 @@
+---
+import CasinoPageView from "../components/CasinoPageView.astro";
+import { defaultLocale, getSingleCasinoForLocale } from "../lib/site";
+
+const casino = getSingleCasinoForLocale(defaultLocale, { required: true })!;
+const page = casino.pages.find((candidate) => candidate.slug === "index");
+
+if (!page) {
+  throw new Error(`Missing index page for ${casino.slug}`);
+}
+---
+
+<CasinoPageView casino={casino} page={page} />

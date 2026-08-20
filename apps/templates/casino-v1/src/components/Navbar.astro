@@ -1,0 +1,445 @@
+---
+import { cssVars } from "../lib/theme";
+import { getRedirectHref } from "../lib/affiliate";
+import OptimizedImage from "./OptimizedImage.astro";
+
+const defaultTheme = {
+  primary: "#2563eb",
+  secondary: "#111827",
+  surface: "#ffffff",
+  text: "#1f2937",
+};
+
+const defaultButton = {
+  text: "",
+  href: "#",
+  style: {},
+};
+
+const {
+  logo = "",
+  casinoName = "",
+  casinoSlug = "",
+  brandName = "",
+  showBrandName = false,
+  homeHref = "",
+  menu = [],
+  theme = defaultTheme,
+  loginButton = defaultButton,
+  signupButton = defaultButton,
+  languageOptions = [],
+} = Astro.props;
+
+const redirectHref = getRedirectHref(casinoSlug);
+const surface = theme.navbarBackground || theme.surface || "#ffffff";
+const text = theme.navbarText || theme.text || theme.secondary || "#111827";
+const headingTextOverride = theme.navbarText ? `--heading-text:${theme.navbarText};` : "";
+const loginStyle = loginButton.style || {};
+const signupStyle = signupButton.style || {};
+const displayName = brandName || casinoName;
+const loginButtonText = loginButton.text || "Login";
+const signupButtonText = signupButton.text || "Sign Up";
+---
+
+<nav
+  class="sticky top-0 z-50 w-full border-b backdrop-blur-xl"
+  style={`${cssVars(theme)} background:color-mix(in srgb, ${surface} 92%, transparent); border-color:var(--border); ${headingTextOverride}`}
+>
+  <div class="hidden lg:block">
+    <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
+      <a href={homeHref} class="flex min-w-0 items-center gap-3" aria-label={`${displayName} home`}>
+        {
+          logo ? (
+            <>
+              <OptimizedImage src={logo} alt={`${displayName} logo`} width="160" height="48" loading="eager" responsive={false} class="h-9 w-auto shrink-0 sm:h-10" />
+              {showBrandName && (
+                <span class="max-w-44 truncate text-base font-black leading-tight sm:block" style="color:var(--heading-text)">
+                  {displayName}
+                </span>
+              )}
+            </>
+          ) : (
+            <span class="truncate text-base font-bold" style="color:var(--heading-text)">
+              {displayName}
+            </span>
+          )
+        }
+      </a>
+
+      <div class="flex items-center gap-7">
+        {
+          menu.map((item) =>
+            item.dropdown ? (
+              <div class="dropdown group relative pb-2 pt-2">
+                <a
+                  href={item.href || "#"}
+                  class="fancy-link gap-1 text-sm font-semibold"
+                  style={`--link:${text}; --link-hover:var(--primary);`}
+                  aria-haspopup="true"
+                >
+                  <span>{item.name}</span>
+                  <span aria-hidden="true" class="dropdown-chevron text-xs transition duration-300">v</span>
+                </a>
+
+                <div class="dropdown-panel invisible absolute left-0 top-full w-56 translate-y-2 rounded-lg border bg-white p-2 opacity-0 shadow-xl transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100">
+                  {item.dropdown.map((child) => (
+                    <a
+                      href={child.href}
+                      class="block rounded-md px-4 py-2.5 text-sm font-medium transition duration-200 hover:translate-x-1 focus-visible:translate-x-1"
+                      style="color:var(--secondary)"
+                    >
+                      {child.name}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <a
+                href={item.href}
+                class="fancy-link text-sm font-semibold"
+                style={`--link:${text}; --link-hover:var(--primary);`}
+              >
+                {item.name}
+              </a>
+            ),
+          )
+        }
+      </div>
+
+      <div class="flex items-center gap-3">
+        <a
+          href={redirectHref}
+          class="inline-flex items-center justify-center rounded-lg border px-5 py-2 text-sm font-semibold transition duration-300 hover:-translate-y-0.5 hover:shadow-md focus-visible:-translate-y-0.5"
+          style={`color:${loginStyle.text || "var(--primary)"}; border-color:${loginStyle.border || "var(--primary)"}; background:${loginStyle.background || "transparent"};`}
+        >
+          {loginButtonText}
+        </a>
+
+        <a
+          href={redirectHref}
+          class="shine-button inline-flex items-center justify-center rounded-lg px-5 py-2 text-sm font-semibold shadow-sm transition duration-300 hover:-translate-y-0.5 hover:shadow-lg focus-visible:-translate-y-0.5"
+          style={`color:${signupStyle.text || "#ffffff"}; background:${signupStyle.background || "var(--primary)"};`}
+        >
+          {signupButtonText}
+        </a>
+
+        {languageOptions.length >= 2 && (
+          <div class="flex items-center gap-1 rounded-lg border p-1" style="border-color:var(--border);">
+            {languageOptions.map((option) => (
+              <a
+                href={option.href || "#"}
+                data-language-switch
+                data-language-code={option.code}
+                class={`flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-xs font-black transition duration-200 ${option.active ? "" : "opacity-70 hover:opacity-100"}`}
+                style={`background:${option.active ? "var(--primary)" : "transparent"}; color:${option.active ? "#ffffff" : "var(--secondary)"};`}
+                aria-label={`Switch language to ${option.label}`}
+                aria-current={option.active ? "page" : undefined}
+              >
+                {option.flagImage && (
+                  <img
+                    src={option.flagImage}
+                    alt={`${option.label} flag`}
+                    width="24"
+                    height="16"
+                    class="h-4 w-6 rounded-sm object-cover"
+                    loading="lazy"
+                  />
+                )}
+                <span>{option.code.toUpperCase()}</span>
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+
+  <div id="mobile-navbar" class="lg:hidden">
+    <div class="mx-auto flex max-w-7xl items-center justify-between gap-2 px-4 py-3 sm:px-6">
+      <a href={homeHref} class="flex min-w-0 items-center gap-3" aria-label={`${displayName} home`}>
+        {
+          logo ? (
+            <>
+              <OptimizedImage src={logo} alt={`${displayName} logo`} width="144" height="40" loading="eager" responsive={false} class="h-8 w-auto shrink-0" />
+              {showBrandName && (
+                <span class="max-w-32 truncate text-sm font-black leading-tight" style="color:var(--heading-text)">
+                  {displayName}
+                </span>
+              )}
+            </>
+          ) : (
+            <span class="truncate text-sm font-bold" style="color:var(--heading-text)">
+              {displayName}
+            </span>
+          )
+        }
+      </a>
+
+      <div class="flex items-center gap-2">
+        <a
+          href={redirectHref}
+          class="inline-flex min-h-9 items-center justify-center rounded-lg border px-3 py-1.5 text-center text-xs font-bold transition duration-300 hover:-translate-y-0.5 hover:shadow-md focus-visible:-translate-y-0.5 sm:text-sm"
+          style={`color:${loginStyle.text || "var(--primary)"}; border-color:${loginStyle.border || "var(--primary)"}; background:${loginStyle.background || "transparent"};`}
+        >
+          {loginButtonText}
+        </a>
+
+        <a
+          href={redirectHref}
+          class="shine-button inline-flex min-h-9 items-center justify-center rounded-lg px-3 py-1.5 text-center text-xs font-bold shadow-sm transition duration-300 hover:-translate-y-0.5 hover:shadow-lg focus-visible:-translate-y-0.5 sm:text-sm"
+          style={`color:${signupStyle.text || "#ffffff"}; background:${signupStyle.background || "var(--primary)"};`}
+        >
+          {signupButtonText}
+        </a>
+
+        <button
+          id="menu-button"
+          class="inline-flex h-9 w-9 shrink-0 flex-col items-center justify-center gap-1.5 rounded-lg border p-2"
+          style={`border-color:var(--border);`}
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <span class="h-0.5 w-5 rounded-full transition-all duration-300" style={`background:${text};`}></span>
+          <span class="h-0.5 w-5 rounded-full transition-all duration-300" style={`background:${text};`}></span>
+          <span class="h-0.5 w-5 rounded-full transition-all duration-300" style={`background:${text};`}></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="mobile-menu" class="hidden lg:hidden" style="border-color:var(--border);">
+    <div class="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-4 sm:px-6">
+      <div class="flex items-center justify-between border-b pb-4" style="border-color:var(--border)">
+        <a href={homeHref} class="flex min-w-0 items-center gap-3" aria-label={`${displayName} home`}>
+          {
+            logo ? (
+              <>
+                <OptimizedImage src={logo} alt={`${displayName} logo`} width="144" height="40" loading="eager" responsive={false} class="h-8 w-auto shrink-0" />
+                {showBrandName && (
+                  <span class="max-w-32 truncate text-sm font-black leading-tight" style="color:var(--heading-text)">
+                    {displayName}
+                  </span>
+                )}
+              </>
+            ) : (
+              <span class="truncate text-sm font-bold" style="color:var(--heading-text)">
+                {displayName}
+              </span>
+            )
+          }
+        </a>
+        <button
+          id="menu-close-button"
+          class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border p-2"
+          style={`border-color:var(--border);`}
+          aria-label="Close menu"
+        >
+          <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" style={`color:${text};`}>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="flex flex-col gap-3">
+        {
+          menu.map((item) =>
+            item.dropdown ? (
+              <details class="rounded-lg border p-3" style="border-color:var(--border)">
+                <summary class="flex cursor-pointer items-center justify-between gap-2 font-semibold" style="color:var(--secondary)">
+                  {item.href ? (
+                    <a href={item.href} class="flex-1" data-dropdown-link>
+                      {item.name}
+                    </a>
+                  ) : (
+                    <span class="flex-1">{item.name}</span>
+                  )}
+                  <span aria-hidden="true" class="text-xs">v</span>
+                </summary>
+                <div class="mt-3 flex flex-col gap-2 pl-2">
+                  {item.dropdown.map((child) => (
+                    <a class="py-1 text-sm" href={child.href}>
+                      {child.name}
+                    </a>
+                  ))}
+                </div>
+              </details>
+            ) : (
+              <a class="font-semibold" href={item.href}>
+                {item.name}
+              </a>
+            ),
+          )
+        }
+      </div>
+
+      <div class="mt-2 grid grid-cols-2 gap-3 border-t pt-4" style="border-color:var(--border)">
+        <a
+          href={redirectHref}
+          class="inline-flex items-center justify-center rounded-lg border px-4 py-2.5 text-center text-sm font-semibold"
+          style={`color:${loginStyle.text || "var(--primary)"}; border-color:${loginStyle.border || "var(--primary)"};`}
+        >
+          {loginButtonText}
+        </a>
+        <a
+          href={redirectHref}
+          class="shine-button inline-flex items-center justify-center rounded-lg px-4 py-2.5 text-center text-sm font-semibold"
+          style={`color:${signupStyle.text || "#ffffff"}; background:${signupStyle.background || "var(--primary)"};`}
+        >
+          {signupButtonText}
+        </a>
+      </div>
+
+      {languageOptions.length >= 2 && (
+        <div class="border-t pt-4" style="border-color:var(--border)">
+          <div class="flex flex-wrap items-center justify-center gap-2">
+            {languageOptions.map((option) => (
+              <a
+                href={option.href || "#"}
+                data-language-switch
+                data-language-code={option.code}
+                class={`flex items-center gap-2 rounded-lg px-4 py-2.5 text-sm font-bold transition-all duration-200 ${
+                  option.active ? "shadow-md" : "opacity-60 hover:scale-105 hover:opacity-100"
+                }`}
+                style={`background:${option.active ? "var(--primary)" : "var(--surface)"}; color:${option.active ? "#ffffff" : "var(--secondary)"}; border:1px solid ${option.active ? "var(--primary)" : "var(--border)"};`}
+                aria-label={`Switch language to ${option.label}`}
+                aria-current={option.active ? "page" : undefined}
+              >
+                {option.flagImage && (
+                  <img
+                    src={option.flagImage}
+                    alt={`${option.label} flag`}
+                    width="32"
+                    height="20"
+                    class="h-5 w-8 rounded-sm object-cover"
+                    loading="lazy"
+                  />
+                )}
+                <span>{option.label}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  </div>
+</nav>
+
+<style>
+  .dropdown-panel {
+    transition-delay: 500ms;
+  }
+
+  .dropdown:hover .dropdown-panel,
+  .dropdown:focus-within .dropdown-panel {
+    transition-delay: 0ms;
+  }
+
+  .dropdown:hover .dropdown-chevron,
+  .dropdown:focus-within .dropdown-chevron {
+    transform: rotate(180deg);
+  }
+
+  .dropdown-panel a:hover,
+  .dropdown-panel a:focus-visible {
+    background: color-mix(in srgb, var(--primary) 10%, white);
+    color: var(--primary) !important;
+  }
+
+  #mobile-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+  }
+
+  #mobile-menu:not(.hidden) {
+    display: block;
+  }
+
+  #menu-button[aria-expanded="true"] span:first-child {
+    transform: translateY(6px) rotate(45deg);
+  }
+
+  #menu-button[aria-expanded="true"] span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+
+  #menu-button[aria-expanded="true"] span:last-child {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+
+  [data-language-switch] {
+    transition: all 0.2s ease;
+  }
+
+  [data-language-switch]:active {
+    transform: scale(0.95);
+  }
+
+  @media (max-width: 1023px) {
+    #mobile-menu.hidden {
+      display: none !important;
+    }
+  }
+</style>
+
+<script>
+  const menuButton = document.querySelector<HTMLButtonElement>("#menu-button");
+  const closeButton = document.querySelector<HTMLButtonElement>("#menu-close-button");
+  const mobileMenu = document.querySelector<HTMLElement>("#mobile-menu");
+  const mobileNavbar = document.querySelector<HTMLElement>("#mobile-navbar");
+
+  function openMenu() {
+    mobileMenu?.classList.remove("hidden");
+    menuButton?.setAttribute("aria-expanded", "true");
+    mobileNavbar?.classList.add("hidden");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeMenu() {
+    mobileMenu?.classList.add("hidden");
+    menuButton?.setAttribute("aria-expanded", "false");
+    mobileNavbar?.classList.remove("hidden");
+    document.body.style.overflow = "";
+  }
+
+  menuButton?.addEventListener("click", () => {
+    const isOpen = !mobileMenu?.classList.contains("hidden");
+    if (isOpen) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
+  });
+
+  closeButton?.addEventListener("click", closeMenu);
+
+  document.addEventListener("click", (event) => {
+    const target = event.target as Node;
+    const nav = document.querySelector("nav");
+    if (nav && !nav.contains(target) && !mobileMenu?.classList.contains("hidden")) {
+      closeMenu();
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth >= 1024) {
+      closeMenu();
+    }
+  });
+
+  // Without this, a tap on the link nested inside <summary> also triggers
+  // the <details>'s native toggle-on-click behavior - harmless once the
+  // page actually navigates away, but it flashes the accordion open first,
+  // which reads as a mis-tap. Stop it from bubbling to <summary>.
+  document.querySelectorAll<HTMLAnchorElement>("[data-dropdown-link]").forEach((link) => {
+    link.addEventListener("click", (event) => event.stopPropagation());
+  });
+</script>

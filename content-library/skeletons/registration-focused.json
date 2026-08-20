@@ -1,0 +1,5 @@
+{
+  "id": "registration-focused",
+  "sections": ["intro", "how-to-register", "eligibility", "verification", "bonus-signup", "faq", "cta"],
+  "optionalSections": ["bonus-signup"]
+}

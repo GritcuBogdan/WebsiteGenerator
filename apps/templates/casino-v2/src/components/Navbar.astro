@@ -1,0 +1,321 @@
+---
+import { cssVars } from "../lib/theme";
+import { getRedirectHref } from "../lib/affiliate";
+import OptimizedImage from "./OptimizedImage.astro";
+
+const defaultTheme = {
+  primary: "#8B5CF6",
+  secondary: "#F5C542",
+};
+
+const defaultButton = {
+  text: "",
+  href: "#",
+  style: {},
+};
+
+const {
+  logo = "",
+  casinoName = "",
+  casinoSlug = "",
+  brandName = "",
+  showBrandName = false,
+  homeHref = "",
+  menu = [],
+  theme = defaultTheme,
+  loginButton = defaultButton,
+  signupButton = defaultButton,
+  languageOptions = [],
+} = Astro.props;
+
+const redirectHref = getRedirectHref(casinoSlug);
+const loginStyle = loginButton.style || {};
+const signupStyle = signupButton.style || {};
+const displayName = brandName || casinoName;
+const loginButtonText = loginButton.text || "Login";
+const signupButtonText = signupButton.text || "Sign Up";
+---
+
+<header
+  class="sticky top-0 z-50 w-full border-b"
+  style={`${cssVars(theme)} background:var(--navbar-bg); border-color:var(--border); backdrop-filter:blur(16px);`}
+>
+  <div class="mx-auto flex max-w-7xl items-center justify-between gap-2 px-4 py-3 sm:gap-3 sm:px-6 lg:px-8">
+    <a href={homeHref} class="flex min-w-0 shrink-0 items-center gap-2.5" aria-label={`${displayName} home`}>
+      {
+        logo ? (
+          <>
+            <OptimizedImage src={logo} alt={`${displayName} logo`} width="152" height="44" loading="eager" responsive={false} class="h-8 max-w-[104px] w-auto object-contain shrink-0 sm:h-9 sm:max-w-[170px]" />
+            {showBrandName && (
+              <span class="hidden max-w-40 truncate text-base font-black leading-tight sm:block" style="color:var(--navbar-text)">
+                {displayName}
+              </span>
+            )}
+          </>
+        ) : (
+          <span class="truncate text-base font-black" style="color:var(--navbar-text)">
+            {displayName}
+          </span>
+        )
+      }
+    </a>
+
+    <nav aria-label="Primary" class="hidden min-w-0 flex-1 justify-center py-1 lg:flex">
+      <ul class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
+        {
+          menu.map((item) => (
+            <li class={item.dropdown ? "dropdown group relative" : ""}>
+              {item.dropdown ? (
+                <>
+                  <a
+                    href={item.href || "#"}
+                    class="fancy-link gap-1 whitespace-nowrap text-sm font-bold"
+                    style={`--link:var(--navbar-text); --link-hover:var(--accent);`}
+                    aria-haspopup="true"
+                  >
+                    <span>{item.name}</span>
+                    <span aria-hidden="true" class="dropdown-chevron text-[10px] transition duration-300">▼</span>
+                  </a>
+                  <div class="glass-card glow-border dropdown-panel invisible absolute left-1/2 top-full w-56 -translate-x-1/2 translate-y-2 rounded-xl p-2 opacity-0 shadow-2xl transition-all duration-200 group-hover:visible group-hover:translate-y-1 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-1 group-focus-within:opacity-100">
+                    {item.dropdown.map((child) => (
+                      <a
+                        href={child.href}
+                        class="block rounded-lg px-4 py-2.5 text-sm font-semibold transition duration-200 hover:translate-x-1"
+                        style="color:var(--text);"
+                      >
+                        {child.name}
+                      </a>
+                    ))}
+                  </div>
+                </>
+              ) : (
+                <a
+                  href={item.href}
+                  class="fancy-link whitespace-nowrap text-sm font-bold"
+                  style={`--link:var(--navbar-text); --link-hover:var(--accent);`}
+                >
+                  {item.name}
+                </a>
+              )}
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+
+    {
+      /* Login/Registration stay visible at every breakpoint, not just
+         desktop - on mobile they sit right next to the burger button
+         instead of being buried inside the drawer, matching casino-v1's
+         mobile navbar. Sized down by default (compact enough to fit next
+         to the logo and burger button on a narrow phone) and back up to
+         their normal size from sm: onward. */
+    }
+    <div class="flex shrink-0 items-center gap-1.5 sm:gap-2.5">
+      <a
+        href={redirectHref}
+        class="ghost-button inline-flex items-center justify-center whitespace-nowrap rounded-full px-2.5 py-1.5 text-xs font-bold sm:px-4 sm:py-2 sm:text-sm"
+        style={`color:${loginStyle.text || "var(--text)"};`}
+      >
+        {loginButtonText}
+      </a>
+
+      <a
+        href={redirectHref}
+        class="cta-button inline-flex items-center justify-center whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-black sm:px-5 sm:py-2 sm:text-sm"
+      >
+        {signupButtonText}
+      </a>
+
+      {languageOptions.length >= 2 && (
+        <div class="ml-1 hidden items-center gap-1 rounded-full border p-1 lg:flex" style="border-color:var(--border);">
+          {languageOptions.map((option) => (
+            <a
+              href={option.href || "#"}
+              data-language-switch
+              data-language-code={option.code}
+              class={`flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-black transition duration-200 ${option.active ? "" : "opacity-60 hover:opacity-100"}`}
+              style={`background:${option.active ? "var(--primary)" : "transparent"}; color:${option.active ? "#0A0A14" : "var(--text)"};`}
+              aria-label={`Switch language to ${option.label}`}
+              aria-current={option.active ? "page" : undefined}
+            >
+              {option.flagImage && (
+                <img src={option.flagImage} alt="" width="20" height="14" class="h-3.5 w-5 rounded-sm object-cover" loading="lazy" />
+              )}
+              <span>{option.code.toUpperCase()}</span>
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+
+    <button
+      id="menu-button"
+      class="ghost-button inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full lg:hidden"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="mobile-drawer"
+    >
+      <span class="sr-only">Menu</span>
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+        <path d="M2 4.5h14M2 9h14M2 13.5h14" stroke="var(--text)" stroke-width="1.6" stroke-linecap="round" />
+      </svg>
+    </button>
+  </div>
+</header>
+
+<div
+  id="mobile-drawer-backdrop"
+  class="fixed inset-0 z-[60] bg-black/60 lg:hidden"
+  style="backdrop-filter:blur(2px); display:none;"
+></div>
+<aside
+  id="mobile-drawer"
+  class="glass-card fixed inset-y-0 right-0 z-[70] w-[85%] max-w-sm flex-col overflow-y-auto p-5 shadow-2xl lg:hidden"
+  style={`${cssVars(theme)} background:var(--surface); display:none; transform:translateX(100%); transition:transform 300ms ease;`}
+  aria-label="Mobile navigation"
+>
+  <div class="flex items-center justify-between border-b pb-4" style="border-color:var(--border);">
+    <span class="text-base font-black" style="color:var(--text);">{displayName}</span>
+    <button id="menu-close-button" class="ghost-button inline-flex h-9 w-9 items-center justify-center rounded-full" aria-label="Close menu">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <path d="M2 2l12 12M14 2L2 14" stroke="var(--text)" stroke-width="1.6" stroke-linecap="round" />
+      </svg>
+    </button>
+  </div>
+
+  <nav aria-label="Mobile primary" class="mt-5 flex flex-col gap-1">
+    {
+      menu.map((item) =>
+        item.dropdown ? (
+          <details class="rounded-xl px-2 py-1">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-2 py-2.5 text-sm font-bold" style="color:var(--text);">
+              {item.href ? (
+                <a href={item.href} class="flex-1" data-dropdown-link>
+                  {item.name}
+                </a>
+              ) : (
+                <span class="flex-1">{item.name}</span>
+              )}
+              <span aria-hidden="true" class="text-xs" style="color:var(--muted-text);">▼</span>
+            </summary>
+            <div class="ml-2 flex flex-col gap-1 border-l pl-3" style="border-color:var(--border);">
+              {item.dropdown.map((child) => (
+                <a class="py-2 text-sm font-semibold" style="color:var(--muted-text);" href={child.href}>
+                  {child.name}
+                </a>
+              ))}
+            </div>
+          </details>
+        ) : (
+          <a class="rounded-xl px-2 py-2.5 text-sm font-bold" style="color:var(--text);" href={item.href}>
+            {item.name}
+          </a>
+        ),
+      )
+    }
+  </nav>
+
+  <div class="mt-5 grid grid-cols-2 gap-3 border-t pt-5" style="border-color:var(--border);">
+    <a href={redirectHref} class="ghost-button inline-flex items-center justify-center rounded-full px-4 py-2.5 text-sm font-bold" style="color:var(--text);">
+      {loginButtonText}
+    </a>
+    <a href={redirectHref} class="cta-button inline-flex items-center justify-center rounded-full px-4 py-2.5 text-sm font-black">
+      {signupButtonText}
+    </a>
+  </div>
+
+  {languageOptions.length >= 2 && (
+    <div class="mt-5 border-t pt-5" style="border-color:var(--border);">
+      <div class="flex flex-wrap gap-2">
+        {languageOptions.map((option) => (
+          <a
+            href={option.href || "#"}
+            data-language-switch
+            data-language-code={option.code}
+            class="flex items-center gap-2 rounded-full px-3.5 py-2 text-sm font-bold"
+            style={`background:${option.active ? "var(--primary)" : "var(--surface-muted)"}; color:${option.active ? "#0A0A14" : "var(--text)"};`}
+            aria-label={`Switch language to ${option.label}`}
+            aria-current={option.active ? "page" : undefined}
+          >
+            {option.flagImage && (
+              <img src={option.flagImage} alt="" width="24" height="16" class="h-4 w-6 rounded-sm object-cover" loading="lazy" />
+            )}
+            <span>{option.label}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
+</aside>
+
+<style>
+  .dropdown-panel {
+    transition-delay: 400ms;
+  }
+
+  .dropdown:hover .dropdown-panel,
+  .dropdown:focus-within .dropdown-panel {
+    transition-delay: 0ms;
+  }
+
+  .dropdown:hover .dropdown-chevron,
+  .dropdown:focus-within .dropdown-chevron {
+    transform: rotate(180deg);
+  }
+
+  .dropdown-panel a:hover,
+  .dropdown-panel a:focus-visible {
+    background: color-mix(in srgb, var(--primary) 16%, transparent);
+  }
+</style>
+
+<script>
+  // Visibility/transform are driven entirely by inline styles set here,
+  // deliberately not by toggling Tailwind's "hidden" utility class - that
+  // utility lives in Tailwind v4's @layer utilities, and fighting it from a
+  // component-scoped override (`:not(.hidden)`) turned out to lose on at
+  // least one real mobile browser (menu never appeared, only the backdrop
+  // did). Inline styles always win over any stylesheet rule, layered or
+  // not, so there's nothing left to fight.
+  const menuButton = document.querySelector<HTMLButtonElement>("#menu-button");
+  const closeButton = document.querySelector<HTMLButtonElement>("#menu-close-button");
+  const drawer = document.querySelector<HTMLElement>("#mobile-drawer");
+  const backdrop = document.querySelector<HTMLElement>("#mobile-drawer-backdrop");
+
+  function openMenu() {
+    if (drawer) {
+      drawer.style.display = "flex";
+      // Force a reflow between the display change and the transform change
+      // so the slide-in actually transitions instead of jumping straight
+      // to its end state.
+      void drawer.offsetHeight;
+      drawer.style.transform = "translateX(0)";
+    }
+    if (backdrop) backdrop.style.display = "block";
+    menuButton?.setAttribute("aria-expanded", "true");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeMenu() {
+    if (drawer) drawer.style.transform = "translateX(100%)";
+    menuButton?.setAttribute("aria-expanded", "false");
+    document.body.style.overflow = "";
+    setTimeout(() => {
+      if (drawer) drawer.style.display = "none";
+      if (backdrop) backdrop.style.display = "none";
+    }, 300);
+  }
+
+  menuButton?.addEventListener("click", openMenu);
+  closeButton?.addEventListener("click", closeMenu);
+  backdrop?.addEventListener("click", closeMenu);
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth >= 1024) closeMenu();
+  });
+
+  document.querySelectorAll<HTMLAnchorElement>("[data-dropdown-link]").forEach((link) => {
+    link.addEventListener("click", (event) => event.stopPropagation());
+  });
+</script>

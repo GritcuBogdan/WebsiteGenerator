@@ -1,0 +1,216 @@
+---
+import "../styles/global.css";
+
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+import PaymentMethods from "../components/PaymentMethods.astro";
+import ScrollTopButton from "../components/ScrollTopButton.astro";
+import StickyBonusBar from "../components/StickyBonusBar.astro";
+import WelcomePopup from "../components/WelcomePopup.astro";
+import AgeGate from "../components/AgeGate.astro";
+import { cssVars } from "../lib/theme";
+
+const {
+  title = "Online Casino",
+  description = "",
+  keywords = [],
+  canonical = "",
+  ogImage = "",
+  favicon = "/favicon.svg",
+  noindex = false,
+  lang = "en",
+  casinoName = "Casino",
+
+  theme = {
+    primary: "#8B5CF6",
+    secondary: "#F5C542",
+  },
+
+  footer = {
+    links: [],
+    logos: [],
+    copyright: "",
+    disclaimer: "",
+  },
+
+  navbar = {},
+  casinoSlug = "",
+  languageOptions = [],
+  alternateLinks = [],
+  jsonLd,
+  stickyBanner,
+  minimumAge = 18,
+  ageGate,
+  ageGateEnabled = true,
+} = Astro.props;
+
+const canonicalUrl =
+  canonical && Astro.site ? new URL(canonical, Astro.site).toString() : canonical;
+const ogImageUrl =
+  ogImage && Astro.site ? new URL(ogImage, Astro.site).toString() : ogImage;
+const serializedJsonLd = jsonLd
+  ? JSON.stringify(jsonLd).replace(/</g, "\\u003c")
+  : "";
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>{title}</title>
+
+    <meta name="description" content={description} />
+
+    {keywords.length > 0 && <meta name="keywords" content={keywords.join(", ")} />}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="theme-color" content={theme.primary} />
+
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    {
+      alternateLinks.map((alternate) => (
+        <link
+          rel="alternate"
+          hreflang={alternate.lang}
+          href={Astro.site ? new URL(alternate.href, Astro.site).toString() : alternate.href}
+        />
+      ))
+    }
+    {
+      alternateLinks.length > 0 && (
+        <link
+          rel="alternate"
+          hreflang="x-default"
+          href={Astro.site ? new URL(alternateLinks[0].href, Astro.site).toString() : alternateLinks[0].href}
+        />
+      )
+    }
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={casinoName} />
+    <meta property="og:locale" content={lang} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
+    {
+      ogImageUrl && (
+        <>
+          <meta property="og:image" content={ogImageUrl} />
+          <meta property="og:image:alt" content={title} />
+        </>
+      )
+    }
+
+    <meta name="twitter:card" content={ogImageUrl ? "summary_large_image" : "summary"} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {
+      ogImageUrl && (
+        <>
+          <meta name="twitter:image" content={ogImageUrl} />
+          <meta name="twitter:image:alt" content={title} />
+        </>
+      )
+    }
+
+    <link rel="icon" href={favicon} />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
+    {
+      serializedJsonLd && (
+        <script type="application/ld+json" set:html={serializedJsonLd} />
+      )
+    }
+  </head>
+
+  <body
+    style={`
+        ${cssVars(theme)}
+        --sticky-offset:${stickyBanner ? "4.75rem" : "0rem"};
+        background:
+          radial-gradient(60rem 30rem at 12% -10%, color-mix(in srgb, var(--primary) 20%, transparent), transparent 60%),
+          radial-gradient(50rem 26rem at 100% 0%, color-mix(in srgb, var(--accent) 14%, transparent), transparent 55%),
+          var(--background);
+        color:var(--text);
+        min-height:100vh;
+    `}
+  >
+    {ageGateEnabled && (
+      <AgeGate casinoName={casinoName} logo={navbar.logo} minimumAge={minimumAge} copy={ageGate} theme={theme} />
+    )}
+
+    <Navbar
+      casinoName={casinoName}
+      casinoSlug={casinoSlug}
+      logo={navbar.logo}
+      brandName={navbar.brandName}
+      showBrandName={navbar.showBrandName}
+      homeHref={navbar.homeHref}
+      menu={navbar.menu}
+      loginButton={navbar.loginButton}
+      signupButton={navbar.signupButton}
+      languageOptions={languageOptions}
+      theme={theme}
+    />
+
+    <main>
+      <slot />
+    </main>
+
+    <PaymentMethods theme={theme} />
+
+    <Footer
+      casinoName={casinoName}
+      links={footer.links}
+      logos={footer.logos}
+      ageBadge={footer.ageBadge}
+      disclaimer={footer.disclaimer}
+      theme={theme}
+      copyright={footer.copyright}
+    />
+
+    <ScrollTopButton theme={theme} />
+    {
+      stickyBanner && (
+        <StickyBonusBar
+          casinoSlug={casinoSlug}
+          logo={stickyBanner.logo}
+          casinoName={stickyBanner.casinoName || casinoName}
+          headline={stickyBanner.headline}
+          bullets={stickyBanner.bullets}
+          disclaimer={stickyBanner.disclaimer}
+          buttonText={stickyBanner.buttonText}
+          buttonLink={stickyBanner.buttonLink}
+          theme={theme}
+        />
+      )
+    }
+    {
+      stickyBanner && (
+        <WelcomePopup
+          casinoSlug={casinoSlug}
+          logo={stickyBanner.logo}
+          casinoName={stickyBanner.casinoName || casinoName}
+          headline={stickyBanner.headline}
+          bullets={stickyBanner.bullets}
+          disclaimer={stickyBanner.disclaimer}
+          buttonText={stickyBanner.buttonText}
+          buttonLink={stickyBanner.buttonLink}
+          theme={theme}
+        />
+      )
+    }
+    <script>
+      document.querySelectorAll("[data-language-switch]").forEach((link) => {
+        link.addEventListener("click", () => {
+          const language = link.getAttribute("data-language-code");
+          if (language) localStorage.setItem("site-language", language);
+        });
+      });
+    </script>
+  </body>
+</html>

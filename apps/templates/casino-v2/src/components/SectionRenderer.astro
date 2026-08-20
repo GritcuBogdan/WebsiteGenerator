@@ -1,0 +1,66 @@
+---
+import HeroSection from "./HeroSection.astro";
+import InfoTableSection from "./InfoTableSection.astro";
+import ContentListSection from "./ContentListSection.astro";
+import ContentTextSection from "./ContentTextSection.astro";
+import StepsSection from "./StepsSection.astro";
+import ContentBannerSection from "./ContentBannerSection.astro";
+import FAQSection from "./FAQSection.astro";
+import ContentSection from "./ContentSection.astro";
+import AuthFormSection from "./AuthFormSection.astro";
+import SlotsSection from "./SlotsSection.astro";
+import QuoteSection from "./QuoteSection.astro";
+import type { CasinoSection, Theme } from "schema";
+
+type Props = {
+  section: CasinoSection;
+  theme: Theme;
+  casinoSlug: string;
+};
+
+const { section, theme, casinoSlug } = Astro.props as Props;
+const sectionTheme = { ...theme, ...section.theme };
+---
+
+{
+  (() => {
+    switch (section.type) {
+      case "intro":
+        return <HeroSection {...section} theme={sectionTheme} casinoSlug={casinoSlug} />;
+
+      case "table":
+        return <InfoTableSection {...section} theme={sectionTheme} />;
+
+      case "list":
+        return <ContentListSection {...section} theme={sectionTheme} />;
+
+      case "steps":
+        return <StepsSection {...section} theme={sectionTheme} />;
+
+      case "banner":
+        return <ContentBannerSection {...section} theme={sectionTheme} casinoSlug={casinoSlug} />;
+
+      case "content":
+        return <ContentSection {...section} theme={sectionTheme} />;
+
+      case "text":
+        return <ContentTextSection {...section} theme={sectionTheme} />;
+
+      case "faq":
+        return <FAQSection {...section} theme={sectionTheme} />;
+
+      case "signupForm":
+      case "signinForm":
+        return <AuthFormSection {...section} theme={sectionTheme} casinoSlug={casinoSlug} />;
+
+      case "slots":
+        return <SlotsSection {...section} theme={sectionTheme} casinoSlug={casinoSlug} />;
+
+      case "quote":
+        return <QuoteSection {...section} theme={sectionTheme} />;
+
+      default:
+        return null;
+    }
+  })()
+}

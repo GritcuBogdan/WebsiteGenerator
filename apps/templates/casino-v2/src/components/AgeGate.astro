@@ -1,0 +1,120 @@
+---
+import { cssVars } from "../lib/theme";
+import OptimizedImage from "./OptimizedImage.astro";
+
+const { casinoName = "", logo = "", minimumAge = 18, copy, theme = {} } = Astro.props;
+
+// Fallback English copy for any template usage that skips
+// applyCasinoV1Rules (packages/codegen/src/casino-v1-rules.ts), which is
+// the only place casino.ageGate actually gets populated (translated into
+// the site's locale, with {casinoName}/{age} already substituted - see
+// casino-v1-translations.ts's "ageGate" entry).
+const {
+  title = "Age Verification",
+  body = `${casinoName ? `${casinoName} is` : "This site is"} intended for adults only. You must be at least ${minimumAge} years old to enter.`,
+  confirmText = `Yes, I'm ${minimumAge}+`,
+  declineText = "No, exit",
+  footnote = "By entering, you confirm you meet the minimum legal gambling age in your jurisdiction.",
+} = copy || {};
+
+const storageKey = "age-gate-confirmed";
+---
+
+<div
+  id="age-gate"
+  class="fixed inset-0 z-[100] flex items-center justify-center p-4"
+  style={`${cssVars(theme)}`}
+  role="dialog"
+  aria-modal="true"
+  aria-label={`${title} - ${minimumAge}+`}
+  data-min-age={minimumAge}
+  data-storage-key={storageKey}
+>
+  <div class="age-gate-backdrop absolute inset-0 bg-black/80" style="backdrop-filter:blur(3px);"></div>
+
+  <div class="glass-card glow-border relative w-full max-w-sm rounded-2xl p-6 text-center shadow-2xl sm:max-w-md sm:p-8">
+    {
+      logo && (
+        <span class="mx-auto mb-4 flex h-14 w-14 items-center justify-center overflow-hidden rounded-xl shadow-md sm:h-16 sm:w-16" style="background:var(--surface-muted);">
+          <OptimizedImage src={logo} alt={casinoName} width="64" height="64" responsive={false} class="h-full w-full object-contain p-1.5" />
+        </span>
+      )
+    }
+
+    <p class="gradient-heading text-lg font-black leading-tight sm:text-xl">
+      {title}
+    </p>
+
+    <p class="mt-3 text-sm leading-snug sm:text-base" style="color:var(--muted-text);">
+      {body}
+    </p>
+
+    <div class="mt-6 flex flex-col gap-3 sm:flex-row">
+      <button
+        type="button"
+        class="age-gate-confirm cta-button glow-pulse inline-flex flex-1 items-center justify-center rounded-full px-5 py-3 text-sm font-black shadow-lg sm:text-base"
+      >
+        {confirmText}
+      </button>
+      <button
+        type="button"
+        class="age-gate-decline ghost-button inline-flex flex-1 items-center justify-center rounded-full px-5 py-3 text-sm font-bold"
+      >
+        {declineText}
+      </button>
+    </div>
+
+    <p class="mt-4 text-[11px] leading-tight opacity-60">
+      {footnote}
+    </p>
+  </div>
+</div>
+
+<script>
+  // Visibility is driven by inline style.display, not a toggled class - see
+  // the same convention in WelcomePopup.astro/Navbar.astro. Fail-safe
+  // default: the element above renders visible/blocking (no display:none in
+  // its own markup) until this script confirms (via localStorage) that this
+  // visitor already passed the gate - the opposite default from
+  // WelcomePopup, which starts hidden. A no-JS or slow-JS visitor sees the
+  // gate rather than the site behind it.
+  const gate = document.querySelector<HTMLElement>("#age-gate");
+
+  if (gate) {
+    const storageKey = gate.dataset.storageKey || "age-gate-confirmed";
+    const minAge = gate.dataset.minAge || "18";
+
+    function unlock() {
+      if (gate) gate.style.display = "none";
+      document.body.style.overflow = "";
+    }
+
+    let alreadyConfirmed = false;
+    try {
+      alreadyConfirmed = localStorage.getItem(storageKey) === minAge;
+    } catch {
+      // localStorage unavailable (private mode, disabled storage, etc.) -
+      // fail safe by keeping the gate up rather than throwing.
+    }
+
+    if (alreadyConfirmed) {
+      unlock();
+    } else {
+      document.body.style.overflow = "hidden";
+    }
+
+    gate.querySelector(".age-gate-confirm")?.addEventListener("click", () => {
+      try {
+        localStorage.setItem(storageKey, minAge);
+      } catch {
+        // Ignore - the gate still unlocks for this page view even if the
+        // choice can't be remembered for the next one.
+      }
+      unlock();
+    });
+
+    gate.querySelector(".age-gate-decline")?.addEventListener("click", () => {
+      window.location.href = "https://www.google.com";
+    });
+  }
+</script>

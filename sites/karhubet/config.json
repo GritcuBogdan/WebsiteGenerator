@@ -1,0 +1,30 @@
+{
+  "slug": "karhubet",
+  "domains": [
+    "karhubet7.com"
+  ],
+  "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+  "locales": [
+    {
+      "code": "fi-FI",
+      "default": true
+    }
+  ],
+  "contentSource": "library",
+  "profile": "starter-casino",
+  "theme": {
+    "primary": "#16324F",
+    "secondary": "#0A1A1A",
+    "accent": "#FFC700"
+  },
+  "banner": {
+    "text": "Tervetuliaisbonus – 350 € + 125 ilmaiskierrosta",
+    "desktop": "/images/_shared/starter-casino-banner.png"
+  },
+  "stickyBanner": {
+    "headline": "Tervetuliaisbonus",
+    "bullets": [
+      "350 € + 125 ilmaiskierrosta"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "winningz",
+  "domains": [
+    "winningz7.casino"
+  ],
+  "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+  "locales": [
+    {
+      "code": "de-DE",
+      "default": true
+    }
+  ],
+  "contentSource": "library",
+  "profile": "starter-casino",
+  "theme": {
+    "primary": "#1FA35A",
+    "secondary": "#0B1712",
+    "accent": "#D4AF37"
+  },
+  "banner": {
+    "text": "Willkommensbonus – 600 € + 300 Freispiele",
+    "desktop": "/images/_shared/starter-casino-banner.png"
+  },
+  "stickyBanner": {
+    "headline": "Willkommensbonus",
+    "bullets": [
+      "600 € + 300 Freispiele"
+    ]
+  }
+}

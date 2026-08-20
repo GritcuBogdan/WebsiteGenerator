@@ -1,0 +1,147 @@
+---
+import { cssVars } from "../lib/theme";
+import { getRedirectHref } from "../lib/affiliate";
+import OptimizedImage from "./OptimizedImage.astro";
+
+const {
+  id,
+  title,
+  casinoSlug = "",
+  paragraphs = [],
+  banner,
+  bannerMobile,
+  bannerText,
+  ctaText = "LEARN MORE",
+  theme = {
+    primary: "#2563eb",
+    secondary: "#111827",
+  },
+} = Astro.props;
+
+const redirectHref = getRedirectHref(casinoSlug);
+const bannerImage = typeof banner === "string" ? banner : banner?.desktop;
+const mobileImage =
+  typeof banner === "string" ? bannerMobile : banner?.mobile || bannerMobile;
+const imageAlt = typeof banner === "string" ? title : banner?.alt || title;
+const overlayText =
+  typeof banner === "string" ? bannerText : banner?.text || bannerText;
+const linkText =
+  typeof banner === "string" ? ctaText : banner?.buttonText || ctaText;
+const linkColor =
+  typeof banner === "string"
+    ? "var(--primary)"
+    : banner?.buttonColor || "var(--primary)";
+const linkTextColor =
+  typeof banner === "string" ? "#ffffff" : banner?.buttonTextColor || "#ffffff";
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+const sectionText = theme.text || theme.sectionText || "var(--text)";
+const titleColor = theme.title || theme.headingText || "var(--heading-text)";
+---
+
+<section
+  id={id}
+  class="site-section px-4 py-7 sm:px-6 sm:py-9 lg:px-8"
+  style={`${cssVars(theme)} --section-bg:${sectionBg}; --section-text:${sectionText};`}
+>
+  <div class="mx-auto max-w-7xl">
+  <h2
+    class="text-2xl font-black sm:text-3xl md:text-4xl"
+    style={`color:${titleColor}`}
+  >
+    {title}
+  </h2>
+
+  {
+    paragraphs.map((text) => (
+      <p class="mt-3 text-sm leading-7 sm:mt-4 sm:text-base sm:leading-8 md:mt-5" style="color:var(--muted-text)">
+        {text}
+      </p>
+    ))
+  }
+
+  {
+    bannerImage && (
+      <div
+        class="
+          relative
+          mt-6
+          overflow-hidden
+          rounded-xl
+          sm:mt-8
+          md:rounded-2xl
+        "
+      >
+        <OptimizedImage
+          src={bannerImage}
+          mobileSrc={mobileImage}
+          alt={imageAlt}
+          width="1190"
+          height="400"
+          loading="lazy"
+          class="
+              aspect-[4/3]
+              w-full
+              object-cover
+              sm:aspect-[16/9]
+              md:aspect-[1190/400]
+            "
+        />
+
+        <div
+          class="
+            absolute
+            inset-0
+            flex
+            items-center
+            justify-center
+            bg-black/30
+            p-4
+          "
+        >
+          <div
+            class="
+              w-full
+              max-w-xs
+              rounded-xl
+              bg-white/90
+              p-4
+              text-center
+              sm:max-w-sm
+              sm:p-6
+              md:max-w-md
+            "
+          >
+            {overlayText && (
+              <p
+                class="mb-3 text-base font-bold sm:mb-4 sm:text-lg md:text-xl"
+                style="color:var(--secondary)"
+              >
+                {overlayText}
+              </p>
+            )}
+
+            <a
+              href={redirectHref}
+              class="
+                                inline-block
+                                rounded-xl
+                                px-6
+                                py-2.5
+                                text-sm
+                                font-bold
+                                text-white
+                                sm:px-8
+                                sm:py-3
+                                sm:text-base
+                                "
+              style={`background:${linkColor}; color:${linkTextColor};`}
+            >
+              {linkText}
+            </a>
+          </div>
+        </div>
+      </div>
+    )
+  }
+  </div>
+</section>

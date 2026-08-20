@@ -1,0 +1,5 @@
+{
+  "id": "free-spins-focused",
+  "sections": ["intro", "free-spins", "eligible-games", "games", "providers", "terms", "payments", "faq", "cta"],
+  "optionalSections": ["free-spins"]
+}

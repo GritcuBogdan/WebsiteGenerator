@@ -1,0 +1,107 @@
+---
+import { cssVars } from "../lib/theme";
+
+const {
+  id = "page-sections",
+  title = "On this page",
+  items = [],
+  theme = {
+    primary: "#2563eb",
+    secondary: "#111827",
+    surface: "#ffffff",
+  },
+} = Astro.props;
+---
+
+{
+  items.length > 0 && (
+    <section
+      id={id}
+      class="site-section px-4 py-5 sm:px-6 lg:px-8"
+      style={`${cssVars(theme)} --section-bg:${theme.navigationBackground || "transparent"};`}
+      aria-label={title}
+    >
+      <div
+        class="mx-auto max-w-7xl rounded-lg border p-3 shadow-sm sm:p-4"
+        style="background:color-mix(in srgb, var(--surface) 94%, white); border-color:var(--border);"
+      >
+        <button
+          type="button"
+          class="toc-toggle flex min-h-12 w-full items-center justify-between gap-3 rounded-lg px-3 text-left transition duration-300 hover:shadow-sm focus-visible:shadow-sm"
+          style="background:color-mix(in srgb, var(--primary) 7%, white); color:var(--heading-text);"
+          aria-expanded="false"
+          aria-controls={`${id}-links`}
+        >
+          <span class="flex min-w-0 items-center gap-3">
+            <span
+              class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full"
+              style="background:var(--primary); color:#ffffff;"
+              aria-hidden="true"
+            >
+              <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="7"></circle>
+                <path d="m20 20-3.5-3.5"></path>
+              </svg>
+            </span>
+            <span class="min-w-0">
+              <span class="block text-sm font-black uppercase" style="letter-spacing:0.08em;">
+                {title}
+              </span>
+              <span class="block truncate text-xs font-semibold sm:text-sm" style="color:var(--muted-text)">
+                Browse {items.length} page sections
+              </span>
+            </span>
+          </span>
+
+          <span
+            class="toc-chevron flex h-8 w-8 shrink-0 items-center justify-center rounded-full border text-sm font-black transition duration-300"
+            style="border-color:var(--border); color:var(--primary);"
+            aria-hidden="true"
+          >
+            v
+          </span>
+        </button>
+
+        <div id={`${id}-links`} class="toc-links hidden pt-3">
+          <div class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {items.map((item) => (
+              <a
+                href={item.href}
+                class="toc-link rounded-lg border px-3.5 py-3 text-sm font-bold leading-snug transition duration-300 hover:-translate-y-0.5 hover:shadow-md focus-visible:-translate-y-0.5"
+                style="border-color:var(--border); color:var(--secondary); background:var(--surface);"
+              >
+                {item.title}
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .toc-toggle[aria-expanded="true"] .toc-chevron {
+    transform: rotate(180deg);
+  }
+
+  .toc-link:hover,
+  .toc-link:focus-visible {
+    border-color: color-mix(in srgb, var(--primary) 45%, var(--border));
+    color: var(--primary) !important;
+    background: color-mix(in srgb, var(--primary) 8%, white) !important;
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>(".toc-toggle").forEach((button) => {
+    const panelId = button.getAttribute("aria-controls");
+    const panel = panelId ? document.getElementById(panelId) : null;
+
+    button.addEventListener("click", () => {
+      const isOpen = button.getAttribute("aria-expanded") === "true";
+      button.setAttribute("aria-expanded", String(!isOpen));
+      panel?.classList.toggle("hidden", isOpen);
+    });
+  });
+</script>

@@ -1,0 +1,42 @@
+{
+  "brandName": "Poko Bet",
+  "welcomeBonus": {
+    "amount": 550,
+    "currency": "EUR"
+  },
+  "minimumDeposit": 20,
+  "gameCount": 1800,
+  "paymentMethods": [
+    "Visa",
+    "Mastercard",
+    "Skrill"
+  ],
+  "withdrawalMethods": [
+    "Bank Transfer",
+    "Skrill"
+  ],
+  "supportedCurrencies": [
+    "USD"
+  ],
+  "profile": "starter-casino",
+  "imageTheme": {
+    "description": "3D render of a futuristic slot machine reel showing triple sevens, emitting intense violet and magenta neon light trails in a dark purple cosmic void. Floating casino chips, golden coins, and glowing pink dice swirling in a spiral vortex around the slot machine. High contrast, neon glow, glossy textures, sleek dark purple aesthetic, 8k resolution, Unreal Engine 5 render style",
+    "palette": [
+      "#120B2E",
+      "#A020F0",
+      "#FF007F",
+      "#FFD700",
+      "#3A0066"
+    ],
+    "motifs": [
+      "Vibrant magenta and violet energy vortex mist",
+      "Glowing neon rim lighting on floating elements",
+      "Dynamic motion blur on exploding 3D casino dice and casino chips",
+      "Glossy metallic violet chrome finish on slot reel hardware"
+    ],
+    "visualStyle": "3D futuristic neon, dark cosmic casino graphic"
+  },
+  "freeSpins": {
+    "count": 250
+  }
+}

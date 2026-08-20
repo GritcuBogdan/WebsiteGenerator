@@ -1,0 +1,5 @@
+{
+  "id": "mobile-focused",
+  "sections": ["intro", "mobile", "games", "payments", "security", "support", "faq", "cta"],
+  "optionalSections": ["mobile"]
+}

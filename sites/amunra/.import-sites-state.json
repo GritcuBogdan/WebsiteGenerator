@@ -1,0 +1,44 @@
+{
+  "config": {
+    "slug": "amunra",
+    "domains": [
+      "amunra7.casino"
+    ],
+    "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+    "locales": [
+      {
+        "code": "de-DE",
+        "default": true
+      }
+    ],
+    "contentSource": "library",
+    "profile": "starter-casino",
+    "theme": {
+      "primary": "#C9A227",
+      "secondary": "#1A1206",
+      "accent": "#FFD700"
+    }
+  },
+  "data": {
+    "brandName": "AmunRA",
+    "welcomeBonus": {
+      "amount": 500,
+      "currency": "EUR"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "profile": "starter-casino"
+  }
+}

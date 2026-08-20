@@ -1,0 +1,85 @@
+---
+import { cssVars } from "../lib/theme";
+
+const {
+  id = "page-sections",
+  title = "On this page",
+  items = [],
+  theme = {},
+} = Astro.props;
+---
+
+{
+  items.length > 0 && (
+    <section id={id} class="site-section px-4 py-5 sm:px-6 lg:px-8" style={`${cssVars(theme)}`} aria-label={title}>
+      <div class="glass-card mx-auto max-w-7xl rounded-xl p-3 sm:p-4">
+        <button
+          type="button"
+          class="toc-toggle flex min-h-12 w-full items-center justify-between gap-3 rounded-lg px-3 text-left transition duration-300"
+          aria-expanded="false"
+          aria-controls={`${id}-links`}
+        >
+          <span class="flex min-w-0 items-center gap-3">
+            <span
+              class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full"
+              style="background:linear-gradient(135deg, var(--primary), var(--accent)); color:#0A0A14;"
+              aria-hidden="true"
+            >
+              <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="7" />
+                <path d="m20 20-3.5-3.5" />
+              </svg>
+            </span>
+            <span class="min-w-0">
+              <span class="block text-sm font-black uppercase" style="letter-spacing:0.08em; color:var(--text);">
+                {title}
+              </span>
+              <span class="block truncate text-xs font-semibold sm:text-sm" style="color:var(--muted-text)">
+                Browse {items.length} page sections
+              </span>
+            </span>
+          </span>
+
+          <span class="toc-chevron flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-black transition duration-300" style="background:var(--surface-muted); color:var(--accent);" aria-hidden="true">
+            ▼
+          </span>
+        </button>
+
+        <div id={`${id}-links`} class="toc-links hidden pt-3">
+          <div class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {items.map((item) => (
+              <a href={item.href} class="toc-link rounded-lg px-3.5 py-3 text-sm font-bold leading-snug transition duration-300" style="background:var(--surface-muted); color:var(--text);">
+                {item.title}
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .toc-toggle[aria-expanded="true"] .toc-chevron {
+    transform: rotate(180deg);
+  }
+
+  .toc-link:hover,
+  .toc-link:focus-visible {
+    color: var(--accent) !important;
+    transform: translateY(-1px);
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>(".toc-toggle").forEach((button) => {
+    const panelId = button.getAttribute("aria-controls");
+    const panel = panelId ? document.getElementById(panelId) : null;
+
+    button.addEventListener("click", () => {
+      const isOpen = button.getAttribute("aria-expanded") === "true";
+      button.setAttribute("aria-expanded", String(!isOpen));
+      panel?.classList.toggle("hidden", isOpen);
+    });
+  });
+</script>

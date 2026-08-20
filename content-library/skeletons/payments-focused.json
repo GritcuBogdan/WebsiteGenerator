@@ -1,0 +1,4 @@
+{
+  "id": "payments-focused",
+  "sections": ["intro", "payments", "security", "withdrawals", "support", "mobile-play", "faq", "cta"]
+}

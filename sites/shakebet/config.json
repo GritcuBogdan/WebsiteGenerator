@@ -1,0 +1,61 @@
+{
+  "slug": "shakebet",
+  "domains": [
+    "shakebet-nl.casino"
+  ],
+  "affiliateUrl": "https://direct.reradirectbox.com/click?pid=51&offer_id=251",
+  "template": "casino-v2",
+  "locales": [
+    {
+      "code": "en",
+      "docx": "casino.en.docx",
+      "default": true
+    },
+    {
+      "code": "nl",
+      "docx": "casino.nl.docx"
+    }
+  ],
+  "theme": {
+    "primary": "#D946EF",
+    "secondary": "#4C1D95",
+    "accent": "#F472B6",
+    "background": "#160821",
+    "surface": "#241235",
+    "text": "#F5E9FF",
+    "mutedText": "#B9A0D9",
+    "border": "rgba(217, 70, 239, 0.2)",
+    "headingText": "#FFFFFF",
+    "link": "#E879F9",
+    "linkHover": "#F0ABFC",
+    "footerBackground": "#0D0417",
+    "footerText": "#C7A6E0",
+    "navbarBackground": "#1A0B2E",
+    "navbarText": "#FDF4FF",
+    "rowColor": "#241235",
+    "rowTextColor": "#EAD9FF"
+  },
+  "navbar": {
+    "logo": "/images/shakebet/shaker.jpg",
+    "brandName": "shakebet",
+    "showBrandName": false
+  },
+  "banner": {
+    "desktop": "/images/shakebet/shakebet-casino.png"
+  },
+  "stickyBanner": {
+    "logo": "/images/shakebet/shaker.jpg",
+    "bullets": [
+      "Triple Welcome Offer - 300% up to $7,000",
+      "350 Free Spins"
+    ],
+    "byLocale": {
+      "nl": {
+        "bullets": [
+          "Drievoudige welkomstaanbieding – 300% tot $7.000",
+          "350 gratis spins"
+        ]
+      }
+    }
+  }
+}

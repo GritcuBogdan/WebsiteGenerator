@@ -1,0 +1,5 @@
+{
+  "id": "no-deposit-focused",
+  "sections": ["intro", "no-deposit-bonus", "how-to-claim", "terms", "games", "payments", "support", "faq", "cta"],
+  "optionalSections": ["no-deposit-bonus"]
+}

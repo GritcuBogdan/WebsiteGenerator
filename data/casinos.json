@@ -1,0 +1,521 @@
+[
+  {
+    "slug": "betovo",
+    "theme": {
+      "primary": "#57705F",
+      "secondary": "#12140F",
+      "accent": "#8FE3A6"
+    },
+    "domain": "betovo7.com",
+    "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+    "locale": "de-DE",
+    "profile": "starter-casino",
+    "brandName": "Betovo",
+    "welcomeBonus": {
+      "amount": 500,
+      "currency": "EUR"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "imageGeneration": {
+      "style": "Dark electric neon, energetic sports photo illustration",
+      "colorPalette": {
+        "background": "#0D0D0D",
+        "primaryAccent": "#39FF14",
+        "secondaryAccents": [
+          "#00F0FF",
+          "#FF4500",
+          "#1E90FF"
+        ]
+      },
+      "effects": [
+        "Greyscale athlete with vivid vibrant neon energy trails",
+        "Motion blur smoke and light streaks",
+        "High-contrast rim lighting"
+      ],
+      "promptPrefix": "A high-action energetic sports photo set against a dark stadium background. The main subject is in greyscale monochrome with intense glowing neon energy trails, electric smoke, and vibrant rim light outlining their action. 8k resolution, cinematic lighting, sleek modern sportsbook aesthetic --ar 16:9 --style raw",
+      "categoryIconStyle": "Monochrome portrait of an athlete surrounded by single-color vibrant glowing neon energy outlines on a dark shield container"
+    }
+  },
+  {
+    "slug": "amunra",
+    "theme": {
+      "primary": "#C9A227",
+      "secondary": "#1A1206",
+      "accent": "#FFD700"
+    },
+    "domain": "amunra7.casino",
+    "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+    "locale": "de-DE",
+    "profile": "starter-casino",
+    "brandName": "AmunRA",
+    "welcomeBonus": {
+      "amount": 450,
+      "currency": "EUR"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "imageGeneration": {
+      "style": "3D digital illustration, Egyptian mythology, majestic fantasy casino art",
+      "colorPalette": {
+        "background": "#F5D061",
+        "primaryAccent": "#FFD700",
+        "secondaryAccents": [
+          "#1072BA",
+          "#D4AF37",
+          "#8B4513"
+        ]
+      },
+      "effects": [
+        "Radiant golden sunburst rays backlighting",
+        "Polished metallic gold armor with lapis lazuli inlays",
+        "Soft volumetric cloud mist at base",
+        "Heroic low-angle perspective standing atop a pyramid tip"
+      ],
+      "promptPrefix": "A majestic Egyptian god Horus with massive spread golden feathered wings, standing heroically atop the apex of a golden pyramid. Wearing ornate ancient Egyptian royal armor, a blue and white nemes headcloth, and holding a glowing golden staff with a sun disc motif. Bright radiant sunburst rays burst from behind the character. Warm golden hour sunlight, ethereal clouds, rich digital fantasy painting style, 8k resolution, cinematic lighting --ar 16:9",
+      "categoryIconStyle": "Golden framed round badges with vibrant jewel-toned emblems on a warm dark bronze wood UI background"
+    }
+  },
+  {
+    "slug": "pokobet",
+    "theme": {
+      "primary": "#9B59D0",
+      "secondary": "#1A0F26",
+      "accent": "#FF6FD8"
+    },
+    "domain": "pokobet7.nl",
+    "affiliateUrl": "https://direct.reradirectbox.com/click?pid=51&offer_id=251",
+    "locale": "nl-NL",
+    "profile": "starter-casino",
+    "brandName": "Poko Bet",
+    "welcomeBonus": {
+      "amount": 550,
+      "currency": "EUR"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "imageGeneration": {
+      "style": "3D futuristic neon, dark cosmic casino graphic",
+      "colorPalette": {
+        "background": "#120B2E",
+        "primaryAccent": "#A020F0",
+        "secondaryAccents": [
+          "#FF007F",
+          "#FFD700",
+          "#3A0066"
+        ]
+      },
+      "effects": [
+        "Vibrant magenta and violet energy vortex mist",
+        "Glowing neon rim lighting on floating elements",
+        "Dynamic motion blur on exploding 3D casino dice and casino chips",
+        "Glossy metallic violet chrome finish on slot reel hardware"
+      ],
+      "promptPrefix": "3D render of a futuristic slot machine reel showing triple sevens, emitting intense violet and magenta neon light trails in a dark purple cosmic void. Floating casino chips, golden coins, and glowing pink dice swirling in a spiral vortex around the slot machine. High contrast, neon glow, glossy textures, sleek dark purple aesthetic, 8k resolution, Unreal Engine 5 render style --ar 16:9",
+      "categoryIconStyle": "Flat dark purple card containers with high-contrast yellow CTA buttons and white clean sans-serif typography"
+    }
+  },
+  {
+    "slug": "partycasino",
+    "theme": {
+      "primary": "#8B1E2B",
+      "secondary": "#0D0505",
+      "accent": "#E63946"
+    },
+    "domain": "partycasino7.uk",
+    "affiliateUrl": "https://direct.reradirectbox.com/click?pid=51&offer_id=251",
+    "locale": "en-US",
+    "profile": "starter-casino",
+    "brandName": "Party Casino",
+    "welcomeBonus": {
+      "amount": 400,
+      "currency": "GBP"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "imageGeneration": {
+      "style": "Day of the Dead Mexican festival theme, slot game banner graphic, dark gradient fade",
+      "colorPalette": {
+        "background": "#000000",
+        "primaryAccent": "#FFCC00",
+        "secondaryAccents": [
+          "#E83338",
+          "#8B0000",
+          "#D4AF37"
+        ]
+      },
+      "effects": [
+        "Smooth black gradient transition fading out the right side",
+        "Ornate sugar skull illustrations flanking the main character",
+        "Venetian jester mask with golden detail centered in front",
+        "Red laser sparks and glowing light streaks radiating across cobblestone street"
+      ],
+      "promptPrefix": "A vibrant Dia de los Muertos Mexican festival scene with festive Papel Picado bunting hanging above a cobblestone street. In the center, a confident female explorer wearing a brown leather cowboy hat, flanked by two decorated Mexican sugar skulls. In the foreground, an ornate silver and gold jester Venetian mask with bells. Dynamic red neon light streaks bursting outward across the ground. Heavy black gradient fade on the right side for text overlay, warm festival lighting, detailed slot art style --ar 16:9",
+      "categoryIconStyle": "Split layout banner with image art on the left fading into a solid black text container on the right with bold yellow typography"
+    }
+  },
+  {
+    "slug": "winningz",
+    "theme": {
+      "primary": "#1FA35A",
+      "secondary": "#0B1712",
+      "accent": "#D4AF37"
+    },
+    "domain": "winningz7.casino",
+    "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+    "locale": "de-DE",
+    "profile": "starter-casino",
+    "brandName": "Winningz Casino",
+    "welcomeBonus": {
+      "amount": 600,
+      "currency": "EUR"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "imageGeneration": {
+      "style": "Clean premium 3D illustration, elegant four-leaf clover theme, dark emerald green luxury aesthetic, simple polished casino artwork",
+      "colorPalette": {
+        "background": "#0B1712",
+        "primaryAccent": "#52E063",
+        "secondaryAccents": [
+          "#1A4D35",
+          "#8CFF9B",
+          "#D4AF37",
+          "#E8F5E9"
+        ]
+      },
+      "effects": [
+        "Soft emerald green atmospheric glow",
+        "Subtle golden highlights around the four-leaf clover",
+        "Gentle floating clover leaves in the background",
+        "Smooth dark green gradient lighting",
+        "Subtle depth-of-field and soft bokeh",
+        "Polished realistic materials with restrained reflections",
+        "Small amounts of warm gold sparkle",
+        "Clean uncluttered composition"
+      ],
+      "promptPrefix": "A clean premium 3D illustration centered around a beautiful four-leaf clover as the main visual symbol of luck. A large elegant four-leaf clover with four perfectly shaped leaves, rich emerald green color, subtle glossy natural texture, softly illuminated by cinematic green and warm golden light. Dark deep emerald background with a smooth atmospheric gradient, very subtle floating clover leaves and tiny golden particles in the distance. Sophisticated, minimal, luxurious casino aesthetic with strong visual focus on the four-leaf clover. Simple composition, generous negative space, realistic polished 3D materials, soft cinematic lighting, gentle depth of field, refined high-end commercial artwork, visually clean and uncluttered, 8k quality. No text, no letters, no numbers, no logos, no brand marks, no watermark, no UI, no interface, no buttons, no cards, no typography, no website elements.",
+      "categoryIconStyle": "Simple emerald four-leaf clover symbol with subtle gold highlights on a dark green background, clean premium 3D aesthetic"
+    }
+  },
+  {
+    "slug": "snatchcasino",
+    "theme": {
+      "primary": "#00CFE0",
+      "secondary": "#1A0F1E",
+      "accent": "#FF4FA3"
+    },
+    "domain": "snatchcasino7.de",
+    "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+    "locale": "de-DE",
+    "profile": "starter-casino",
+    "brandName": "Snatch Casino",
+    "welcomeBonus": {
+      "amount": 480,
+      "currency": "CHF"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "imageGeneration": {
+      "style": "GTA Vice City illustration style, retro comic digital art, Miami synthwave casino hero banner",
+      "colorPalette": {
+        "background": "#FF9933",
+        "primaryAccent": "#00CCFF",
+        "secondaryAccents": [
+          "#D82672",
+          "#2B1A4A",
+          "#FFD700"
+        ]
+      },
+      "effects": [
+        "Stylized cel-shaded character vector artwork with thick dark outlines",
+        "Warm sunset gradient sky with palm tree silhouettes",
+        "Diagonal split-screen panel layout with cyan blue ribbon trim",
+        "High-contrast 80s synthwave lighting and golden hour glow"
+      ],
+      "promptPrefix": "Grand Theft Auto loading screen art style, 1980s Miami Vice aesthetics, pop art illustration. Three stylized crime game characters: a glamorous blonde woman winking, a suave man with wild hair wearing aviator sunglasses, and a sharp mobster in a pink shirt and suit jacket. Tropical sunset sky with palm silhouettes and pastel gradient background, bold line art, cel-shading, vibrant digital comic book art, 8k resolution --ar 16:9",
+      "categoryIconStyle": "Dark semi-transparent blue cards with cyan borders, yellow accent text, and embedded character mini-portraits"
+    }
+  },
+  {
+    "slug": "betitall",
+    "theme": {
+      "primary": "#FF8A3D",
+      "secondary": "#1B0F24",
+      "accent": "#A855F7"
+    },
+    "domain": "betitall7.de",
+    "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+    "locale": "de-DE",
+    "profile": "starter-casino",
+    "brandName": "Bet It All",
+    "welcomeBonus": {
+      "amount": 520,
+      "currency": "CHF"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "imageGeneration": {
+      "style": "Whimsical premium 3D vinyl toy art, cute pink blob mascot, tropical beach sunset, glossy playful vacation aesthetic",
+      "colorPalette": {
+        "background": "#D94F7D",
+        "primaryAccent": "#FFB347",
+        "secondaryAccents": [
+          "#FF6F91",
+          "#8E54E9",
+          "#FFD166",
+          "#2EC4B6",
+          "#FFFFFF"
+        ]
+      },
+      "effects": [
+        "Warm tropical sunset glow with pink, coral, orange, and purple sky gradients",
+        "Soft golden-hour reflections shimmering across calm ocean water",
+        "Glossy smooth vinyl texture on the pink blob mascot",
+        "Subtle cinematic rim lighting around the mascot",
+        "Soft atmospheric haze near the horizon",
+        "Natural green tropical palm leaves framing parts of the scene",
+        "Gentle ocean waves with polished colorful reflections",
+        "Playful inflatable beach accessories and subtle tropical details"
+      ],
+      "promptPrefix": "A charming premium 3D vinyl-toy-style pink blob mascot with a smooth rounded body, cute expressive face, and playful personality, enjoying a beautiful tropical beach at sunset. The pink blob mascot is always the clear main subject, glossy soft vinyl material, adorable proportions, relaxed joyful expression, surrounded by warm tropical scenery. Calm ocean water stretches toward the horizon, reflecting a spectacular sunset with coral pink, warm orange, magenta, lavender, and deep purple tones. Lush green palm leaves naturally frame the scene, with subtle tropical beach elements such as an inflatable ring, small beach umbrella, seashells, or colorful tropical accessories depending on the composition. Premium polished 3D render, cinematic golden-hour lighting, soft volumetric atmosphere, beautiful depth of field, vibrant but sophisticated colors, high-end commercial character artwork, cohesive tropical vacation world, detailed smooth materials, visually appealing composition, 8k quality. The image must contain no text, no letters, no numbers, no logos, no brand marks, no watermark, no UI, no interface, no buttons, no typography, no signs, no captions.",
+      "categoryIconStyle": "Cute glossy 3D pink blob mascot in tropical beach-themed scenes, rounded playful compositions, sunset gradients, palm leaves, ocean reflections, inflatable beach accessories, premium polished vinyl-toy aesthetic"
+    }
+  },
+  {
+    "slug": "karhubet",
+    "theme": {
+      "primary": "#16324F",
+      "secondary": "#0A1A1A",
+      "accent": "#FFC700"
+    },
+    "domain": "karhubet7.com",
+    "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+    "locale": "fi-FI",
+    "profile": "starter-casino",
+    "brandName": "Karhubet",
+    "welcomeBonus": {
+      "amount": 350,
+      "currency": "EUR"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "imageGeneration": {
+      "style": "3D video game character art, martial arts fantasy, vibrant forest training ring",
+      "colorPalette": {
+        "background": "#0F2E2E",
+        "primaryAccent": "#FFC700",
+        "secondaryAccents": [
+          "#1A4D4E",
+          "#2B1A0E",
+          "#0040FF"
+        ]
+      },
+      "effects": [
+        "Depth-of-field blur on foreground floating gold coins",
+        "Atmospheric volumetric sunlight filtering through forest canopy",
+        "Rune-engraved martial arts weapons suspended in mid-air",
+        "Detailed realistic fur texturing with bright blue rim lighting accents"
+      ],
+      "promptPrefix": "3D animated video game character style render of a powerful muscular black bear fighter in a fighting stance, wearing yellow boxing hand wraps and a blue karate belt. Outdoor martial arts boxing ring set in a lush green misty jungle forest background. Floating around in mid-air are rune-carved wooden nunchucks, a silver metal shuriken star, and thick golden coins. High detail fur texture, warm volumetric sunlight, energetic game art style, 8k resolution --ar 16:9",
+      "categoryIconStyle": "Dark navy frame containers featuring 3D martial arts characters and game items with golden accents"
+    }
+  },
+  {
+    "slug": "slotowl",
+    "theme": {
+      "primary": "#4B1E8F",
+      "secondary": "#17021F",
+      "accent": "#FF00BF"
+    },
+    "domain": "slotowl7.com",
+    "affiliateUrl": "https://gorollingslots.com/dg2d0nnhm",
+    "locale": "sv-SE",
+    "profile": "starter-casino",
+    "brandName": "SlotOwl",
+    "welcomeBonus": {
+      "amount": 450,
+      "currency": "SEK"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "imageGeneration": {
+      "style": "Vibrant purple sunburst, multi-character casino mashup hero banner graphic",
+      "colorPalette": {
+        "background": "#230344",
+        "primaryAccent": "#FF00BF",
+        "secondaryAccents": [
+          "#130129",
+          "#FFD700",
+          "#00F0FF"
+        ]
+      },
+      "effects": [
+        "Deep purple radial sunburst background rays with sparkling gold confetti",
+        "Floating winged gold coins with colorful feathery edges",
+        "Glow-enhanced magic effects like blue energy orbs and stage lighting",
+        "Symmetrical character composition flanking a central UI deposit widget"
+      ],
+      "promptPrefix": "A high-energy casino hero banner against a deep royal purple sunburst background with radial rays and falling gold confetti. Four diverse character figures positioned symmetrically: on the left, a stylized glamorous pig character in a sparkly blue dress holding a microphone next to a soccer player kicking mid-air; on the right, a mystical blue wizard conjuring a glowing magic orb next to a smiling female live casino presenter holding dice. Floating gold coins with colorful wings scattered in the air. Vibrant neon pink highlights, high contrast, glossy digital art composition --ar 16:9",
+      "categoryIconStyle": "Dark violet central card container with bright magenta deposit button and white text layout"
+    }
+  },
+  {
+    "slug": "winsly",
+    "theme": {
+      "primary": "#E0301E",
+      "secondary": "#100404",
+      "accent": "#FF6B00"
+    },
+    "domain": "winsly7.com",
+    "affiliateUrl": "https://gorollingslots.com/dg2d0nnhm",
+    "locale": "sv-SE",
+    "profile": "starter-casino",
+    "brandName": "Winsly",
+    "welcomeBonus": {
+      "amount": 500,
+      "currency": "SEK"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "imageGeneration": {
+      "style": "Fiery lava aura, dark moody high-contrast UI overlay",
+      "colorPalette": {
+        "background": "#000000",
+        "primaryAccent": "#FF2A00",
+        "secondaryAccents": [
+          "#FF8C00",
+          "#FFA500",
+          "#1A1A1A"
+        ]
+      },
+      "effects": [
+        "Vibrant red and orange fiery light streak overlay",
+        "Soft blurred lava glow edge effect",
+        "High-contrast dark background with subtle game card frame peeking in upper corner"
+      ],
+      "promptPrefix": "A high-contrast dark gaming background featuring a massive vibrant red and molten orange fiery light aura glowing dynamically on the left. Dark void background with subtle game card borders and orange trim. Intense red neon glow, fiery energy glare, sleek dark casino graphic overlay --ar 16:9",
+      "categoryIconStyle": "Dark rounded cards with fiery orange and red glowing border highlights"
+    }
+  }
+]

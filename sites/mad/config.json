@@ -1,0 +1,32 @@
+{
+  "slug": "mad",
+  "domains": [
+    "mad-casino777.com",
+    "www.mad-casino777.com"
+  ],
+  "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+  "template": "casino-v2",
+  "locales": [
+    {
+      "code": "en",
+      "docx": "casino.en.docx",
+      "default": true
+    }
+  ],
+  "theme": {
+    "primary": "#7C3AED",
+    "secondary": "#D4AF37"
+  },
+  "navbar": {
+    "logo": "/images/mad/mad-casino-logo.png",
+    "brandName": "Mad Casino",
+    "showBrandName": false
+  },
+  "banner": {
+    "desktop": "/images/mad/mad-casino.png"
+  },
+  "stickyBanner": {
+    "logo": "/images/mad/mad-casino-logo.png",
+    "bullets": ["5000 NOK Welcome Bonus", "200 Free Spins"]
+  }
+}

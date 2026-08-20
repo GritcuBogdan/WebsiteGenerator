@@ -1,0 +1,100 @@
+---
+import { cssVars } from "../lib/theme";
+import OptimizedImage from "./OptimizedImage.astro";
+
+const defaultLinks = [
+  { label: "Responsible Gaming", href: "#" },
+  { label: "Privacy Policy", href: "#" },
+  { label: "Cookies Policy", href: "#" },
+  { label: "Betting Rules", href: "#" },
+  { label: "Terms & Conditions", href: "#" },
+  { label: "Contacts", href: "#" },
+];
+
+const {
+  casinoName = "",
+  copyright = "All rights reserved.",
+  links = defaultLinks,
+  logos = [],
+  copyrightYear = new Date().getFullYear(),
+  disclaimer = "",
+  ageBadge = {
+    text: "18+",
+    background: "",
+    textColor: "",
+    borderColor: "",
+  },
+  theme = {
+    secondary: "#111827",
+    surface: "#ffffff",
+    text: "#1f2937",
+  },
+} = Astro.props;
+
+const footerLinks = links.length > 0 ? links : defaultLinks;
+const footerBg = theme.footerBackground || theme.secondary || "#111827";
+const footerText = theme.footerText || "#ffffff";
+---
+
+<footer
+  class="site-section py-10 sm:py-12"
+  style={`${cssVars(theme)} --section-bg:${footerBg}; --section-text:${footerText};`}
+>
+  <div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+    <nav aria-label="Footer navigation">
+      <ul class="flex flex-wrap justify-center gap-x-6 gap-y-3">
+        {
+          footerLinks.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                class="fancy-link text-sm font-semibold sm:text-base"
+                style={`--link:${footerText}; --link-hover:var(--accent);`}
+              >
+                {link.label || link.name || link.title}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+
+    <div
+      class="mx-auto mt-8 flex h-16 w-16 items-center justify-center rounded-full border text-xl font-black shadow-lg"
+      style={`
+        background:${ageBadge.background || "color-mix(in srgb, var(--primary) 18%, transparent)"};
+        color:${ageBadge.textColor || footerText};
+        border-color:${ageBadge.borderColor || "color-mix(in srgb, var(--accent) 55%, transparent)"};
+      `}
+      aria-label={`${ageBadge.text || "18+"} age restriction`}
+    >
+      {ageBadge.text || "18+"}
+    </div>
+
+    {
+      logos.length > 0 && (
+        <div class="mt-7 flex flex-wrap items-center justify-center gap-6">
+          {logos.slice(0, 2).map((logo) => (
+            <OptimizedImage
+              src={logo.src}
+              alt={logo.alt}
+              width={logo.width || 120}
+              height={logo.height || 44}
+              loading="lazy"
+              responsive={false}
+              class="max-h-12 w-auto object-contain opacity-90 transition duration-300 hover:-translate-y-1 hover:opacity-100"
+            />
+          ))}
+        </div>
+      )
+    }
+
+    <div class="mx-auto my-8 h-px max-w-3xl bg-white/20"></div>
+
+    <div class="mx-auto max-w-4xl text-sm leading-7 opacity-90">
+      <p>© {copyrightYear} {casinoName}. {copyright}</p>
+
+      {disclaimer && <p class="mt-2">{disclaimer}</p>}
+    </div>
+  </div>
+</footer>

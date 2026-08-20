@@ -1,0 +1,28 @@
+{
+  "slug": "safe",
+  "domains": ["safecasin.com"],
+  "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+  "template": "casino-v1",
+  "locales": [
+    { "code": "de", "docx": "casino.de.docx", "default": true, "label": "Deutsch" }
+  ],
+  "theme": {
+    "primary": "#B8860B",
+    "secondary": "#1F2937",
+    "accent": "#ddd000",
+    "background": "#FFFBEB",
+    "surface": "#FFFFFF",
+    "text": "#1F2937",
+    "rowColor": "#FEF3C7",
+    "rowTextColor": "#78350F"
+  },
+  "navbar": {
+    "logo": "/images/safe/logo.png",
+    "brandName": "Safe Casino"
+  },
+  "banner": {
+    "desktop": "/images/safe/casino.webp",
+    "buttonColor": "#B8860B"
+  },
+  "ogImage": "/images/safe/casino.webp"
+}

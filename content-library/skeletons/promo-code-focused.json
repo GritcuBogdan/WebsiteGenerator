@@ -1,0 +1,5 @@
+{
+  "id": "promo-code-focused",
+  "sections": ["intro", "promo-code", "where-to-enter", "welcome-offer", "terms", "payments", "support", "faq", "cta"],
+  "optionalSections": ["promo-code"]
+}

@@ -1,0 +1,43 @@
+---
+import { cssVars } from "../lib/theme";
+
+const {
+  id,
+  title,
+  paragraphs = [],
+  steps = [],
+  theme = {},
+} = Astro.props;
+
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+---
+
+<section
+  id={id}
+  class="site-section px-4 py-10 sm:px-6 sm:py-12 lg:px-8"
+  style={`${cssVars(theme)} --section-bg:${sectionBg};`}
+>
+  <div class="mx-auto max-w-5xl">
+    <h2 class="gradient-heading text-2xl font-black sm:text-3xl">{title}</h2>
+
+    {paragraphs.slice(0, 1).map((text) => <p class="mt-4 max-w-3xl leading-8" style="color:var(--muted-text)">{text}</p>)}
+
+    <ol class="mt-7 grid gap-4 sm:grid-cols-2">
+      {
+        steps.map((step, index) => (
+          <li class="glass-card relative flex gap-4 rounded-xl p-5">
+            <span
+              class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-sm font-black"
+              style="background:linear-gradient(135deg, var(--primary), var(--accent)); color:#0A0A14;"
+            >
+              {index + 1}
+            </span>
+            <p class="leading-7" style="color:var(--text)">{step}</p>
+          </li>
+        ))
+      }
+    </ol>
+
+    {paragraphs.slice(1).map((text) => <p class="mt-5 leading-8" style="color:var(--muted-text)">{text}</p>)}
+  </div>
+</section>

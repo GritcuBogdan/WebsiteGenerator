@@ -1,0 +1,30 @@
+{
+  "slug": "example-casino",
+  "domains": ["example-casino.com"],
+  "affiliateUrl": "https://affiliate.example/track?id=example-casino",
+  "template": "casino-v1",
+  "locales": [
+    { "code": "en", "docx": "casino.en.docx", "default": true, "label": "English" },
+    { "code": "el", "docx": "casino.el.docx", "label": "Greek" }
+  ],
+  "theme": {
+    "primary": "#2563EB",
+    "secondary": "#0F2747",
+    "accent": "#38BDF8",
+    "background": "#F4F8FF",
+    "surface": "#FFFFFF",
+    "text": "#172033"
+  },
+  "navbar": {
+    "logo": "/images/example-casino/logo.png",
+    "brandName": "Example Casino"
+  },
+  "footer": {
+    "legalPageSlugs": ["privacy-policy", "terms-conditions", "responsible-gaming"]
+  },
+  "banner": {
+    "desktop": "/images/example-casino/banner.png",
+    "buttonColor": "#2563EB"
+  },
+  "ogImage": "/images/example-casino/banner.png"
+}

@@ -1,0 +1,35 @@
+---
+import CasinoPageView from "../../components/CasinoPageView.astro";
+import { defaultLocale, getBuildCasinos, getSingleCasinoForLocale } from "../../lib/site";
+import type { Casino, CasinoPage } from "schema";
+
+export function getStaticPaths() {
+  const nonDefaultLocales = Array.from(
+    new Set(
+      getBuildCasinos()
+        .map((casino) => casino.locale)
+        .filter((locale): locale is string => Boolean(locale) && locale !== defaultLocale),
+    ),
+  );
+
+  return nonDefaultLocales.flatMap((locale) => {
+    const casino = getSingleCasinoForLocale(locale)!;
+
+    return casino.pages
+      .filter((page) => page.slug !== "index")
+      .map((page) => ({
+        params: { lang: locale, pageSlug: page.slug },
+        props: { casino, page },
+      }));
+  });
+}
+
+type Props = {
+  casino: Casino;
+  page: CasinoPage;
+};
+
+const { casino, page } = Astro.props as Props;
+---
+
+<CasinoPageView casino={casino} page={page} />

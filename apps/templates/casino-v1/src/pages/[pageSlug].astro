@@ -1,0 +1,25 @@
+---
+import CasinoPageView from "../components/CasinoPageView.astro";
+import { defaultLocale, getSingleCasinoForLocale } from "../lib/site";
+import type { Casino, CasinoPage } from "schema";
+
+export function getStaticPaths() {
+  const casino = getSingleCasinoForLocale(defaultLocale, { required: true });
+
+  return casino.pages
+    .filter((page) => page.slug !== "index")
+    .map((page) => ({
+      params: { pageSlug: page.slug },
+      props: { casino, page },
+    }));
+}
+
+type Props = {
+  casino: Casino;
+  page: CasinoPage;
+};
+
+const { casino, page } = Astro.props as Props;
+---
+
+<CasinoPageView casino={casino} page={page} />

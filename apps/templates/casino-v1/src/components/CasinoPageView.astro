@@ -1,0 +1,80 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SectionRenderer from "./SectionRenderer.astro";
+import NavigationSection from "./NavigationSection.astro";
+import {
+  defaultLocale,
+  getAlternateLinks,
+  getCasinoLocales,
+  getPagePath,
+  languageOptions,
+} from "../lib/site";
+import { buildCasinoJsonLd } from "../lib/seo";
+import type { Casino, CasinoPage } from "schema";
+
+type Props = {
+  casino: Casino;
+  page: CasinoPage;
+};
+
+const { casino, page } = Astro.props as Props;
+const jsonLd = buildCasinoJsonLd(casino, page, Astro.site);
+const currentLocale = casino.locale ?? page.seo.lang ?? defaultLocale;
+const alternateLinks = getAlternateLinks(casino, page.slug);
+const localeVariants = getCasinoLocales(casino.slug);
+const languageVariants = languageOptions
+  .map((locale) => {
+    const variant = localeVariants.find((candidate) => candidate.locale === locale.code);
+    const variantPage = variant?.pages.find((candidate) => candidate.slug === page.slug);
+    if (!variant || !variantPage) return null;
+
+    return {
+      code: locale.code,
+      label: locale.label,
+      flagImage: locale.flagImage,
+      href: getPagePath(variant, variantPage.slug),
+      active: locale.code === currentLocale,
+    };
+  })
+  .filter(Boolean);
+const navigationItems = page.sections
+  .filter((section) => section.id && section.type !== "intro" && section.title?.trim())
+  .map((section) => ({
+    title: section.title,
+    href: `#${section.id}`,
+  }));
+---
+
+<Layout
+  title={page.seo.title}
+  description={page.seo.description}
+  keywords={page.seo.keywords}
+  canonical={page.seo.canonical ?? getPagePath(casino, page.slug)}
+  ogImage={page.seo.ogImage}
+  favicon={page.seo.favicon ?? casino.favicon}
+  lang={currentLocale}
+  alternateLinks={alternateLinks}
+  casinoName={casino.name || casino.footer.casinoName}
+  casinoSlug={casino.slug}
+  theme={casino.theme}
+  navbar={casino.navbar}
+  languageOptions={languageVariants}
+  footer={casino.footer}
+  stickyBanner={casino.stickyBanner}
+  minimumAge={casino.minimumAge}
+  ageGate={casino.ageGate}
+  ageGateEnabled={casino.ageGateEnabled}
+  jsonLd={jsonLd}
+  noindex={page.seo.noindex}
+>
+  {
+    page.sections.map((section, index) => (
+      <>
+      <SectionRenderer section={section} theme={casino.theme} casinoSlug={casino.slug} />
+        {index === 0 && (
+          <NavigationSection items={navigationItems} theme={casino.theme} />
+        )}
+      </>
+    ))
+  }
+</Layout>

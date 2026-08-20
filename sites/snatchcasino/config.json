@@ -1,0 +1,30 @@
+{
+  "slug": "snatchcasino",
+  "domains": [
+    "snatchcasino7.de"
+  ],
+  "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+  "locales": [
+    {
+      "code": "de-DE",
+      "default": true
+    }
+  ],
+  "contentSource": "library",
+  "profile": "starter-casino",
+  "theme": {
+    "primary": "#00CFE0",
+    "secondary": "#1A0F1E",
+    "accent": "#FF4FA3"
+  },
+  "banner": {
+    "text": "Willkommensbonus – 480 CHF + 180 Freispiele",
+    "desktop": "/images/_shared/starter-casino-banner.png"
+  },
+  "stickyBanner": {
+    "headline": "Willkommensbonus",
+    "bullets": [
+      "480 CHF + 180 Freispiele"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+---
+import { cssVars } from "../lib/theme";
+import { getRedirectHref } from "../lib/affiliate";
+import OptimizedImage from "./OptimizedImage.astro";
+
+const {
+  id = "intro",
+  title = "",
+  casinoSlug = "",
+  paragraphs = [],
+  banner = {
+    desktop: "",
+    mobile: "",
+    alt: "",
+    text: "",
+    textColor: "",
+    buttonText: "",
+    buttonLink: "#",
+    buttonColor: "",
+    buttonTextColor: "",
+  },
+  theme = {
+    primary: "#2563eb",
+    secondary: "#111827",
+    surface: "#ffffff",
+    text: "#1f2937",
+  },
+} = Astro.props;
+
+const redirectHref = getRedirectHref(casinoSlug);
+const bannerTextColor = banner.textColor || "#ffffff";
+const bannerButtonColor = banner.buttonColor || "var(--primary)";
+const bannerButtonTextColor = banner.buttonTextColor || "#ffffff";
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+const sectionText = theme.text || theme.sectionText || "var(--text)";
+const titleColor = theme.title || theme.headingText || "var(--heading-text)";
+---
+
+<section
+    id={id}
+    class="site-section px-4 py-8 sm:px-6 sm:py-10 md:py-12 lg:px-8"
+    style={`${cssVars(theme)} --section-bg:${sectionBg}; --section-text:${sectionText};`}
+>
+  <div class="mx-auto max-w-7xl">
+    {
+        banner.desktop && (
+            <div class="relative overflow-hidden rounded-lg shadow-xl">
+              <OptimizedImage
+                src={banner.desktop}
+                mobileSrc={banner.mobile}
+                alt={banner.alt || title}
+                width="1190"
+                height="400"
+                loading="eager"
+                class="aspect-[4/3] w-full object-cover sm:aspect-[16/9] md:aspect-[1190/400]"
+              />
+
+              {(banner.text || banner.buttonText) && (
+                  <div class="absolute inset-0 flex items-center justify-center bg-black/35 p-4">
+                    <div class="w-full max-w-sm text-center sm:max-w-lg">
+                      {banner.text && (
+                          <p class="text-xl font-black leading-tight sm:text-2xl md:text-3xl" style={`color:${bannerTextColor}`}>
+                            {banner.text}
+                          </p>
+                      )}
+
+                      {banner.buttonText && (
+                          <a
+                              href={redirectHref}
+                              class="shine-button mt-5 inline-flex rounded-lg px-6 py-3 text-sm font-black shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-xl focus-visible:-translate-y-1 sm:px-8 sm:text-base"
+                              style={`background:${bannerButtonColor}; color:${bannerButtonTextColor}`}
+                          >
+                            {banner.buttonText}
+                          </a>
+                      )}
+                    </div>
+                  </div>
+              )}
+            </div>
+        )
+    }
+
+    <div class={banner.desktop ? "mt-7 sm:mt-8" : ""}>
+      <h1
+          class="text-3xl font-black leading-tight sm:text-4xl md:text-5xl"
+          style={`color:${titleColor}`}
+      >
+        {title}
+      </h1>
+
+      {
+        paragraphs.map((paragraph) => (
+            <p class="mt-4 text-base leading-8" style="color:var(--muted-text)">
+              {paragraph}
+            </p>
+        ))
+      }
+    </div>
+  </div>
+</section>

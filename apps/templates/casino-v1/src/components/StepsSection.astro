@@ -1,0 +1,48 @@
+---
+import { cssVars } from "../lib/theme";
+
+const {
+  id,
+  title,
+  paragraphs = [],
+  steps = [],
+  theme = {
+    primary: "#2563eb",
+    secondary: "#111827",
+    text: "#1f2937",
+  },
+} = Astro.props;
+
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+const sectionText = theme.text || theme.sectionText || "var(--text)";
+const titleColor = theme.title || theme.headingText || "var(--heading-text)";
+---
+
+<section
+  id={id}
+  class="site-section px-4 py-7 sm:px-6 sm:py-9 lg:px-8"
+  style={`${cssVars(theme)} --section-bg:${sectionBg}; --section-text:${sectionText};`}
+>
+  <div class="mx-auto max-w-7xl">
+    <h2 class="text-2xl font-black sm:text-3xl" style={`color:${titleColor}`}>
+      {title}
+    </h2>
+
+    {paragraphs.slice(0, 1).map((text) => <p class="mt-4 leading-8" style="color:var(--muted-text)">{text}</p>)}
+
+    <ol class="mt-6 grid gap-4 sm:grid-cols-2">
+      {
+        steps.map((step, index) => (
+          <li class="flex gap-4 rounded-lg border p-4 shadow-sm" style="background:var(--surface); border-color:var(--border)">
+            <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-sm font-black text-white" style="background:var(--primary)">
+              {index + 1}
+            </span>
+            <p class="leading-7" style="color:var(--section-text)">{step}</p>
+          </li>
+        ))
+      }
+    </ol>
+
+    {paragraphs.slice(1).map((text) => <p class="mt-5 leading-8" style="color:var(--muted-text)">{text}</p>)}
+  </div>
+</section>

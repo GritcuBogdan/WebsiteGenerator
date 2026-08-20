@@ -1,0 +1,142 @@
+---
+import { cssVars } from "../lib/theme";
+import { getRedirectHref } from "../lib/affiliate";
+import OptimizedImage from "./OptimizedImage.astro";
+
+const {
+  casinoSlug = "",
+  logo = "",
+  casinoName = "",
+  headline = "",
+  bullets = [],
+  disclaimer = "",
+  buttonText = "Get Bonus",
+  buttonLink = "",
+  closeLabel = "Close",
+  theme = {},
+} = Astro.props;
+
+const redirectHref = buttonLink || getRedirectHref(casinoSlug);
+const offerText = bullets
+  .filter(Boolean)
+  .map((bullet: string) => bullet.trim().replace(/^\+\s*/, ""))
+  .join(" + ");
+---
+
+<div
+  id="welcome-popup"
+  class="fixed inset-0 z-[80] items-center justify-center p-4"
+  style={`${cssVars(theme)} display:none;`}
+  role="dialog"
+  aria-modal="true"
+  aria-label={`${casinoName} - ${headline}`}
+>
+  <div class="welcome-popup-backdrop absolute inset-0 bg-black/70" style="backdrop-filter:blur(3px);"></div>
+
+  <div class="glass-card glow-border welcome-popup-card relative w-full max-w-sm rounded-2xl p-5 text-center shadow-2xl sm:max-w-md sm:p-7">
+    <button
+      type="button"
+      class="welcome-popup-close ghost-button absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full text-lg font-bold"
+      style="color:var(--muted-text);"
+      aria-label={closeLabel}
+    >
+      &times;
+    </button>
+
+    {
+      logo && (
+        <span class="mx-auto mb-3 flex h-14 w-14 items-center justify-center overflow-hidden rounded-xl shadow-md sm:h-16 sm:w-16" style="background:var(--surface-muted);">
+          <OptimizedImage src={logo} alt={casinoName} width="64" height="64" responsive={false} class="h-full w-full object-contain p-1.5" />
+        </span>
+      )
+    }
+
+    <p class="gradient-heading text-lg font-black leading-tight sm:text-xl">
+      {headline}
+    </p>
+
+    {
+      offerText && (
+        <p class="mt-2 text-sm leading-snug sm:text-base" style="color:var(--muted-text);">
+          {offerText}
+        </p>
+      )
+    }
+
+    <a href={redirectHref} class="cta-button glow-pulse mt-5 inline-flex w-full items-center justify-center rounded-full px-5 py-3 text-sm font-black shadow-lg sm:text-base">
+      {buttonText}
+    </a>
+
+    {
+      disclaimer && (
+        <p class="mt-3 text-[11px] leading-tight opacity-60">
+          {disclaimer}
+        </p>
+      )
+    }
+  </div>
+</div>
+
+<style>
+  .welcome-popup-card {
+    animation: welcome-popup-in 320ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  @keyframes welcome-popup-in {
+    from {
+      transform: translateY(12px) scale(0.97);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .welcome-popup-card {
+      animation: none;
+    }
+  }
+</style>
+
+<script>
+  // Visibility is driven by inline style.display, not a toggled "hidden"
+  // class - see the same fix/reasoning in Navbar.astro's mobile drawer.
+  // Deliberately no cross-page persistence (no sessionStorage): this pops
+  // up once per page view when scrolled halfway, then leaves you alone for
+  // the rest of *that* page load - but shows up again on any other page
+  // (including navigating back to this same one), since each full page
+  // load gets a fresh script context and this `triggered` flag resets
+  // naturally with it.
+  const popup = document.querySelector<HTMLElement>("#welcome-popup");
+  let triggered = false;
+
+  function maybeShow() {
+    if (triggered || !popup) return;
+    const halfway = document.documentElement.scrollHeight / 2;
+    if (window.scrollY + window.innerHeight >= halfway) {
+      triggered = true;
+      popup.style.display = "flex";
+      window.removeEventListener("scroll", maybeShow);
+      document.body.style.overflow = "hidden";
+    }
+  }
+
+  if (popup) {
+    window.addEventListener("scroll", maybeShow, { passive: true });
+    maybeShow();
+  }
+
+  function closePopup() {
+    if (popup) popup.style.display = "none";
+    document.body.style.overflow = "";
+  }
+
+  popup?.querySelector(".welcome-popup-close")?.addEventListener("click", closePopup);
+  popup?.querySelector(".welcome-popup-backdrop")?.addEventListener("click", closePopup);
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closePopup();
+  });
+</script>

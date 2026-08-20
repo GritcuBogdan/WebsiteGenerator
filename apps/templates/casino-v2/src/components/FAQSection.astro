@@ -1,0 +1,64 @@
+---
+import { cssVars } from "../lib/theme";
+
+const {
+  id = "faq",
+  title = "FAQ",
+  items = [],
+  layout = "accordion",
+  theme = {},
+} = Astro.props;
+
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+const isGrid = layout === "grid";
+---
+
+<section
+  id={id}
+  class="site-section px-4 py-10 sm:px-6 sm:py-12 lg:px-8"
+  style={`${cssVars(theme)} --section-bg:${sectionBg};`}
+>
+  <div class="mx-auto max-w-4xl">
+    <h2 class="gradient-heading text-2xl font-black sm:text-3xl md:text-4xl">{title}</h2>
+
+    <div class:list={["mt-7", isGrid ? "grid gap-4 md:grid-cols-2" : "space-y-3"]}>
+      {
+        items.map((item, index) => (
+          <details class="faq-item glass-card group rounded-xl p-4 transition duration-300 open:glow-border sm:p-5" open={index === 0 && !isGrid}>
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left">
+              <h3 class="text-base font-bold sm:text-lg" style="color:var(--text)">
+                {item.question}
+              </h3>
+              <span
+                class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-xs font-black transition duration-300 group-open:rotate-180"
+                style="background:color-mix(in srgb, var(--primary) 20%, transparent); color:var(--accent);"
+                aria-hidden="true"
+              >
+                ▼
+              </span>
+            </summary>
+            <div class="faq-answer grid transition-all duration-300 ease-out">
+              <p class="overflow-hidden pt-3 leading-8" style="color:var(--muted-text)">
+                {item.answer}
+              </p>
+            </div>
+          </details>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-answer {
+    grid-template-rows: 0fr;
+  }
+
+  .faq-item[open] .faq-answer {
+    grid-template-rows: 1fr;
+  }
+</style>

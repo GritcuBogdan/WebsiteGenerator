@@ -1,0 +1,3644 @@
+{
+  "records": [
+    {
+      "hash": "0fcce82a4d0f0f16",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:home:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-home-0.png",
+      "recordedAt": "2026-08-16T17:33:07.087Z"
+    },
+    {
+      "hash": "8ecc6933ce0f3f8a",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:home:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-home-1.png",
+      "recordedAt": "2026-08-16T17:33:07.141Z"
+    },
+    {
+      "hash": "2f8d2993994f0727",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:review:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-review-0.png",
+      "recordedAt": "2026-08-16T17:33:07.193Z"
+    },
+    {
+      "hash": "4d4d5d0f4f8d171d",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:bonus:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-bonus-0.png",
+      "recordedAt": "2026-08-16T17:33:07.242Z"
+    },
+    {
+      "hash": "4c4c652716260606",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:bonus:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-bonus-1.png",
+      "recordedAt": "2026-08-16T17:33:07.292Z"
+    },
+    {
+      "hash": "0e8d32170f0f0f4d",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:withdrawals:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-withdrawals-0.png",
+      "recordedAt": "2026-08-16T17:33:07.355Z"
+    },
+    {
+      "hash": "4d4d8d8785971717",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:slots:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-slots-0.png",
+      "recordedAt": "2026-08-16T17:33:07.407Z"
+    },
+    {
+      "hash": "4d692baacca62747",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:login:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-login-0.png",
+      "recordedAt": "2026-08-16T17:33:07.456Z"
+    },
+    {
+      "hash": "4d4d0d8b0b4d0f1f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:login:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-login-1.png",
+      "recordedAt": "2026-08-16T17:33:07.505Z"
+    },
+    {
+      "hash": "0f16968e0f8f870f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:application:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-application-0.png",
+      "recordedAt": "2026-08-16T17:33:07.556Z"
+    },
+    {
+      "hash": "466636534e8e0f2e",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:application:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-application-1.png",
+      "recordedAt": "2026-08-16T17:33:07.605Z"
+    },
+    {
+      "hash": "49694d8e8e161215",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:registration:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-registration-0.png",
+      "recordedAt": "2026-08-16T17:33:07.657Z"
+    },
+    {
+      "hash": "4d4d0d0d8d8d0f2b",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:registration:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-registration-1.png",
+      "recordedAt": "2026-08-16T17:33:07.708Z"
+    },
+    {
+      "hash": "0d296a8f0f4f4e8f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:no-deposit-bonus:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-16T17:33:07.757Z"
+    },
+    {
+      "hash": "2f0f17171537078f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:free-spins:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-free-spins-0.png",
+      "recordedAt": "2026-08-16T17:33:07.808Z"
+    },
+    {
+      "hash": "ae4d4c4dcca6154d",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:promo-code:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v1-promo-code-0.png",
+      "recordedAt": "2026-08-16T17:33:07.861Z"
+    },
+    {
+      "hash": "3269d4a2a2d469b2",
+      "siteSlug": "betovo",
+      "jobId": "logo:betovo:v1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\images\\logo.png",
+      "recordedAt": "2026-08-16T17:33:07.898Z"
+    },
+    {
+      "hash": "79331753570f0d07",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:home:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-home-0.png",
+      "recordedAt": "2026-08-16T20:33:07.380Z"
+    },
+    {
+      "hash": "692b0f4515179d15",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:home:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-home-1.png",
+      "recordedAt": "2026-08-16T20:33:07.429Z"
+    },
+    {
+      "hash": "63230e0c2537175f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:review:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-review-0.png",
+      "recordedAt": "2026-08-16T20:33:07.474Z"
+    },
+    {
+      "hash": "692b2b175757178d",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:bonus:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-bonus-0.png",
+      "recordedAt": "2026-08-16T20:33:07.524Z"
+    },
+    {
+      "hash": "712b2b17155d0d07",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:bonus:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-bonus-1.png",
+      "recordedAt": "2026-08-16T20:33:07.569Z"
+    },
+    {
+      "hash": "496933171714150f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:withdrawals:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-withdrawals-0.png",
+      "recordedAt": "2026-08-16T20:33:07.617Z"
+    },
+    {
+      "hash": "90c16a14d57d3da3",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:slots:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-slots-0.png",
+      "recordedAt": "2026-08-16T20:33:07.667Z"
+    },
+    {
+      "hash": "c56e3eb73b7b3233",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:login:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-login-0.png",
+      "recordedAt": "2026-08-16T20:33:07.712Z"
+    },
+    {
+      "hash": "cd4b4e1b11381c1b",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:login:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-login-1.png",
+      "recordedAt": "2026-08-16T20:33:07.759Z"
+    },
+    {
+      "hash": "52662c1d1b393131",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:application:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-application-0.png",
+      "recordedAt": "2026-08-16T20:33:07.805Z"
+    },
+    {
+      "hash": "61692b8ddd17111d",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:application:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-application-1.png",
+      "recordedAt": "2026-08-16T20:33:07.853Z"
+    },
+    {
+      "hash": "2b2b17960f0f5257",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:registration:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-registration-0.png",
+      "recordedAt": "2026-08-16T20:33:07.899Z"
+    },
+    {
+      "hash": "5173969696b7494b",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:registration:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-registration-1.png",
+      "recordedAt": "2026-08-16T20:33:07.945Z"
+    },
+    {
+      "hash": "5b62262e2c3d0607",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:no-deposit-bonus:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-16T20:33:07.991Z"
+    },
+    {
+      "hash": "496b171415551709",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:free-spins:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-free-spins-0.png",
+      "recordedAt": "2026-08-16T20:33:08.039Z"
+    },
+    {
+      "hash": "69690f075753130f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2-football:promo-code:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v2-football-promo-code-0.png",
+      "recordedAt": "2026-08-16T20:33:08.086Z"
+    },
+    {
+      "hash": "130f2b2b2b330e00",
+      "siteSlug": "betovo",
+      "jobId": "logo:betovo:v2-football",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\images\\logo.png",
+      "recordedAt": "2026-08-16T20:33:08.118Z"
+    },
+    {
+      "hash": "692b0c4447150d2f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:home:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-home-0.png",
+      "recordedAt": "2026-08-16T20:44:01.640Z"
+    },
+    {
+      "hash": "6b2a0f4d171f4d97",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:home:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-home-1.png",
+      "recordedAt": "2026-08-16T20:44:01.693Z"
+    },
+    {
+      "hash": "692b0e151353552d",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:review:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-review-0.png",
+      "recordedAt": "2026-08-16T20:44:01.748Z"
+    },
+    {
+      "hash": "512b0f1757174d07",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:bonus:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-bonus-0.png",
+      "recordedAt": "2026-08-16T20:44:01.797Z"
+    },
+    {
+      "hash": "53761d4766540507",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:bonus:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-bonus-1.png",
+      "recordedAt": "2026-08-16T20:44:01.843Z"
+    },
+    {
+      "hash": "692b951757170715",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:withdrawals:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-withdrawals-0.png",
+      "recordedAt": "2026-08-16T20:44:01.890Z"
+    },
+    {
+      "hash": "732b0f5551573769",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:slots:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-slots-0.png",
+      "recordedAt": "2026-08-16T20:44:01.940Z"
+    },
+    {
+      "hash": "d7666c1f9eb83337",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:login:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-login-0.png",
+      "recordedAt": "2026-08-16T20:44:01.988Z"
+    },
+    {
+      "hash": "692b1715171795cc",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:login:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-login-1.png",
+      "recordedAt": "2026-08-16T20:44:02.042Z"
+    },
+    {
+      "hash": "512b2b5515150bcc",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:application:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-application-0.png",
+      "recordedAt": "2026-08-16T20:44:02.094Z"
+    },
+    {
+      "hash": "6963374f0f162f37",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:application:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-application-1.png",
+      "recordedAt": "2026-08-16T20:44:02.142Z"
+    },
+    {
+      "hash": "4b622d1753391d07",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:registration:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-registration-0.png",
+      "recordedAt": "2026-08-16T20:44:02.192Z"
+    },
+    {
+      "hash": "692b175777158736",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:registration:1",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-registration-1.png",
+      "recordedAt": "2026-08-16T20:44:02.241Z"
+    },
+    {
+      "hash": "692b0755170f7517",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:no-deposit-bonus:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-16T20:44:02.292Z"
+    },
+    {
+      "hash": "cc6b170f5d551717",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:free-spins:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-free-spins-0.png",
+      "recordedAt": "2026-08-16T20:44:02.340Z"
+    },
+    {
+      "hash": "6b6b0d4d073f1f4f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3-football-turbo:promo-code:0",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\.generated\\image-masters\\master-betovo-v3-football-turbo-promo-code-0.png",
+      "recordedAt": "2026-08-16T20:44:02.389Z"
+    },
+    {
+      "hash": "1f0f1717332b0f33",
+      "siteSlug": "betovo",
+      "jobId": "logo:betovo:v3-football-turbo",
+      "outputPath": "D:\\casestudy-astro\\copy-test\\deeply-debris\\sites\\betovo\\images\\logo.png",
+      "recordedAt": "2026-08-16T20:44:02.428Z"
+    },
+    {
+      "hash": "0f0f4d0f37560f0b",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:home:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-home-0.png",
+      "recordedAt": "2026-08-17T12:24:47.629Z"
+    },
+    {
+      "hash": "0e6b6b6b17158f17",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:review:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-review-0.png",
+      "recordedAt": "2026-08-17T12:24:47.692Z"
+    },
+    {
+      "hash": "8c4d271727055507",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-bonus-0.png",
+      "recordedAt": "2026-08-17T12:24:47.740Z"
+    },
+    {
+      "hash": "492b2b0f0f4d6937",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-withdrawals-0.png",
+      "recordedAt": "2026-08-17T12:24:47.782Z"
+    },
+    {
+      "hash": "0f16b616178d0f17",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-slots-0.png",
+      "recordedAt": "2026-08-17T12:24:47.825Z"
+    },
+    {
+      "hash": "0f4d3232332b0b33",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:login:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-login-0.png",
+      "recordedAt": "2026-08-17T12:24:47.867Z"
+    },
+    {
+      "hash": "8e33331371692b13",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-login-1.png",
+      "recordedAt": "2026-08-17T12:24:47.910Z"
+    },
+    {
+      "hash": "0f16242b2d9b270f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-application-0.png",
+      "recordedAt": "2026-08-17T12:24:47.951Z"
+    },
+    {
+      "hash": "0d29614555dd8d4d",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:application:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-application-1.png",
+      "recordedAt": "2026-08-17T12:24:47.994Z"
+    },
+    {
+      "hash": "0f0d55331606174b",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-registration-0.png",
+      "recordedAt": "2026-08-17T12:24:48.053Z"
+    },
+    {
+      "hash": "8f69614d4d0d0d2d",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:registration:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-registration-1.png",
+      "recordedAt": "2026-08-17T12:24:48.120Z"
+    },
+    {
+      "hash": "cdd50d8d0f0d4d0f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:no-deposit-bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-17T12:24:48.165Z"
+    },
+    {
+      "hash": "0f2b0f0f0e0e0e0f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-free-spins-0.png",
+      "recordedAt": "2026-08-17T12:24:48.208Z"
+    },
+    {
+      "hash": "8ecdd4372eae3707",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-promo-code-0.png",
+      "recordedAt": "2026-08-17T12:24:48.248Z"
+    },
+    {
+      "hash": "0f2e331713371313",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:_generic:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-generic-0.png",
+      "recordedAt": "2026-08-17T12:24:48.290Z"
+    },
+    {
+      "hash": "9a5577372133150f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v1:_generic:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v1-generic-1.png",
+      "recordedAt": "2026-08-17T12:24:48.333Z"
+    },
+    {
+      "hash": "0f17498db6d469b2",
+      "siteSlug": "betovo",
+      "jobId": "logo:betovo:v1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/images/logo.png",
+      "recordedAt": "2026-08-17T12:24:48.364Z"
+    },
+    {
+      "hash": "5b9b0b0319490939",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:home:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-home-0.png",
+      "recordedAt": "2026-08-17T12:30:33.314Z"
+    },
+    {
+      "hash": "3a69498f0e4d0f51",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:review:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-review-0.png",
+      "recordedAt": "2026-08-17T12:30:33.380Z"
+    },
+    {
+      "hash": "ce45612dcd33270f",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-bonus-0.png",
+      "recordedAt": "2026-08-17T12:30:33.428Z"
+    },
+    {
+      "hash": "f1d1656d0f09210f",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-withdrawals-0.png",
+      "recordedAt": "2026-08-17T12:30:33.469Z"
+    },
+    {
+      "hash": "061f4f6d0f850549",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-slots-0.png",
+      "recordedAt": "2026-08-17T12:30:33.513Z"
+    },
+    {
+      "hash": "55d973130f073371",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:login:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-login-0.png",
+      "recordedAt": "2026-08-17T12:30:33.554Z"
+    },
+    {
+      "hash": "4dd4692333317527",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-login-1.png",
+      "recordedAt": "2026-08-17T12:30:33.595Z"
+    },
+    {
+      "hash": "4d792b2b4b6b6171",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-application-0.png",
+      "recordedAt": "2026-08-17T12:30:33.638Z"
+    },
+    {
+      "hash": "54596929094f6969",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:application:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-application-1.png",
+      "recordedAt": "2026-08-17T12:30:33.679Z"
+    },
+    {
+      "hash": "4d4d6933130b3733",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-registration-0.png",
+      "recordedAt": "2026-08-17T12:30:33.721Z"
+    },
+    {
+      "hash": "d149772f491b1f33",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:registration:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-registration-1.png",
+      "recordedAt": "2026-08-17T12:30:33.763Z"
+    },
+    {
+      "hash": "8cac8f0f0f0d293b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:no-deposit-bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-17T12:30:33.805Z"
+    },
+    {
+      "hash": "0d4d4d4f0d8f0d4d",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-free-spins-0.png",
+      "recordedAt": "2026-08-17T12:30:33.847Z"
+    },
+    {
+      "hash": "4d693303138e3333",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-promo-code-0.png",
+      "recordedAt": "2026-08-17T12:30:33.888Z"
+    },
+    {
+      "hash": "6b693b46650f0f16",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:_generic:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-generic-0.png",
+      "recordedAt": "2026-08-17T12:30:33.927Z"
+    },
+    {
+      "hash": "cf2333933b270f0f",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v1:_generic:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v1-generic-1.png",
+      "recordedAt": "2026-08-17T12:30:33.971Z"
+    },
+    {
+      "hash": "2f0f71ccd4f0e807",
+      "siteSlug": "amunra",
+      "jobId": "logo:amunra:v1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/images/logo.png",
+      "recordedAt": "2026-08-17T12:30:34.002Z"
+    },
+    {
+      "hash": "4d4d470f9a161633",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:home:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-home-0.png",
+      "recordedAt": "2026-08-17T12:37:02.515Z"
+    },
+    {
+      "hash": "690f170f0d0d0d0f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:review:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-review-0.png",
+      "recordedAt": "2026-08-17T12:37:02.588Z"
+    },
+    {
+      "hash": "4d051f0b0f17170f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-bonus-0.png",
+      "recordedAt": "2026-08-17T12:37:02.647Z"
+    },
+    {
+      "hash": "4d23270e15353733",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-withdrawals-0.png",
+      "recordedAt": "2026-08-17T12:37:02.694Z"
+    },
+    {
+      "hash": "686907072b0f170b",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-slots-0.png",
+      "recordedAt": "2026-08-17T12:37:02.738Z"
+    },
+    {
+      "hash": "556517171736170f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:login:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-login-0.png",
+      "recordedAt": "2026-08-17T12:37:02.782Z"
+    },
+    {
+      "hash": "613b1b06171f370f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-login-1.png",
+      "recordedAt": "2026-08-17T12:37:02.847Z"
+    },
+    {
+      "hash": "712b2839377d6d0e",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-application-0.png",
+      "recordedAt": "2026-08-17T12:37:02.908Z"
+    },
+    {
+      "hash": "712f06090f2f0f0f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:application:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-application-1.png",
+      "recordedAt": "2026-08-17T12:37:02.953Z"
+    },
+    {
+      "hash": "556933160f37370f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-registration-0.png",
+      "recordedAt": "2026-08-17T12:37:03.012Z"
+    },
+    {
+      "hash": "7133382933370d05",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:registration:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-registration-1.png",
+      "recordedAt": "2026-08-17T12:37:03.071Z"
+    },
+    {
+      "hash": "690b960f0f17170f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:no-deposit-bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-17T12:37:03.112Z"
+    },
+    {
+      "hash": "6933270b171f576f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-free-spins-0.png",
+      "recordedAt": "2026-08-17T12:37:03.172Z"
+    },
+    {
+      "hash": "65311306373f370f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-promo-code-0.png",
+      "recordedAt": "2026-08-17T12:37:03.233Z"
+    },
+    {
+      "hash": "6969174f0d1d170b",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:_generic:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-generic-0.png",
+      "recordedAt": "2026-08-17T12:37:03.277Z"
+    },
+    {
+      "hash": "692b1f0c0d1d070d",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v2:_generic:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v2-generic-1.png",
+      "recordedAt": "2026-08-17T12:37:03.319Z"
+    },
+    {
+      "hash": "18440f17172f2fcc",
+      "siteSlug": "betovo",
+      "jobId": "logo:betovo:v2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/images/logo.png",
+      "recordedAt": "2026-08-17T12:37:03.346Z"
+    },
+    {
+      "hash": "4d4d331717132b0f",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:home:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-home-0.png",
+      "recordedAt": "2026-08-17T12:41:22.928Z"
+    },
+    {
+      "hash": "8ecc711717161b2b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:review:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-review-0.png",
+      "recordedAt": "2026-08-17T12:41:22.999Z"
+    },
+    {
+      "hash": "8e4c31171717131b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-bonus-0.png",
+      "recordedAt": "2026-08-17T12:41:23.060Z"
+    },
+    {
+      "hash": "cdcd3317171d333b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-withdrawals-0.png",
+      "recordedAt": "2026-08-17T12:41:23.104Z"
+    },
+    {
+      "hash": "8ecc7117969e1b1b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-slots-0.png",
+      "recordedAt": "2026-08-17T12:41:23.150Z"
+    },
+    {
+      "hash": "4d4d331717171313",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:login:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-login-0.png",
+      "recordedAt": "2026-08-17T12:41:23.203Z"
+    },
+    {
+      "hash": "8ccd331717133333",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-login-1.png",
+      "recordedAt": "2026-08-17T12:41:23.247Z"
+    },
+    {
+      "hash": "8ecc335757175b5b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-application-0.png",
+      "recordedAt": "2026-08-17T12:41:23.304Z"
+    },
+    {
+      "hash": "8dcd36163c1a181b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:application:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-application-1.png",
+      "recordedAt": "2026-08-17T12:41:23.355Z"
+    },
+    {
+      "hash": "8e4cb39796575313",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-registration-0.png",
+      "recordedAt": "2026-08-17T12:41:23.395Z"
+    },
+    {
+      "hash": "8ecc931717171313",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:registration:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-registration-1.png",
+      "recordedAt": "2026-08-17T12:41:23.434Z"
+    },
+    {
+      "hash": "8ecc351737172723",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:no-deposit-bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-17T12:41:23.474Z"
+    },
+    {
+      "hash": "cc4d3317172b2f4d",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-free-spins-0.png",
+      "recordedAt": "2026-08-17T12:41:23.515Z"
+    },
+    {
+      "hash": "cecc32171717171b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-promo-code-0.png",
+      "recordedAt": "2026-08-17T12:41:23.556Z"
+    },
+    {
+      "hash": "8ecc71171717131b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:_generic:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-generic-0.png",
+      "recordedAt": "2026-08-17T12:41:23.598Z"
+    },
+    {
+      "hash": "8fcc29171717131b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v2:_generic:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v2-generic-1.png",
+      "recordedAt": "2026-08-17T12:41:23.640Z"
+    },
+    {
+      "hash": "fb5d9a3af8f0f8b0",
+      "siteSlug": "amunra",
+      "jobId": "logo:amunra:v2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/images/logo.png",
+      "recordedAt": "2026-08-17T12:41:23.682Z"
+    },
+    {
+      "hash": "2b0b0f0f155c1793",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:home:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-home-0.png",
+      "recordedAt": "2026-08-17T13:03:29.538Z"
+    },
+    {
+      "hash": "790f0f4d0d13170e",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:home:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-home-1.png",
+      "recordedAt": "2026-08-17T13:03:29.600Z"
+    },
+    {
+      "hash": "290f17171d1b1797",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:home:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-home-2.png",
+      "recordedAt": "2026-08-17T13:03:29.644Z"
+    },
+    {
+      "hash": "2b0707551517070f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:home:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-home-3.png",
+      "recordedAt": "2026-08-17T13:03:29.707Z"
+    },
+    {
+      "hash": "692b294731311717",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:review:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-review-0.png",
+      "recordedAt": "2026-08-17T13:03:29.771Z"
+    },
+    {
+      "hash": "692b0e0716151d17",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:review:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-review-1.png",
+      "recordedAt": "2026-08-17T13:03:29.820Z"
+    },
+    {
+      "hash": "692b0a1755531786",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:review:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-review-2.png",
+      "recordedAt": "2026-08-17T13:03:29.864Z"
+    },
+    {
+      "hash": "69172b0b1f27271f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-bonus-0.png",
+      "recordedAt": "2026-08-17T13:03:29.905Z"
+    },
+    {
+      "hash": "694d0f1717151717",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-bonus-1.png",
+      "recordedAt": "2026-08-17T13:03:29.949Z"
+    },
+    {
+      "hash": "4d4d0f171f0b1f0f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-bonus-2.png",
+      "recordedAt": "2026-08-17T13:03:29.994Z"
+    },
+    {
+      "hash": "691b3f0f1b173727",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:bonus:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-bonus-3.png",
+      "recordedAt": "2026-08-17T13:03:30.040Z"
+    },
+    {
+      "hash": "694b0d03320f0f16",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-withdrawals-0.png",
+      "recordedAt": "2026-08-17T13:03:30.105Z"
+    },
+    {
+      "hash": "6923332b191d191b",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:withdrawals:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-withdrawals-1.png",
+      "recordedAt": "2026-08-17T13:03:30.165Z"
+    },
+    {
+      "hash": "791316272f2b2b2b",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:withdrawals:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-withdrawals-2.png",
+      "recordedAt": "2026-08-17T13:03:30.212Z"
+    },
+    {
+      "hash": "cc4d070f1f1f0f0f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-slots-0.png",
+      "recordedAt": "2026-08-17T13:03:30.255Z"
+    },
+    {
+      "hash": "4d4d1717971d4d0f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:slots:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-slots-1.png",
+      "recordedAt": "2026-08-17T13:03:30.298Z"
+    },
+    {
+      "hash": "cc6d071e1b171717",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:slots:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-slots-2.png",
+      "recordedAt": "2026-08-17T13:03:30.341Z"
+    },
+    {
+      "hash": "61333b0f2d19394d",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:slots:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-slots-3.png",
+      "recordedAt": "2026-08-17T13:03:30.384Z"
+    },
+    {
+      "hash": "55753b071f3b0b0b",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:login:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-login-0.png",
+      "recordedAt": "2026-08-17T13:03:30.427Z"
+    },
+    {
+      "hash": "71334b3313170f4e",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-login-1.png",
+      "recordedAt": "2026-08-17T13:03:30.467Z"
+    },
+    {
+      "hash": "7133570333191d1d",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-application-0.png",
+      "recordedAt": "2026-08-17T13:03:30.509Z"
+    },
+    {
+      "hash": "69333317333b1b1b",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:application:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-application-1.png",
+      "recordedAt": "2026-08-17T13:03:30.550Z"
+    },
+    {
+      "hash": "31370f271d191909",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-registration-0.png",
+      "recordedAt": "2026-08-17T13:03:30.609Z"
+    },
+    {
+      "hash": "792d2d253332b717",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:registration:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-registration-1.png",
+      "recordedAt": "2026-08-17T13:03:30.676Z"
+    },
+    {
+      "hash": "612b070d4f17375f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:no-deposit-bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-17T13:03:30.745Z"
+    },
+    {
+      "hash": "692b27051a331316",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:no-deposit-bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-no-deposit-bonus-1.png",
+      "recordedAt": "2026-08-17T13:03:30.802Z"
+    },
+    {
+      "hash": "696b474d4f1f1f8f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:no-deposit-bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-no-deposit-bonus-2.png",
+      "recordedAt": "2026-08-17T13:03:30.847Z"
+    },
+    {
+      "hash": "4d2f474f371f0f0f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-free-spins-0.png",
+      "recordedAt": "2026-08-17T13:03:30.895Z"
+    },
+    {
+      "hash": "4d2d2f1f0f1f1f0f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:free-spins:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-free-spins-1.png",
+      "recordedAt": "2026-08-17T13:03:30.938Z"
+    },
+    {
+      "hash": "f023070f0f1f154d",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:free-spins:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-free-spins-2.png",
+      "recordedAt": "2026-08-17T13:03:30.982Z"
+    },
+    {
+      "hash": "793b170b3b130e27",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-promo-code-0.png",
+      "recordedAt": "2026-08-17T13:03:31.030Z"
+    },
+    {
+      "hash": "693b1f1e15170717",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:promo-code:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-promo-code-1.png",
+      "recordedAt": "2026-08-17T13:03:31.077Z"
+    },
+    {
+      "hash": "692b0e1f1b969717",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:promo-code:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-promo-code-2.png",
+      "recordedAt": "2026-08-17T13:03:31.122Z"
+    },
+    {
+      "hash": "6d6d0f554d0b1f0f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:_generic:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-generic-0.png",
+      "recordedAt": "2026-08-17T13:03:31.168Z"
+    },
+    {
+      "hash": "79172f131d1d3d35",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:_generic:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-generic-1.png",
+      "recordedAt": "2026-08-17T13:03:31.213Z"
+    },
+    {
+      "hash": "690f071715171311",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:_generic:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-generic-2.png",
+      "recordedAt": "2026-08-17T13:03:31.261Z"
+    },
+    {
+      "hash": "692b0f074d4d0f17",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:_generic:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-generic-3.png",
+      "recordedAt": "2026-08-17T13:03:31.306Z"
+    },
+    {
+      "hash": "692f071737351b1f",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:_generic:4",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-generic-4.png",
+      "recordedAt": "2026-08-17T13:03:31.350Z"
+    },
+    {
+      "hash": "692b0f0f1f9f0d17",
+      "siteSlug": "betovo",
+      "jobId": "master:betovo:v3:_generic:5",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/.generated/image-masters/master-betovo-v3-generic-5.png",
+      "recordedAt": "2026-08-17T13:03:31.395Z"
+    },
+    {
+      "hash": "19250f171f2f374a",
+      "siteSlug": "betovo",
+      "jobId": "logo:betovo:v3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betovo/images/logo.png",
+      "recordedAt": "2026-08-17T13:03:31.430Z"
+    },
+    {
+      "hash": "cc4c33171333690f",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:home:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-home-0.png",
+      "recordedAt": "2026-08-17T13:12:42.241Z"
+    },
+    {
+      "hash": "4c4d131733337133",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:home:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-home-1.png",
+      "recordedAt": "2026-08-17T13:12:42.291Z"
+    },
+    {
+      "hash": "0f4d33171733690f",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:home:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-home-2.png",
+      "recordedAt": "2026-08-17T13:12:42.331Z"
+    },
+    {
+      "hash": "4c4d3317179f9a39",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:home:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-home-3.png",
+      "recordedAt": "2026-08-17T13:12:42.373Z"
+    },
+    {
+      "hash": "8ecc71171717170f",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:review:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-review-0.png",
+      "recordedAt": "2026-08-17T13:12:42.417Z"
+    },
+    {
+      "hash": "cc4c33171796961f",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:review:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-review-1.png",
+      "recordedAt": "2026-08-17T13:12:42.472Z"
+    },
+    {
+      "hash": "cc4d3317555d4d0b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:review:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-review-2.png",
+      "recordedAt": "2026-08-17T13:12:42.536Z"
+    },
+    {
+      "hash": "4d4d17171f1f5913",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-bonus-0.png",
+      "recordedAt": "2026-08-17T13:12:42.585Z"
+    },
+    {
+      "hash": "8ecc3317171f1b1b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-bonus-1.png",
+      "recordedAt": "2026-08-17T13:12:42.661Z"
+    },
+    {
+      "hash": "8ecc335755175353",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-bonus-2.png",
+      "recordedAt": "2026-08-17T13:12:42.718Z"
+    },
+    {
+      "hash": "cc4d331713595111",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:bonus:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-bonus-3.png",
+      "recordedAt": "2026-08-17T13:12:42.763Z"
+    },
+    {
+      "hash": "cc4d33575ddcdd4d",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-withdrawals-0.png",
+      "recordedAt": "2026-08-17T13:12:42.809Z"
+    },
+    {
+      "hash": "8ecc3355554d111b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:withdrawals:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-withdrawals-1.png",
+      "recordedAt": "2026-08-17T13:12:42.874Z"
+    },
+    {
+      "hash": "cc4c3317175d5533",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:withdrawals:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-withdrawals-2.png",
+      "recordedAt": "2026-08-17T13:12:42.939Z"
+    },
+    {
+      "hash": "cc4d3317554d4d5d",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-slots-0.png",
+      "recordedAt": "2026-08-17T13:12:42.986Z"
+    },
+    {
+      "hash": "cd4d3316151e9c33",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:slots:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-slots-1.png",
+      "recordedAt": "2026-08-17T13:12:43.031Z"
+    },
+    {
+      "hash": "4d4d33171f9f9a19",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:slots:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-slots-2.png",
+      "recordedAt": "2026-08-17T13:12:43.075Z"
+    },
+    {
+      "hash": "4d4d331717178e9e",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:slots:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-slots-3.png",
+      "recordedAt": "2026-08-17T13:12:43.120Z"
+    },
+    {
+      "hash": "8ccc3d1d351d1919",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:login:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-login-0.png",
+      "recordedAt": "2026-08-17T13:12:43.163Z"
+    },
+    {
+      "hash": "8c4d3115151d1c1c",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-login-1.png",
+      "recordedAt": "2026-08-17T13:12:43.210Z"
+    },
+    {
+      "hash": "8e4c33171b5b6969",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-application-0.png",
+      "recordedAt": "2026-08-17T13:12:43.272Z"
+    },
+    {
+      "hash": "8ecc3317175f5d5d",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:application:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-application-1.png",
+      "recordedAt": "2026-08-17T13:12:43.334Z"
+    },
+    {
+      "hash": "4d4933171796d13b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-registration-0.png",
+      "recordedAt": "2026-08-17T13:12:43.390Z"
+    },
+    {
+      "hash": "8ecc311717969696",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:registration:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-registration-1.png",
+      "recordedAt": "2026-08-17T13:12:43.436Z"
+    },
+    {
+      "hash": "8ccd3335391f3131",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:no-deposit-bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-17T13:12:43.479Z"
+    },
+    {
+      "hash": "cccc7117179e9a51",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:no-deposit-bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-no-deposit-bonus-1.png",
+      "recordedAt": "2026-08-17T13:12:43.523Z"
+    },
+    {
+      "hash": "8ecc3317131f1713",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:no-deposit-bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-no-deposit-bonus-2.png",
+      "recordedAt": "2026-08-17T13:12:43.582Z"
+    },
+    {
+      "hash": "8ecc7117150f1f9b",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-free-spins-0.png",
+      "recordedAt": "2026-08-17T13:12:43.643Z"
+    },
+    {
+      "hash": "4d49331717170e9e",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:free-spins:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-free-spins-1.png",
+      "recordedAt": "2026-08-17T13:12:43.694Z"
+    },
+    {
+      "hash": "cd693216169e9212",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:free-spins:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-free-spins-2.png",
+      "recordedAt": "2026-08-17T13:12:43.737Z"
+    },
+    {
+      "hash": "cd4d331717161796",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-promo-code-0.png",
+      "recordedAt": "2026-08-17T13:12:43.778Z"
+    },
+    {
+      "hash": "cccc331717969655",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:promo-code:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-promo-code-1.png",
+      "recordedAt": "2026-08-17T13:12:43.819Z"
+    },
+    {
+      "hash": "cccc3317179c9839",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:promo-code:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-promo-code-2.png",
+      "recordedAt": "2026-08-17T13:12:43.861Z"
+    },
+    {
+      "hash": "8ecc131717565656",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:_generic:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-generic-0.png",
+      "recordedAt": "2026-08-17T13:12:43.902Z"
+    },
+    {
+      "hash": "8ecc711717161713",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:_generic:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-generic-1.png",
+      "recordedAt": "2026-08-17T13:12:43.943Z"
+    },
+    {
+      "hash": "8ecc331713191939",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:_generic:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-generic-2.png",
+      "recordedAt": "2026-08-17T13:12:43.987Z"
+    },
+    {
+      "hash": "8ecc711715dd5953",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:_generic:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-generic-3.png",
+      "recordedAt": "2026-08-17T13:12:44.028Z"
+    },
+    {
+      "hash": "8ecc13171796564d",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:_generic:4",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-generic-4.png",
+      "recordedAt": "2026-08-17T13:12:44.071Z"
+    },
+    {
+      "hash": "8ecc3117150d4949",
+      "siteSlug": "amunra",
+      "jobId": "master:amunra:v3:_generic:5",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/.generated/image-masters/master-amunra-v3-generic-5.png",
+      "recordedAt": "2026-08-17T13:12:44.113Z"
+    },
+    {
+      "hash": "8c0f332b717171b2",
+      "siteSlug": "amunra",
+      "jobId": "logo:amunra:v3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/amunra/images/logo.png",
+      "recordedAt": "2026-08-17T13:12:44.146Z"
+    },
+    {
+      "hash": "940f1f0e668e94cc",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:home:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-home-0.png",
+      "recordedAt": "2026-08-17T13:21:55.121Z"
+    },
+    {
+      "hash": "a6151f8bb3b694cd",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:home:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-home-1.png",
+      "recordedAt": "2026-08-17T13:21:55.190Z"
+    },
+    {
+      "hash": "cb0f0f0e6d0caa86",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:home:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-home-2.png",
+      "recordedAt": "2026-08-17T13:21:55.261Z"
+    },
+    {
+      "hash": "8e4c0f0f0d8ccc8c",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:home:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-home-3.png",
+      "recordedAt": "2026-08-17T13:21:55.318Z"
+    },
+    {
+      "hash": "55071f9f871c8cdc",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:review:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-review-0.png",
+      "recordedAt": "2026-08-17T13:21:55.358Z"
+    },
+    {
+      "hash": "c4c70f0f2f1d9ccd",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:review:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-review-1.png",
+      "recordedAt": "2026-08-17T13:21:55.401Z"
+    },
+    {
+      "hash": "24461f0f4d4d3cac",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:review:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-review-2.png",
+      "recordedAt": "2026-08-17T13:21:55.442Z"
+    },
+    {
+      "hash": "464e1f0f4f0d4d73",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-bonus-0.png",
+      "recordedAt": "2026-08-17T13:21:55.485Z"
+    },
+    {
+      "hash": "2436170f0f169617",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-bonus-1.png",
+      "recordedAt": "2026-08-17T13:21:55.527Z"
+    },
+    {
+      "hash": "8e53130f0d2b3217",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-bonus-2.png",
+      "recordedAt": "2026-08-17T13:21:55.570Z"
+    },
+    {
+      "hash": "0e560f0f6d353437",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:bonus:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-bonus-3.png",
+      "recordedAt": "2026-08-17T13:21:55.612Z"
+    },
+    {
+      "hash": "87d71f0f672eb687",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-withdrawals-0.png",
+      "recordedAt": "2026-08-17T13:21:55.654Z"
+    },
+    {
+      "hash": "16270f4e4c2e8cb4",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:withdrawals:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-withdrawals-1.png",
+      "recordedAt": "2026-08-17T13:21:55.696Z"
+    },
+    {
+      "hash": "94170f2b2f0f9696",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:withdrawals:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-withdrawals-2.png",
+      "recordedAt": "2026-08-17T13:21:55.738Z"
+    },
+    {
+      "hash": "c2430d192b041ceb",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-slots-0.png",
+      "recordedAt": "2026-08-17T13:21:55.781Z"
+    },
+    {
+      "hash": "26270f0f4e4eb6dc",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:slots:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-slots-1.png",
+      "recordedAt": "2026-08-17T13:21:55.834Z"
+    },
+    {
+      "hash": "15474f0f262c159c",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:slots:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-slots-2.png",
+      "recordedAt": "2026-08-17T13:21:55.899Z"
+    },
+    {
+      "hash": "06074d1f2726979d",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:slots:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-slots-3.png",
+      "recordedAt": "2026-08-17T13:21:55.963Z"
+    },
+    {
+      "hash": "96b7170f06169696",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:login:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-login-0.png",
+      "recordedAt": "2026-08-17T13:21:56.018Z"
+    },
+    {
+      "hash": "940f1f9b4f19988f",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-login-1.png",
+      "recordedAt": "2026-08-17T13:21:56.059Z"
+    },
+    {
+      "hash": "8e9713173333b64d",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-application-0.png",
+      "recordedAt": "2026-08-17T13:21:56.101Z"
+    },
+    {
+      "hash": "a2271757533750d4",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:application:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-application-1.png",
+      "recordedAt": "2026-08-17T13:21:56.145Z"
+    },
+    {
+      "hash": "06b2170d9716b289",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-registration-0.png",
+      "recordedAt": "2026-08-17T13:21:56.187Z"
+    },
+    {
+      "hash": "2e0d1d1d4d0d38d9",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:registration:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-registration-1.png",
+      "recordedAt": "2026-08-17T13:21:56.233Z"
+    },
+    {
+      "hash": "0c67270d0d04d5d5",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:no-deposit-bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-17T13:21:56.276Z"
+    },
+    {
+      "hash": "8696130f0717929a",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:no-deposit-bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-no-deposit-bonus-1.png",
+      "recordedAt": "2026-08-17T13:21:56.321Z"
+    },
+    {
+      "hash": "86860f2f2b0f8e8c",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:no-deposit-bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-no-deposit-bonus-2.png",
+      "recordedAt": "2026-08-17T13:21:56.365Z"
+    },
+    {
+      "hash": "260f4f1f694d949e",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-free-spins-0.png",
+      "recordedAt": "2026-08-17T13:21:56.410Z"
+    },
+    {
+      "hash": "2d8a0b0b2935cb2b",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:free-spins:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-free-spins-1.png",
+      "recordedAt": "2026-08-17T13:21:56.453Z"
+    },
+    {
+      "hash": "8e0f0f0f4d4d0c9e",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:free-spins:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-free-spins-2.png",
+      "recordedAt": "2026-08-17T13:21:56.497Z"
+    },
+    {
+      "hash": "040e0f4f4d0f5c5e",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-promo-code-0.png",
+      "recordedAt": "2026-08-17T13:21:56.540Z"
+    },
+    {
+      "hash": "a4270f17574d16b5",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:promo-code:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-promo-code-1.png",
+      "recordedAt": "2026-08-17T13:21:56.585Z"
+    },
+    {
+      "hash": "060f0f0d0f1f8c97",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:promo-code:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-promo-code-2.png",
+      "recordedAt": "2026-08-17T13:21:56.628Z"
+    },
+    {
+      "hash": "1e1f0f1d45450d5b",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:_generic:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-generic-0.png",
+      "recordedAt": "2026-08-17T13:21:56.674Z"
+    },
+    {
+      "hash": "02070f0f490d5cd9",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:_generic:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-generic-1.png",
+      "recordedAt": "2026-08-17T13:21:56.716Z"
+    },
+    {
+      "hash": "ae170f0f0f17944e",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:_generic:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-generic-2.png",
+      "recordedAt": "2026-08-17T13:21:56.760Z"
+    },
+    {
+      "hash": "0e170f0b0b05070f",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:_generic:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-generic-3.png",
+      "recordedAt": "2026-08-17T13:21:56.804Z"
+    },
+    {
+      "hash": "8c950f0f2b179696",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:_generic:4",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-generic-4.png",
+      "recordedAt": "2026-08-17T13:21:56.848Z"
+    },
+    {
+      "hash": "0f0d0f0f0f278617",
+      "siteSlug": "pokobet",
+      "jobId": "master:pokobet:v3:_generic:5",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/.generated/image-masters/master-pokobet-v3-generic-5.png",
+      "recordedAt": "2026-08-17T13:21:56.891Z"
+    },
+    {
+      "hash": "070f0f17070f0f0f",
+      "siteSlug": "pokobet",
+      "jobId": "logo:pokobet:v3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/pokobet/images/logo.png",
+      "recordedAt": "2026-08-17T13:21:56.924Z"
+    },
+    {
+      "hash": "4f8f8f0f1f0f1736",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:home:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-home-0.png",
+      "recordedAt": "2026-08-17T13:30:45.994Z"
+    },
+    {
+      "hash": "0f1f9f9797171717",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:home:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-home-1.png",
+      "recordedAt": "2026-08-17T13:30:46.067Z"
+    },
+    {
+      "hash": "37971f1717373737",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:home:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-home-2.png",
+      "recordedAt": "2026-08-17T13:30:46.127Z"
+    },
+    {
+      "hash": "0f1f1f171f1f1f97",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:home:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-home-3.png",
+      "recordedAt": "2026-08-17T13:30:46.174Z"
+    },
+    {
+      "hash": "4f171f1717373737",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:review:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-review-0.png",
+      "recordedAt": "2026-08-17T13:30:46.214Z"
+    },
+    {
+      "hash": "0f1f1f17171f3737",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:review:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-review-1.png",
+      "recordedAt": "2026-08-17T13:30:46.254Z"
+    },
+    {
+      "hash": "0f9f97979717070f",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:review:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-review-2.png",
+      "recordedAt": "2026-08-17T13:30:46.294Z"
+    },
+    {
+      "hash": "0f175f1717171717",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-bonus-0.png",
+      "recordedAt": "2026-08-17T13:30:46.335Z"
+    },
+    {
+      "hash": "1e0e1f1e9f1e0f27",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-bonus-1.png",
+      "recordedAt": "2026-08-17T13:30:46.374Z"
+    },
+    {
+      "hash": "1f2e2e3f2e3e1f1e",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-bonus-2.png",
+      "recordedAt": "2026-08-17T13:30:46.412Z"
+    },
+    {
+      "hash": "5e1e1e1e0e4e4e4e",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:bonus:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-bonus-3.png",
+      "recordedAt": "2026-08-17T13:30:46.467Z"
+    },
+    {
+      "hash": "8f8f0f0f0f0f0f17",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-withdrawals-0.png",
+      "recordedAt": "2026-08-17T13:30:46.528Z"
+    },
+    {
+      "hash": "7e2f8f0f272f0f27",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:withdrawals:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-withdrawals-1.png",
+      "recordedAt": "2026-08-17T13:30:46.590Z"
+    },
+    {
+      "hash": "1f1717170f0f1733",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-slots-0.png",
+      "recordedAt": "2026-08-17T13:30:46.718Z"
+    },
+    {
+      "hash": "170f0f1f2f373737",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:slots:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-slots-1.png",
+      "recordedAt": "2026-08-17T13:30:46.775Z"
+    },
+    {
+      "hash": "17270f37370f0f2f",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:slots:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-slots-2.png",
+      "recordedAt": "2026-08-17T13:30:46.819Z"
+    },
+    {
+      "hash": "1e2f2e2e1e2e6e6e",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:slots:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-slots-3.png",
+      "recordedAt": "2026-08-17T13:30:46.859Z"
+    },
+    {
+      "hash": "6f2f2f270f0f2f0f",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:login:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-login-0.png",
+      "recordedAt": "2026-08-17T13:30:46.897Z"
+    },
+    {
+      "hash": "5e8e9f26be1e1626",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-login-1.png",
+      "recordedAt": "2026-08-17T13:30:46.936Z"
+    },
+    {
+      "hash": "0f17171717171737",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-application-0.png",
+      "recordedAt": "2026-08-17T13:30:46.975Z"
+    },
+    {
+      "hash": "1f0f2f2f0f0e6e4f",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:application:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-application-1.png",
+      "recordedAt": "2026-08-17T13:30:47.013Z"
+    },
+    {
+      "hash": "6f1f1f0f1e1e1e2e",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-registration-0.png",
+      "recordedAt": "2026-08-17T13:30:47.049Z"
+    },
+    {
+      "hash": "1e1e9e3e2e1e0e0e",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:registration:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-registration-1.png",
+      "recordedAt": "2026-08-17T13:30:47.086Z"
+    },
+    {
+      "hash": "1f1f0f0f0f0f3737",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:no-deposit-bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-17T13:30:47.124Z"
+    },
+    {
+      "hash": "1f0f2f3f0f0f3637",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:no-deposit-bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-no-deposit-bonus-1.png",
+      "recordedAt": "2026-08-17T13:30:47.162Z"
+    },
+    {
+      "hash": "1f2f0f0f1f0f0f2e",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:no-deposit-bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-no-deposit-bonus-2.png",
+      "recordedAt": "2026-08-17T13:30:47.199Z"
+    },
+    {
+      "hash": "1f8f0f170f0f1717",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-free-spins-0.png",
+      "recordedAt": "2026-08-17T13:30:47.236Z"
+    },
+    {
+      "hash": "4f9f0f0f0f0f1f1f",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:free-spins:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-free-spins-1.png",
+      "recordedAt": "2026-08-17T13:30:47.273Z"
+    },
+    {
+      "hash": "4e0e0e0e0e2e2e16",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:free-spins:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-free-spins-2.png",
+      "recordedAt": "2026-08-17T13:30:47.312Z"
+    },
+    {
+      "hash": "0f979f97b71f1717",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-promo-code-0.png",
+      "recordedAt": "2026-08-17T13:30:47.351Z"
+    },
+    {
+      "hash": "6e0f3e2e0e0e6e6e",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:promo-code:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-promo-code-1.png",
+      "recordedAt": "2026-08-17T13:30:47.386Z"
+    },
+    {
+      "hash": "3f9f4f171f3f3637",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:promo-code:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-promo-code-2.png",
+      "recordedAt": "2026-08-17T13:30:47.427Z"
+    },
+    {
+      "hash": "1f1f1f9f1f0f0f17",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:_generic:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-generic-0.png",
+      "recordedAt": "2026-08-17T13:30:47.466Z"
+    },
+    {
+      "hash": "2f0f0f0f0f2f2727",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:_generic:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-generic-1.png",
+      "recordedAt": "2026-08-17T13:30:47.505Z"
+    },
+    {
+      "hash": "4f9f8f1f170f0f1f",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:_generic:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-generic-2.png",
+      "recordedAt": "2026-08-17T13:30:47.542Z"
+    },
+    {
+      "hash": "5f1e0e0e0f2e3636",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:_generic:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-generic-3.png",
+      "recordedAt": "2026-08-17T13:30:47.580Z"
+    },
+    {
+      "hash": "1e0f1f0e2f3e1e1f",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:_generic:4",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-generic-4.png",
+      "recordedAt": "2026-08-17T13:30:47.618Z"
+    },
+    {
+      "hash": "1e2e2e2e1e1e2f2e",
+      "siteSlug": "partycasino",
+      "jobId": "master:partycasino:v3:_generic:5",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/.generated/image-masters/master-partycasino-v3-generic-5.png",
+      "recordedAt": "2026-08-17T13:30:47.657Z"
+    },
+    {
+      "hash": "7fff4f969e8f7fff",
+      "siteSlug": "partycasino",
+      "jobId": "logo:partycasino:v3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/partycasino/images/logo.png",
+      "recordedAt": "2026-08-17T13:30:47.680Z"
+    },
+    {
+      "hash": "0b0f0f0f0f171715",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:home:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-home-0.png",
+      "recordedAt": "2026-08-17T13:39:33.179Z"
+    },
+    {
+      "hash": "0c0c1f0d270f1713",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:home:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-home-2.png",
+      "recordedAt": "2026-08-17T13:39:33.279Z"
+    },
+    {
+      "hash": "2b0b0f0f0f171717",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:home:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-home-3.png",
+      "recordedAt": "2026-08-17T13:39:33.320Z"
+    },
+    {
+      "hash": "0b4b0e0f2f2f4d07",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:review:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-review-0.png",
+      "recordedAt": "2026-08-17T13:39:33.377Z"
+    },
+    {
+      "hash": "1313140d2f26cd0f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:review:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-review-1.png",
+      "recordedAt": "2026-08-17T13:39:33.418Z"
+    },
+    {
+      "hash": "0b0f0f0f2f2f8f0f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:review:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-review-2.png",
+      "recordedAt": "2026-08-17T13:39:33.452Z"
+    },
+    {
+      "hash": "0b0b0d0f0f4d0d07",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-bonus-0.png",
+      "recordedAt": "2026-08-17T13:39:33.484Z"
+    },
+    {
+      "hash": "13171e0f2f3ece0f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-bonus-1.png",
+      "recordedAt": "2026-08-17T13:39:33.519Z"
+    },
+    {
+      "hash": "848e4d0f0d0f0f1e",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-bonus-2.png",
+      "recordedAt": "2026-08-17T13:39:33.555Z"
+    },
+    {
+      "hash": "43430d27272bcf07",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:bonus:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-bonus-3.png",
+      "recordedAt": "2026-08-17T13:39:33.591Z"
+    },
+    {
+      "hash": "2b0f0f2f0f0f0f96",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-withdrawals-0.png",
+      "recordedAt": "2026-08-17T13:39:33.627Z"
+    },
+    {
+      "hash": "33931727272f4f07",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:withdrawals:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-withdrawals-1.png",
+      "recordedAt": "2026-08-17T13:39:33.663Z"
+    },
+    {
+      "hash": "0c0e1f0d4d57a32b",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:withdrawals:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-withdrawals-2.png",
+      "recordedAt": "2026-08-17T13:39:33.698Z"
+    },
+    {
+      "hash": "0b0f3f4f0f6f8f0f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-slots-0.png",
+      "recordedAt": "2026-08-17T13:39:33.735Z"
+    },
+    {
+      "hash": "2b071d074723270f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:slots:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-slots-1.png",
+      "recordedAt": "2026-08-17T13:39:33.772Z"
+    },
+    {
+      "hash": "0b0f0f0f0f17330f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:slots:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-slots-2.png",
+      "recordedAt": "2026-08-17T13:39:33.807Z"
+    },
+    {
+      "hash": "0b43c61d0625cc46",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:slots:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-slots-3.png",
+      "recordedAt": "2026-08-17T13:39:33.844Z"
+    },
+    {
+      "hash": "0b0f171f2f371b1b",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:login:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-login-0.png",
+      "recordedAt": "2026-08-17T13:39:33.885Z"
+    },
+    {
+      "hash": "0b0b160f2333de0f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-login-1.png",
+      "recordedAt": "2026-08-17T13:39:33.941Z"
+    },
+    {
+      "hash": "2b0f0f2b0b0f0e0f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-application-0.png",
+      "recordedAt": "2026-08-17T13:39:33.984Z"
+    },
+    {
+      "hash": "2b0b262f2f2b970e",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:application:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-application-1.png",
+      "recordedAt": "2026-08-17T13:39:34.017Z"
+    },
+    {
+      "hash": "090d062f2b6f8726",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-registration-0.png",
+      "recordedAt": "2026-08-17T13:39:34.050Z"
+    },
+    {
+      "hash": "93971b4f6f6f9717",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:registration:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-registration-1.png",
+      "recordedAt": "2026-08-17T13:39:34.085Z"
+    },
+    {
+      "hash": "490d0e0f0f6f0f0f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:no-deposit-bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-17T13:39:34.122Z"
+    },
+    {
+      "hash": "0b4b0e0f2f2e8e0f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:no-deposit-bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-no-deposit-bonus-1.png",
+      "recordedAt": "2026-08-17T13:39:34.162Z"
+    },
+    {
+      "hash": "0b0b0c0d0d2ecc0e",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-free-spins-0.png",
+      "recordedAt": "2026-08-17T13:39:34.241Z"
+    },
+    {
+      "hash": "1517170f0f170f17",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:free-spins:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-free-spins-1.png",
+      "recordedAt": "2026-08-17T13:39:34.279Z"
+    },
+    {
+      "hash": "131707270f278e0f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:free-spins:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-free-spins-2.png",
+      "recordedAt": "2026-08-17T13:39:34.317Z"
+    },
+    {
+      "hash": "0d8f372f6f77970f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-promo-code-0.png",
+      "recordedAt": "2026-08-17T13:39:34.354Z"
+    },
+    {
+      "hash": "1317172f6f6f8f17",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:promo-code:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-promo-code-1.png",
+      "recordedAt": "2026-08-17T13:39:34.393Z"
+    },
+    {
+      "hash": "858566276d6b84c4",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:promo-code:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-promo-code-2.png",
+      "recordedAt": "2026-08-17T13:39:34.436Z"
+    },
+    {
+      "hash": "0f0f8e0f4f4e0f0f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:_generic:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-generic-0.png",
+      "recordedAt": "2026-08-17T13:39:34.496Z"
+    },
+    {
+      "hash": "90c032363430c000",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:_generic:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-generic-1.png",
+      "recordedAt": "2026-08-17T13:39:34.547Z"
+    },
+    {
+      "hash": "210f0f0f4d0d170f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:_generic:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-generic-2.png",
+      "recordedAt": "2026-08-17T13:39:34.584Z"
+    },
+    {
+      "hash": "84040f1e25251307",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:_generic:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-generic-3.png",
+      "recordedAt": "2026-08-17T13:39:34.623Z"
+    },
+    {
+      "hash": "14041b1b2727070f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v3:_generic:4",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v3-generic-4.png",
+      "recordedAt": "2026-08-17T13:39:34.660Z"
+    },
+    {
+      "hash": "0c0f0f0f270f0f0e",
+      "siteSlug": "winningz",
+      "jobId": "logo:winningz:v3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/images/logo.png",
+      "recordedAt": "2026-08-17T13:39:34.762Z"
+    },
+    {
+      "hash": "3735b454782a6a78",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:home:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-home-0.png",
+      "recordedAt": "2026-08-17T13:51:31.505Z"
+    },
+    {
+      "hash": "3337157979383115",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:home:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-home-1.png",
+      "recordedAt": "2026-08-17T13:51:31.577Z"
+    },
+    {
+      "hash": "3736d5963e3e3a36",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:home:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-home-2.png",
+      "recordedAt": "2026-08-17T13:51:31.631Z"
+    },
+    {
+      "hash": "1337155d391d1d1d",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:home:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-home-3.png",
+      "recordedAt": "2026-08-17T13:51:31.678Z"
+    },
+    {
+      "hash": "3735d5542c2e4e2c",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:review:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-review-0.png",
+      "recordedAt": "2026-08-17T13:51:31.724Z"
+    },
+    {
+      "hash": "256766ec4c6c4c4d",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:review:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-review-1.png",
+      "recordedAt": "2026-08-17T13:51:31.769Z"
+    },
+    {
+      "hash": "36369696be2f6dce",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:review:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-review-2.png",
+      "recordedAt": "2026-08-17T13:51:31.816Z"
+    },
+    {
+      "hash": "3536d4d8b22e6efe",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-bonus-0.png",
+      "recordedAt": "2026-08-17T13:51:31.865Z"
+    },
+    {
+      "hash": "33351554684c4c6c",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-bonus-1.png",
+      "recordedAt": "2026-08-17T13:51:31.911Z"
+    },
+    {
+      "hash": "3736d4d4f26a6af2",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-bonus-2.png",
+      "recordedAt": "2026-08-17T13:51:31.954Z"
+    },
+    {
+      "hash": "3335557978787cb4",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:bonus:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-bonus-3.png",
+      "recordedAt": "2026-08-17T13:51:31.999Z"
+    },
+    {
+      "hash": "36361696aa6a6c48",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-withdrawals-0.png",
+      "recordedAt": "2026-08-17T13:51:32.043Z"
+    },
+    {
+      "hash": "373636b6a66d4beb",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:withdrawals:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-withdrawals-1.png",
+      "recordedAt": "2026-08-17T13:51:32.087Z"
+    },
+    {
+      "hash": "3735955438686c76",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:withdrawals:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-withdrawals-2.png",
+      "recordedAt": "2026-08-17T13:51:32.130Z"
+    },
+    {
+      "hash": "4e46f4ecced6cccc",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-slots-0.png",
+      "recordedAt": "2026-08-17T13:51:32.172Z"
+    },
+    {
+      "hash": "6e6e4ecace4dcdad",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:slots:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-slots-1.png",
+      "recordedAt": "2026-08-17T13:51:32.216Z"
+    },
+    {
+      "hash": "333030f0cccececa",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:slots:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-slots-2.png",
+      "recordedAt": "2026-08-17T13:51:32.262Z"
+    },
+    {
+      "hash": "3636b696aa8e6d6d",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:slots:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-slots-3.png",
+      "recordedAt": "2026-08-17T13:51:32.306Z"
+    },
+    {
+      "hash": "176565c44cecec6c",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:login:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-login-0.png",
+      "recordedAt": "2026-08-17T13:51:32.351Z"
+    },
+    {
+      "hash": "7774d4546e327626",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-login-1.png",
+      "recordedAt": "2026-08-17T13:51:32.397Z"
+    },
+    {
+      "hash": "7666e6a4cc4a6869",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-application-0.png",
+      "recordedAt": "2026-08-17T13:51:32.442Z"
+    },
+    {
+      "hash": "33379575686c6c2c",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:application:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-application-1.png",
+      "recordedAt": "2026-08-17T13:51:32.488Z"
+    },
+    {
+      "hash": "132565ec6cc8cc4c",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-registration-0.png",
+      "recordedAt": "2026-08-17T13:51:32.534Z"
+    },
+    {
+      "hash": "3331354d6c6c6c6c",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:registration:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-registration-1.png",
+      "recordedAt": "2026-08-17T13:51:32.581Z"
+    },
+    {
+      "hash": "373636d6ce6a6869",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:no-deposit-bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-17T13:51:32.628Z"
+    },
+    {
+      "hash": "3736b696d62e4ccd",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:no-deposit-bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-no-deposit-bonus-1.png",
+      "recordedAt": "2026-08-17T13:51:32.676Z"
+    },
+    {
+      "hash": "33353555686c686a",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:no-deposit-bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-no-deposit-bonus-2.png",
+      "recordedAt": "2026-08-17T13:51:32.723Z"
+    },
+    {
+      "hash": "d7c6d6d4cc8caca4",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-free-spins-0.png",
+      "recordedAt": "2026-08-17T13:51:32.772Z"
+    },
+    {
+      "hash": "7666e2ea4e4f4eb4",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:free-spins:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-free-spins-1.png",
+      "recordedAt": "2026-08-17T13:51:32.819Z"
+    },
+    {
+      "hash": "3335d5546c6e4e68",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:free-spins:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-free-spins-2.png",
+      "recordedAt": "2026-08-17T13:51:32.865Z"
+    },
+    {
+      "hash": "37355555682aee6e",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-promo-code-0.png",
+      "recordedAt": "2026-08-17T13:51:32.912Z"
+    },
+    {
+      "hash": "37351555682a6a6a",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:promo-code:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-promo-code-1.png",
+      "recordedAt": "2026-08-17T13:51:32.958Z"
+    },
+    {
+      "hash": "272424b48eea2a6a",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:promo-code:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-promo-code-2.png",
+      "recordedAt": "2026-08-17T13:51:33.007Z"
+    },
+    {
+      "hash": "3736b6949e2a3a3a",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:_generic:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-generic-0.png",
+      "recordedAt": "2026-08-17T13:51:33.054Z"
+    },
+    {
+      "hash": "333735555d1c585a",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:_generic:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-generic-1.png",
+      "recordedAt": "2026-08-17T13:51:33.102Z"
+    },
+    {
+      "hash": "333535545c3a2aea",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:_generic:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-generic-2.png",
+      "recordedAt": "2026-08-17T13:51:33.149Z"
+    },
+    {
+      "hash": "3337155d795c5c3c",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:_generic:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-generic-3.png",
+      "recordedAt": "2026-08-17T13:51:33.194Z"
+    },
+    {
+      "hash": "373535547a2a2a41",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:_generic:4",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-generic-4.png",
+      "recordedAt": "2026-08-17T13:51:33.239Z"
+    },
+    {
+      "hash": "57351554bc2aacac",
+      "siteSlug": "snatchcasino",
+      "jobId": "master:snatchcasino:v3:_generic:5",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/.generated/image-masters/master-snatchcasino-v3-generic-5.png",
+      "recordedAt": "2026-08-17T13:51:33.283Z"
+    },
+    {
+      "hash": "1ab3e496e969b2cc",
+      "siteSlug": "snatchcasino",
+      "jobId": "logo:snatchcasino:v3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/snatchcasino/images/logo.png",
+      "recordedAt": "2026-08-17T13:51:33.317Z"
+    },
+    {
+      "hash": "1f1717331771233b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:home:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-home-1.png",
+      "recordedAt": "2026-08-17T14:02:31.854Z"
+    },
+    {
+      "hash": "3f17131313330919",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:home:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-home-2.png",
+      "recordedAt": "2026-08-17T14:02:31.905Z"
+    },
+    {
+      "hash": "0e17173753730733",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:home:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-home-3.png",
+      "recordedAt": "2026-08-17T14:02:31.950Z"
+    },
+    {
+      "hash": "1f1713111353130b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:review:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-review-0.png",
+      "recordedAt": "2026-08-17T14:02:31.997Z"
+    },
+    {
+      "hash": "0f17171355132b2b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:review:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-review-1.png",
+      "recordedAt": "2026-08-17T14:02:32.043Z"
+    },
+    {
+      "hash": "3f1713133313532b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:review:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-review-2.png",
+      "recordedAt": "2026-08-17T14:02:32.087Z"
+    },
+    {
+      "hash": "1f2f272765251d35",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-bonus-1.png",
+      "recordedAt": "2026-08-17T14:02:32.178Z"
+    },
+    {
+      "hash": "1f1713331713331b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-bonus-2.png",
+      "recordedAt": "2026-08-17T14:02:32.224Z"
+    },
+    {
+      "hash": "0e15173317313333",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:bonus:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-bonus-3.png",
+      "recordedAt": "2026-08-17T14:02:32.270Z"
+    },
+    {
+      "hash": "0f1717330f753233",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-withdrawals-0.png",
+      "recordedAt": "2026-08-17T14:02:32.315Z"
+    },
+    {
+      "hash": "3f1333330d59132b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:withdrawals:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-withdrawals-1.png",
+      "recordedAt": "2026-08-17T14:02:32.359Z"
+    },
+    {
+      "hash": "1f17133317511b2b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:withdrawals:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-withdrawals-2.png",
+      "recordedAt": "2026-08-17T14:02:32.423Z"
+    },
+    {
+      "hash": "0f17177351712b0b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-slots-0.png",
+      "recordedAt": "2026-08-17T14:02:32.495Z"
+    },
+    {
+      "hash": "0f4f4f474f494f0b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:slots:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-slots-1.png",
+      "recordedAt": "2026-08-17T14:02:32.576Z"
+    },
+    {
+      "hash": "0f17130f0f13f22b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:slots:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-slots-2.png",
+      "recordedAt": "2026-08-17T14:02:32.630Z"
+    },
+    {
+      "hash": "0f17173333712b2b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:slots:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-slots-3.png",
+      "recordedAt": "2026-08-17T14:02:32.674Z"
+    },
+    {
+      "hash": "1f1717131333693b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:login:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-login-0.png",
+      "recordedAt": "2026-08-17T14:02:32.719Z"
+    },
+    {
+      "hash": "1f17133715732b0b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-login-1.png",
+      "recordedAt": "2026-08-17T14:02:32.771Z"
+    },
+    {
+      "hash": "0f17173515352516",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-application-0.png",
+      "recordedAt": "2026-08-17T14:02:32.816Z"
+    },
+    {
+      "hash": "3f1713331f55693b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:application:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-application-1.png",
+      "recordedAt": "2026-08-17T14:02:32.861Z"
+    },
+    {
+      "hash": "1e1717133353631b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-registration-0.png",
+      "recordedAt": "2026-08-17T14:02:32.905Z"
+    },
+    {
+      "hash": "0f17173717512b2b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:registration:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-registration-1.png",
+      "recordedAt": "2026-08-17T14:02:32.949Z"
+    },
+    {
+      "hash": "0f17171717592b3b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:no-deposit-bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-17T14:02:32.993Z"
+    },
+    {
+      "hash": "0f171735578f3333",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:no-deposit-bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-no-deposit-bonus-1.png",
+      "recordedAt": "2026-08-17T14:02:33.037Z"
+    },
+    {
+      "hash": "0f171733154d3333",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:no-deposit-bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-no-deposit-bonus-2.png",
+      "recordedAt": "2026-08-17T14:02:33.099Z"
+    },
+    {
+      "hash": "0f17171717553322",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-free-spins-0.png",
+      "recordedAt": "2026-08-17T14:02:33.148Z"
+    },
+    {
+      "hash": "0f1713370f512b0f",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:free-spins:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-free-spins-1.png",
+      "recordedAt": "2026-08-17T14:02:33.190Z"
+    },
+    {
+      "hash": "1f1717bf1713f31b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:free-spins:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-free-spins-2.png",
+      "recordedAt": "2026-08-17T14:02:33.230Z"
+    },
+    {
+      "hash": "2f3737373735513b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-promo-code-0.png",
+      "recordedAt": "2026-08-17T14:02:33.271Z"
+    },
+    {
+      "hash": "1f17173b0f51332b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:promo-code:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-promo-code-1.png",
+      "recordedAt": "2026-08-17T14:02:33.312Z"
+    },
+    {
+      "hash": "2f1717333351733b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:promo-code:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-promo-code-2.png",
+      "recordedAt": "2026-08-17T14:02:33.356Z"
+    },
+    {
+      "hash": "0f17173317332b1b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:_generic:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-generic-0.png",
+      "recordedAt": "2026-08-17T14:02:33.402Z"
+    },
+    {
+      "hash": "0f1713135333332b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:_generic:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-generic-1.png",
+      "recordedAt": "2026-08-17T14:02:33.444Z"
+    },
+    {
+      "hash": "0f17133315712b2b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:_generic:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-generic-2.png",
+      "recordedAt": "2026-08-17T14:02:33.487Z"
+    },
+    {
+      "hash": "0f1713133317083b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:_generic:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-generic-3.png",
+      "recordedAt": "2026-08-17T14:02:33.529Z"
+    },
+    {
+      "hash": "1f17133315732b0b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:_generic:4",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-generic-4.png",
+      "recordedAt": "2026-08-17T14:02:33.574Z"
+    },
+    {
+      "hash": "1f1713131151331b",
+      "siteSlug": "karhubet",
+      "jobId": "master:karhubet:v3:_generic:5",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/.generated/image-masters/master-karhubet-v3-generic-5.png",
+      "recordedAt": "2026-08-17T14:02:33.616Z"
+    },
+    {
+      "hash": "4f68ccccc4e8338c",
+      "siteSlug": "karhubet",
+      "jobId": "logo:karhubet:v3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/karhubet/images/logo.png",
+      "recordedAt": "2026-08-17T14:02:33.647Z"
+    },
+    {
+      "hash": "15b273664d19a446",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:home:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-home-0.png",
+      "recordedAt": "2026-08-17T14:13:19.291Z"
+    },
+    {
+      "hash": "4de975674db86de2",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:home:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-home-1.png",
+      "recordedAt": "2026-08-17T14:13:19.325Z"
+    },
+    {
+      "hash": "946977444d156345",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:home:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-home-2.png",
+      "recordedAt": "2026-08-17T14:13:19.351Z"
+    },
+    {
+      "hash": "d42957656916974d",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:home:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-home-3.png",
+      "recordedAt": "2026-08-17T14:13:19.377Z"
+    },
+    {
+      "hash": "cc4d4c67554c0617",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:review:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-review-0.png",
+      "recordedAt": "2026-08-17T14:13:19.404Z"
+    },
+    {
+      "hash": "2b2a4b57692eae57",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:review:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-review-1.png",
+      "recordedAt": "2026-08-17T14:13:19.430Z"
+    },
+    {
+      "hash": "51694d772d2d5647",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:review:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-review-2.png",
+      "recordedAt": "2026-08-17T14:13:19.456Z"
+    },
+    {
+      "hash": "941577574d4c964f",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-bonus-0.png",
+      "recordedAt": "2026-08-17T14:13:19.483Z"
+    },
+    {
+      "hash": "1f1355464d4d0f5f",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-bonus-1.png",
+      "recordedAt": "2026-08-17T14:13:19.510Z"
+    },
+    {
+      "hash": "962a674559b1322b",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-bonus-2.png",
+      "recordedAt": "2026-08-17T14:13:19.538Z"
+    },
+    {
+      "hash": "55294f5773119113",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:bonus:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-bonus-3.png",
+      "recordedAt": "2026-08-17T14:13:19.565Z"
+    },
+    {
+      "hash": "55cd5f574d8e0f0f",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-withdrawals-0.png",
+      "recordedAt": "2026-08-17T14:13:19.591Z"
+    },
+    {
+      "hash": "862b2b464d0d8d4f",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:withdrawals:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-withdrawals-1.png",
+      "recordedAt": "2026-08-17T14:13:19.619Z"
+    },
+    {
+      "hash": "8e45574f4d0f2a4f",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:withdrawals:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-withdrawals-2.png",
+      "recordedAt": "2026-08-17T14:13:19.654Z"
+    },
+    {
+      "hash": "551546560d095551",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-slots-0.png",
+      "recordedAt": "2026-08-17T14:13:19.688Z"
+    },
+    {
+      "hash": "333377767d297263",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:slots:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-slots-1.png",
+      "recordedAt": "2026-08-17T14:13:19.716Z"
+    },
+    {
+      "hash": "8e5545470d0d0f4e",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:slots:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-slots-2.png",
+      "recordedAt": "2026-08-17T14:13:19.742Z"
+    },
+    {
+      "hash": "332b4757370d7273",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:slots:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-slots-3.png",
+      "recordedAt": "2026-08-17T14:13:19.770Z"
+    },
+    {
+      "hash": "8c6955554d1d1e4f",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:login:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-login-0.png",
+      "recordedAt": "2026-08-17T14:13:19.797Z"
+    },
+    {
+      "hash": "0f2353564d55960d",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-login-1.png",
+      "recordedAt": "2026-08-17T14:13:19.825Z"
+    },
+    {
+      "hash": "2a2a77545d15b6e6",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-application-0.png",
+      "recordedAt": "2026-08-17T14:13:19.852Z"
+    },
+    {
+      "hash": "cc6955555d15925a",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:application:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-application-1.png",
+      "recordedAt": "2026-08-17T14:13:19.879Z"
+    },
+    {
+      "hash": "975557765d09962e",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-registration-0.png",
+      "recordedAt": "2026-08-17T14:13:19.906Z"
+    },
+    {
+      "hash": "1f946b57514d174e",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:registration:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-registration-1.png",
+      "recordedAt": "2026-08-17T14:13:19.934Z"
+    },
+    {
+      "hash": "9637574d4d8d060f",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:no-deposit-bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-17T14:13:19.978Z"
+    },
+    {
+      "hash": "0f2b4d4d4d4dc8f2",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:no-deposit-bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-no-deposit-bonus-1.png",
+      "recordedAt": "2026-08-17T14:13:20.004Z"
+    },
+    {
+      "hash": "17976f464d4dcc4e",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:no-deposit-bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-no-deposit-bonus-2.png",
+      "recordedAt": "2026-08-17T14:13:20.030Z"
+    },
+    {
+      "hash": "55d4474d4d060f4f",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-free-spins-0.png",
+      "recordedAt": "2026-08-17T14:13:20.056Z"
+    },
+    {
+      "hash": "1555534f0d0d4f4e",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:free-spins:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-free-spins-1.png",
+      "recordedAt": "2026-08-17T14:13:20.081Z"
+    },
+    {
+      "hash": "963375754d8daa4a",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:free-spins:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-free-spins-2.png",
+      "recordedAt": "2026-08-17T14:13:20.108Z"
+    },
+    {
+      "hash": "0f696d4529ac4e4f",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-promo-code-0.png",
+      "recordedAt": "2026-08-17T14:13:20.134Z"
+    },
+    {
+      "hash": "8e9671461d15968f",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:promo-code:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-promo-code-1.png",
+      "recordedAt": "2026-08-17T14:13:20.160Z"
+    },
+    {
+      "hash": "0ed5534d4d95d44e",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:promo-code:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-promo-code-2.png",
+      "recordedAt": "2026-08-17T14:13:20.185Z"
+    },
+    {
+      "hash": "0ba94f4d49111153",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:_generic:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-generic-0.png",
+      "recordedAt": "2026-08-17T14:13:20.213Z"
+    },
+    {
+      "hash": "272b5d5717951551",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:_generic:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-generic-1.png",
+      "recordedAt": "2026-08-17T14:13:20.239Z"
+    },
+    {
+      "hash": "16d575764d595241",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:_generic:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-generic-2.png",
+      "recordedAt": "2026-08-17T14:13:20.265Z"
+    },
+    {
+      "hash": "33f071655949f633",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:_generic:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-generic-3.png",
+      "recordedAt": "2026-08-17T14:13:20.292Z"
+    },
+    {
+      "hash": "69e847551d15164e",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:_generic:4",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-generic-4.png",
+      "recordedAt": "2026-08-17T14:13:20.320Z"
+    },
+    {
+      "hash": "17aa4d554de92b17",
+      "siteSlug": "slotowl",
+      "jobId": "master:slotowl:v3:_generic:5",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/slotowl/.generated/image-masters/master-slotowl-v3-generic-5.png",
+      "recordedAt": "2026-08-17T14:13:20.349Z"
+    },
+    {
+      "hash": "2131365b573e3ef0",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:home:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-home-0.png",
+      "recordedAt": "2026-08-17T14:22:22.809Z"
+    },
+    {
+      "hash": "393135565727269c",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:home:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-home-1.png",
+      "recordedAt": "2026-08-17T14:22:22.835Z"
+    },
+    {
+      "hash": "31323e4e5e3e2ef0",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:home:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-home-2.png",
+      "recordedAt": "2026-08-17T14:22:22.860Z"
+    },
+    {
+      "hash": "2921377777362668",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:home:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-home-3.png",
+      "recordedAt": "2026-08-17T14:22:22.893Z"
+    },
+    {
+      "hash": "2a2b328eaf7e6e68",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:review:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-review-0.png",
+      "recordedAt": "2026-08-17T14:22:22.919Z"
+    },
+    {
+      "hash": "2935365656363ae8",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:review:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-review-1.png",
+      "recordedAt": "2026-08-17T14:22:22.945Z"
+    },
+    {
+      "hash": "31391d5f5e3636f0",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:review:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-review-2.png",
+      "recordedAt": "2026-08-17T14:22:22.971Z"
+    },
+    {
+      "hash": "31293f4f4f3e28f0",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-bonus-0.png",
+      "recordedAt": "2026-08-17T14:22:22.997Z"
+    },
+    {
+      "hash": "6a2e6d4f4f6d2ee0",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-bonus-1.png",
+      "recordedAt": "2026-08-17T14:22:23.023Z"
+    },
+    {
+      "hash": "2b3f3747473636b0",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-bonus-2.png",
+      "recordedAt": "2026-08-17T14:22:23.048Z"
+    },
+    {
+      "hash": "243c3657563634e0",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:bonus:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-bonus-3.png",
+      "recordedAt": "2026-08-17T14:22:23.076Z"
+    },
+    {
+      "hash": "313936565e353d6e",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-withdrawals-0.png",
+      "recordedAt": "2026-08-17T14:22:23.103Z"
+    },
+    {
+      "hash": "213d32574b662420",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:withdrawals:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-withdrawals-1.png",
+      "recordedAt": "2026-08-17T14:22:23.131Z"
+    },
+    {
+      "hash": "32303347463634f0",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:withdrawals:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-withdrawals-2.png",
+      "recordedAt": "2026-08-17T14:22:23.157Z"
+    },
+    {
+      "hash": "3833375353363220",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-slots-0.png",
+      "recordedAt": "2026-08-17T14:22:23.184Z"
+    },
+    {
+      "hash": "6d23374f562e3870",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:slots:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-slots-1.png",
+      "recordedAt": "2026-08-17T14:22:23.211Z"
+    },
+    {
+      "hash": "39393747572632f0",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:slots:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-slots-2.png",
+      "recordedAt": "2026-08-17T14:22:23.238Z"
+    },
+    {
+      "hash": "0c3436565633366d",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:slots:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-slots-3.png",
+      "recordedAt": "2026-08-17T14:22:23.264Z"
+    },
+    {
+      "hash": "3c2c345c5f372e26",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:login:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-login-0.png",
+      "recordedAt": "2026-08-17T14:22:23.291Z"
+    },
+    {
+      "hash": "38327456563a3030",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-login-1.png",
+      "recordedAt": "2026-08-17T14:22:23.318Z"
+    },
+    {
+      "hash": "293d375454332634",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-application-0.png",
+      "recordedAt": "2026-08-17T14:22:23.344Z"
+    },
+    {
+      "hash": "2c34365656353636",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:application:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-application-1.png",
+      "recordedAt": "2026-08-17T14:22:23.371Z"
+    },
+    {
+      "hash": "223333537636ac61",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-registration-0.png",
+      "recordedAt": "2026-08-17T14:22:23.397Z"
+    },
+    {
+      "hash": "aa2e3453533c2ce8",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:registration:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-registration-1.png",
+      "recordedAt": "2026-08-17T14:22:23.423Z"
+    },
+    {
+      "hash": "33292d4f4f2e2e70",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:no-deposit-bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-17T14:22:23.450Z"
+    },
+    {
+      "hash": "243476574777372a",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:no-deposit-bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-no-deposit-bonus-1.png",
+      "recordedAt": "2026-08-17T14:22:23.477Z"
+    },
+    {
+      "hash": "2e34334f4f363ee8",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:no-deposit-bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-no-deposit-bonus-2.png",
+      "recordedAt": "2026-08-17T14:22:23.504Z"
+    },
+    {
+      "hash": "2232374746262bb2",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-free-spins-0.png",
+      "recordedAt": "2026-08-17T14:22:23.532Z"
+    },
+    {
+      "hash": "3834360f2e3e38f0",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:free-spins:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-free-spins-1.png",
+      "recordedAt": "2026-08-17T14:22:23.559Z"
+    },
+    {
+      "hash": "8e3236551536329c",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:free-spins:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-free-spins-2.png",
+      "recordedAt": "2026-08-17T14:22:23.587Z"
+    },
+    {
+      "hash": "3d2c2ccf4e2c2ee8",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-promo-code-0.png",
+      "recordedAt": "2026-08-17T14:22:23.614Z"
+    },
+    {
+      "hash": "2233374e4d3e30e0",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:promo-code:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-promo-code-1.png",
+      "recordedAt": "2026-08-17T14:22:23.640Z"
+    },
+    {
+      "hash": "2d31375676676563",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:promo-code:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-promo-code-2.png",
+      "recordedAt": "2026-08-17T14:22:23.667Z"
+    },
+    {
+      "hash": "3939595a585a30b0",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:_generic:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-generic-0.png",
+      "recordedAt": "2026-08-17T14:22:23.693Z"
+    },
+    {
+      "hash": "39393e5f563f3e32",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:_generic:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-generic-1.png",
+      "recordedAt": "2026-08-17T14:22:23.722Z"
+    },
+    {
+      "hash": "2931335a5e7632b8",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:_generic:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-generic-2.png",
+      "recordedAt": "2026-08-17T14:22:23.749Z"
+    },
+    {
+      "hash": "b939795e5e3e32b0",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:_generic:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-generic-3.png",
+      "recordedAt": "2026-08-17T14:22:23.774Z"
+    },
+    {
+      "hash": "b333375656363030",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:_generic:4",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-generic-4.png",
+      "recordedAt": "2026-08-17T14:22:23.801Z"
+    },
+    {
+      "hash": "3131357250313239",
+      "siteSlug": "winsly",
+      "jobId": "master:winsly:v3:_generic:5",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/.generated/image-masters/master-winsly-v3-generic-5.png",
+      "recordedAt": "2026-08-17T14:22:23.826Z"
+    },
+    {
+      "hash": "030d07070f174f12",
+      "siteSlug": "winsly",
+      "jobId": "logo:winsly:v3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winsly/images/logo.png",
+      "recordedAt": "2026-08-17T14:22:23.845Z"
+    },
+    {
+      "hash": "0e0e174e0d8b9667",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:home:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-home-0.png",
+      "recordedAt": "2026-08-17T14:41:39.141Z"
+    },
+    {
+      "hash": "078e16170f0f2fb7",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:home:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-home-1.png",
+      "recordedAt": "2026-08-17T14:41:39.169Z"
+    },
+    {
+      "hash": "0f8e4d0f0f8e0f0f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:home:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-home-2.png",
+      "recordedAt": "2026-08-17T14:41:39.195Z"
+    },
+    {
+      "hash": "030f070f0f2f0307",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:home:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-home-3.png",
+      "recordedAt": "2026-08-17T14:41:39.221Z"
+    },
+    {
+      "hash": "03cf070e0e2d4543",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:review:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-review-0.png",
+      "recordedAt": "2026-08-17T14:41:39.248Z"
+    },
+    {
+      "hash": "0f8e0f0f0f490f0f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:review:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-review-1.png",
+      "recordedAt": "2026-08-17T14:41:39.275Z"
+    },
+    {
+      "hash": "0d0d0f0f0f474d30",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-bonus-2.png",
+      "recordedAt": "2026-08-17T14:41:39.377Z"
+    },
+    {
+      "hash": "960f0f0f0f0e1613",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:bonus:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-bonus-3.png",
+      "recordedAt": "2026-08-17T14:41:39.404Z"
+    },
+    {
+      "hash": "0f0f070f0f16b22b",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-withdrawals-0.png",
+      "recordedAt": "2026-08-17T14:41:39.430Z"
+    },
+    {
+      "hash": "0f0f074d0d1f9632",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:withdrawals:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-withdrawals-2.png",
+      "recordedAt": "2026-08-17T14:41:39.480Z"
+    },
+    {
+      "hash": "8e8e1717070f0e0f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-slots-0.png",
+      "recordedAt": "2026-08-17T14:41:39.506Z"
+    },
+    {
+      "hash": "0f0f9696b68f0f07",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:slots:3",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-slots-3.png",
+      "recordedAt": "2026-08-17T14:41:39.583Z"
+    },
+    {
+      "hash": "13cf0d0f0f1db4a4",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:login:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-login-0.png",
+      "recordedAt": "2026-08-17T14:41:39.607Z"
+    },
+    {
+      "hash": "320f0f0f0d949797",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-login-1.png",
+      "recordedAt": "2026-08-17T14:41:39.633Z"
+    },
+    {
+      "hash": "0e0f570f0f0f4d4d",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-application-0.png",
+      "recordedAt": "2026-08-17T14:41:39.657Z"
+    },
+    {
+      "hash": "0f0f0f0f0f9e9a1f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:application:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-application-1.png",
+      "recordedAt": "2026-08-17T14:41:39.683Z"
+    },
+    {
+      "hash": "8e8e0f0f0f17941f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-registration-0.png",
+      "recordedAt": "2026-08-17T14:41:39.707Z"
+    },
+    {
+      "hash": "8ccc0e0c0e165606",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:registration:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-registration-1.png",
+      "recordedAt": "2026-08-17T14:41:39.732Z"
+    },
+    {
+      "hash": "0e0e0f0f0d4d3333",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:no-deposit-bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-no-deposit-bonus-0.png",
+      "recordedAt": "2026-08-17T14:41:39.757Z"
+    },
+    {
+      "hash": "0e0f0f0f0f0f968f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:no-deposit-bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-no-deposit-bonus-1.png",
+      "recordedAt": "2026-08-17T14:41:39.781Z"
+    },
+    {
+      "hash": "0746070f0f0f9607",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:no-deposit-bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-no-deposit-bonus-2.png",
+      "recordedAt": "2026-08-17T14:41:39.807Z"
+    },
+    {
+      "hash": "0e0e0f070f0f8f07",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-free-spins-0.png",
+      "recordedAt": "2026-08-17T14:41:39.832Z"
+    },
+    {
+      "hash": "070b43063f1dcb8f",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:free-spins:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-free-spins-2.png",
+      "recordedAt": "2026-08-17T14:41:39.880Z"
+    },
+    {
+      "hash": "8e8e0f0f0f0f968e",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-promo-code-0.png",
+      "recordedAt": "2026-08-17T14:41:39.905Z"
+    },
+    {
+      "hash": "308f0f0f0f0c0cb6",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:promo-code:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-promo-code-1.png",
+      "recordedAt": "2026-08-17T14:41:39.930Z"
+    },
+    {
+      "hash": "8e0e0f0f0f0f0f8e",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:promo-code:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-promo-code-2.png",
+      "recordedAt": "2026-08-17T14:41:39.954Z"
+    },
+    {
+      "hash": "044f570f0f0d8dcc",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:_generic:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-generic-1.png",
+      "recordedAt": "2026-08-17T14:41:40.003Z"
+    },
+    {
+      "hash": "8e0e17450d0f0e07",
+      "siteSlug": "winningz",
+      "jobId": "master:winningz:v4:_generic:4",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/.generated/image-masters/master-winningz-v4-generic-4.png",
+      "recordedAt": "2026-08-17T14:41:40.080Z"
+    },
+    {
+      "hash": "300e17332b1f0e08",
+      "siteSlug": "winningz",
+      "jobId": "logo:winningz:v4",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/winningz/images/logo.png",
+      "recordedAt": "2026-08-17T14:41:40.133Z"
+    },
+    {
+      "hash": "1f0f1f171d1d1313",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:home:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-home-1.png",
+      "recordedAt": "2026-08-17T14:51:06.457Z"
+    },
+    {
+      "hash": "1f1f1f1b1d1b1313",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:review:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-review-1.png",
+      "recordedAt": "2026-08-17T14:51:06.560Z"
+    },
+    {
+      "hash": "1f0f0f1717371513",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:bonus:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-bonus-0.png",
+      "recordedAt": "2026-08-17T14:51:06.612Z"
+    },
+    {
+      "hash": "1f1f3d2d2d391917",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:bonus:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-bonus-2.png",
+      "recordedAt": "2026-08-17T14:51:06.664Z"
+    },
+    {
+      "hash": "1f0f17370f333307",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:withdrawals:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-withdrawals-0.png",
+      "recordedAt": "2026-08-17T14:51:06.715Z"
+    },
+    {
+      "hash": "1f1f1f1f0f31130f",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:withdrawals:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-withdrawals-1.png",
+      "recordedAt": "2026-08-17T14:51:06.741Z"
+    },
+    {
+      "hash": "1f0f1f171f1f332b",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:withdrawals:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-withdrawals-2.png",
+      "recordedAt": "2026-08-17T14:51:06.768Z"
+    },
+    {
+      "hash": "0f0f0f0e0f0d4d6f",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:slots:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-slots-0.png",
+      "recordedAt": "2026-08-17T14:51:06.795Z"
+    },
+    {
+      "hash": "1f1f1f1d1f1d1713",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:slots:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-slots-1.png",
+      "recordedAt": "2026-08-17T14:51:06.831Z"
+    },
+    {
+      "hash": "1f1f1f173e2f3717",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:login:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-login-1.png",
+      "recordedAt": "2026-08-17T14:51:06.941Z"
+    },
+    {
+      "hash": "0f0f0f0f0d1d0b0f",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:application:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-application-0.png",
+      "recordedAt": "2026-08-17T14:51:06.967Z"
+    },
+    {
+      "hash": "0f0f1f1b1f1f1f2f",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:registration:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-registration-0.png",
+      "recordedAt": "2026-08-17T14:51:07.017Z"
+    },
+    {
+      "hash": "1f0f0f1f17171713",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:no-deposit-bonus:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-no-deposit-bonus-1.png",
+      "recordedAt": "2026-08-17T14:51:07.096Z"
+    },
+    {
+      "hash": "1f0f0f371f373313",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:free-spins:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-free-spins-0.png",
+      "recordedAt": "2026-08-17T14:51:07.148Z"
+    },
+    {
+      "hash": "171f3f170f0d3313",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:promo-code:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-promo-code-0.png",
+      "recordedAt": "2026-08-17T14:51:07.226Z"
+    },
+    {
+      "hash": "1f0f1f1b1f1d1b1b",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:promo-code:1",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-promo-code-1.png",
+      "recordedAt": "2026-08-17T14:51:07.252Z"
+    },
+    {
+      "hash": "0f0f17170d0d3333",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:promo-code:2",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-promo-code-2.png",
+      "recordedAt": "2026-08-17T14:51:07.277Z"
+    },
+    {
+      "hash": "1f1f173f2d0d1b0b",
+      "siteSlug": "betitall",
+      "jobId": "master:betitall:v4:_generic:0",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/.generated/image-masters/master-betitall-v4-generic-0.png",
+      "recordedAt": "2026-08-17T14:51:07.304Z"
+    },
+    {
+      "hash": "0f0f0f131b393968",
+      "siteSlug": "betitall",
+      "jobId": "logo:betitall:v4",
+      "outputPath": "/home/bogdan/WebstormProjects/SSG/deeply-debris/sites/betitall/images/logo.png",
+      "recordedAt": "2026-08-17T14:51:07.452Z"
+    }
+  ]
+}

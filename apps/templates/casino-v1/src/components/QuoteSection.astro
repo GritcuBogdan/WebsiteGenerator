@@ -1,0 +1,50 @@
+---
+import { cssVars } from "../lib/theme";
+
+const {
+  id = "quote",
+  title = "",
+  eyebrow = "",
+  text = "",
+  author = "",
+  compact = false,
+  theme = {},
+} = Astro.props;
+
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+const cardBg = theme.cardBackground || "color-mix(in srgb, var(--primary) 8%, white)";
+const cardText = theme.cardText || theme.text || "var(--text)";
+const titleColor = theme.title || theme.headingText || "var(--heading-text)";
+---
+
+<section
+  id={id}
+  class:list={["site-section px-4 sm:px-6 lg:px-8", compact ? "py-0" : "py-7 sm:py-9"]}
+  style={`${cssVars(theme)} --section-bg:${sectionBg}; --section-text:${cardText};`}
+>
+  <div class="mx-auto max-w-7xl">
+    {(title || eyebrow) && (
+      <div class="mb-5">
+        {eyebrow && <p class="text-sm font-black uppercase tracking-[0.16em]" style="color:var(--primary)">{eyebrow}</p>}
+        {title && <h2 class="mt-2 text-2xl font-black sm:text-3xl" style={`color:${titleColor}`}>{title}</h2>}
+      </div>
+    )}
+
+    <figure
+      class="relative overflow-hidden rounded-lg border p-6 shadow-sm sm:p-8"
+      style={`background:${cardBg}; border-color:${theme.border || "var(--border)"};`}
+    >
+      <div class="absolute -right-2 -top-6 text-8xl font-black leading-none opacity-10" style="color:var(--primary)">
+        "
+      </div>
+      <blockquote class="relative text-lg font-semibold leading-8 sm:text-xl sm:leading-9" style={`color:${cardText}`}>
+        {text}
+      </blockquote>
+      {author && (
+        <figcaption class="mt-5 text-sm font-bold" style="color:var(--muted-text)">
+          {author}
+        </figcaption>
+      )}
+    </figure>
+  </div>
+</section>

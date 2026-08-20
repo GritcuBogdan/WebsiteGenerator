@@ -1,0 +1,42 @@
+{
+  "brandName": "Snatch Casino",
+  "welcomeBonus": {
+    "amount": 480,
+    "currency": "CHF"
+  },
+  "minimumDeposit": 20,
+  "gameCount": 1800,
+  "paymentMethods": [
+    "Visa",
+    "Mastercard",
+    "Skrill"
+  ],
+  "withdrawalMethods": [
+    "Bank Transfer",
+    "Skrill"
+  ],
+  "supportedCurrencies": [
+    "USD"
+  ],
+  "profile": "starter-casino",
+  "imageTheme": {
+    "description": "Grand Theft Auto loading screen art style, 1980s Miami Vice aesthetics, pop art illustration. Three stylized crime game characters: a glamorous blonde woman winking, a suave man with wild hair wearing aviator sunglasses, and a sharp mobster in a pink shirt and suit jacket. Tropical sunset sky with palm silhouettes and pastel gradient background, bold line art, cel-shading, vibrant digital comic book art, 8k resolution",
+    "palette": [
+      "#FF9933",
+      "#00CCFF",
+      "#D82672",
+      "#2B1A4A",
+      "#FFD700"
+    ],
+    "motifs": [
+      "Stylized cel-shaded character vector artwork with thick dark outlines",
+      "Warm sunset gradient sky with palm tree silhouettes",
+      "Diagonal split-screen panel layout with cyan blue ribbon trim",
+      "High-contrast 80s synthwave lighting and golden hour glow"
+    ],
+    "visualStyle": "GTA Vice City illustration style, retro comic digital art, Miami synthwave casino hero banner"
+  },
+  "freeSpins": {
+    "count": 180
+  }
+}

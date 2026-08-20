@@ -1,0 +1,46 @@
+# build output
+dist/
+# generated types
+.astro/
+# per-site disposable pipeline output (sites/<slug>/.generated/...)
+.generated/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+splitCasino.cjs
+dist.rar
+.venv
+.idea
+.vscode
+
+# environment variables
+.env
+.env.production
+
+# real GPU worker endpoints (IPs/ports) - see comfyui-workers.example.json
+comfyui-workers.json
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
+
+# python cache
+__pycache__/
+*.pyc
+
+# per-site source content assets (images + docx briefs) - kept out of git,
+# managed/transferred separately since they're large binary files
+sites/*/images/
+sites/*/*.docx
+
+# Claude Code internal state
+.claude/

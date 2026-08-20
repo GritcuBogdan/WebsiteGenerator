@@ -1,0 +1,16 @@
+{
+  "name": "domain-provisioning",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "test": "node ../../scripts/run-tests.mjs"
+  },
+  "dependencies": {
+    "cloudflare-client": "*",
+    "deploy": "*",
+    "hostinger-client": "*"
+  }
+}

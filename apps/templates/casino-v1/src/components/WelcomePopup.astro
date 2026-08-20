@@ -1,0 +1,151 @@
+---
+import { cssVars } from "../lib/theme";
+import { getRedirectHref } from "../lib/affiliate";
+import OptimizedImage from "./OptimizedImage.astro";
+
+const {
+  casinoSlug = "",
+  logo = "",
+  casinoName = "",
+  headline = "",
+  bullets = [],
+  disclaimer = "",
+  buttonText = "Get Bonus",
+  buttonLink = "",
+  closeLabel = "Close",
+  theme = {},
+} = Astro.props;
+
+const redirectHref = buttonLink || getRedirectHref(casinoSlug);
+const offerText = bullets
+  .filter(Boolean)
+  .map((bullet: string) => bullet.trim().replace(/^\+\s*/, ""))
+  .join(" + ");
+---
+
+<div
+  id="welcome-popup"
+  class="welcome-popup fixed inset-0 z-[70] hidden items-center justify-center p-4"
+  style={`${cssVars(theme)}`}
+  role="dialog"
+  aria-modal="true"
+  aria-label={`${casinoName} - ${headline}`}
+>
+  <div class="welcome-popup-backdrop absolute inset-0 bg-black/60"></div>
+
+  <div
+    class="welcome-popup-card relative w-full max-w-sm rounded-2xl border p-5 text-center shadow-2xl sm:max-w-md sm:p-7"
+    style="background:var(--surface); border-color:var(--border); color:var(--text);"
+  >
+    <button
+      type="button"
+      class="welcome-popup-close absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full border text-lg font-bold"
+      style="border-color:var(--border); color:var(--muted-text);"
+      aria-label={closeLabel}
+    >
+      &times;
+    </button>
+
+    {
+      logo && (
+        <span class="mx-auto mb-3 flex h-14 w-14 items-center justify-center overflow-hidden rounded-xl border shadow-md sm:h-16 sm:w-16" style="border-color:var(--border); background:var(--background);">
+          <OptimizedImage src={logo} alt={casinoName} width="64" height="64" responsive={false} class="h-full w-full object-contain p-1.5" />
+        </span>
+      )
+    }
+
+    <p class="text-lg font-black leading-tight sm:text-xl" style="color:var(--heading-text, var(--text));">
+      {casinoName}{casinoName && headline ? " – " : ""}{headline}
+    </p>
+
+    {
+      offerText && (
+        <p class="mt-2 text-sm leading-snug sm:text-base" style="color:var(--muted-text);">
+          {offerText}
+        </p>
+      )
+    }
+
+    <a
+      href={redirectHref}
+      class="shine-button mt-5 inline-flex w-full items-center justify-center rounded-lg px-5 py-3 text-sm font-black shadow-lg transition duration-300 hover:-translate-y-0.5 hover:shadow-xl focus-visible:-translate-y-0.5 sm:text-base"
+      style="background:var(--primary); color:#ffffff;"
+    >
+      {buttonText}
+    </a>
+
+    {
+      disclaimer && (
+        <p class="mt-3 text-[11px] leading-tight opacity-60">
+          {disclaimer}
+        </p>
+      )
+    }
+  </div>
+</div>
+
+<style>
+  .welcome-popup.is-open {
+    display: flex;
+  }
+
+  .welcome-popup-card {
+    animation: welcome-popup-in 320ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  @keyframes welcome-popup-in {
+    from {
+      transform: translateY(12px) scale(0.97);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .welcome-popup-card {
+      animation: none;
+    }
+  }
+</style>
+
+<script>
+  // Deliberately no cross-page persistence (no sessionStorage): this
+  // should pop up once per page view when scrolled halfway, then leave you
+  // alone for the rest of *that* page load - but show up again on any
+  // other page (including navigating back to this same one), since each
+  // full page load gets a fresh script context and this `triggered` flag
+  // resets naturally with it.
+  const popup = document.querySelector<HTMLElement>("#welcome-popup");
+  let triggered = false;
+
+  function maybeShow() {
+    if (triggered || !popup) return;
+    const halfway = document.documentElement.scrollHeight / 2;
+    if (window.scrollY + window.innerHeight >= halfway) {
+      triggered = true;
+      popup.classList.add("is-open");
+      window.removeEventListener("scroll", maybeShow);
+      document.body.style.overflow = "hidden";
+    }
+  }
+
+  if (popup) {
+    window.addEventListener("scroll", maybeShow, { passive: true });
+    maybeShow();
+  }
+
+  function closePopup() {
+    popup?.classList.remove("is-open");
+    document.body.style.overflow = "";
+  }
+
+  popup?.querySelector(".welcome-popup-close")?.addEventListener("click", closePopup);
+  popup?.querySelector(".welcome-popup-backdrop")?.addEventListener("click", closePopup);
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closePopup();
+  });
+</script>

@@ -1,0 +1,58 @@
+{
+  "pages": {
+    "index": {
+      "banner": {
+        "text": "Welcome Offer: 100% up to kr 12 000 + 200 GS"
+      }
+    },
+    "application": {
+      "banner": {
+        "image": "mad casino online.png",
+        "text": "Welcome Offer: 100% up to kr 12 000 + 200 GS"
+      }
+    },
+    "withdrawal": {
+      "banner": {
+        "text": "Welcome Offer: 100% up to kr 12 000 + 200 GS"
+      }
+    },
+    "review": {
+      "banner": {
+        "image": "mad online casino.png",
+        "text": "Welcome Offer: 100% up to kr 12 000 + 200 GS"
+      }
+    },
+    "free-spins": {
+      "banner": {
+        "text": "Welcome Offer: 100% up to kr 12 000 + 200 GS"
+      }
+    },
+    "promo-code": {
+      "banner": {
+        "image": "mad casino winner.png",
+        "text": "Welcome Offer: 100% up to kr 12 000 + 200 GS"
+      }
+    },
+    "slots": {
+      "banner": {
+        "text": "Welcome Offer: 100% up to kr 12 000 + 200 GS"
+
+      }
+    },
+    "no-deposit-bonus": {
+      "banner": {
+        "text": "Welcome Offer: 100% up to kr 12 000 + 200 GS"
+      }
+    },
+    "bonus": {
+      "banner": {
+        "text": "Welcome Offer: 100% up to kr 12 000 + 200 GS"
+      }
+    },
+    "login" : {
+      "banner": {
+        "text": "Welcome Offer: 100% up to kr 12 000 + 200 GS"
+      }
+    }
+  }
+}

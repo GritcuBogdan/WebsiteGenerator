@@ -1,0 +1,30 @@
+{
+  "slug": "slotowl",
+  "domains": [
+    "slotowl7.com"
+  ],
+  "affiliateUrl": "https://gorollingslots.com/dg2d0nnhm",
+  "locales": [
+    {
+      "code": "sv-SE",
+      "default": true
+    }
+  ],
+  "contentSource": "library",
+  "profile": "starter-casino",
+  "theme": {
+    "primary": "#4B1E8F",
+    "secondary": "#17021F",
+    "accent": "#FF00BF"
+  },
+  "banner": {
+    "text": "Välkomstbonus – 450 kr + 175 Free Spins",
+    "desktop": "/images/_shared/starter-casino-banner.png"
+  },
+  "stickyBanner": {
+    "headline": "Välkomstbonus",
+    "bullets": [
+      "450 kr + 175 Free Spins"
+    ]
+  }
+}

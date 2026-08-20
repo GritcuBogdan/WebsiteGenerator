@@ -1,0 +1,26 @@
+---
+import { cssVars } from "../lib/theme";
+
+const {
+  id,
+  title,
+  paragraphs = [],
+  theme = {},
+} = Astro.props;
+
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+---
+
+<section
+  id={id}
+  class="site-section px-4 py-10 sm:px-6 sm:py-12 lg:px-8"
+  style={`${cssVars(theme)} --section-bg:${sectionBg};`}
+>
+  <div class="mx-auto max-w-4xl">
+    {title && <h2 class="gradient-heading text-2xl font-black sm:text-3xl">{title}</h2>}
+
+    <div class="mt-5 space-y-4">
+      {paragraphs.map((text) => <p class="leading-8" style="color:var(--muted-text)">{text}</p>)}
+    </div>
+  </div>
+</section>

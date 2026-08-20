@@ -1,0 +1,42 @@
+{
+  "brandName": "AmunRA",
+  "welcomeBonus": {
+    "amount": 450,
+    "currency": "EUR"
+  },
+  "minimumDeposit": 20,
+  "gameCount": 1800,
+  "paymentMethods": [
+    "Visa",
+    "Mastercard",
+    "Skrill"
+  ],
+  "withdrawalMethods": [
+    "Bank Transfer",
+    "Skrill"
+  ],
+  "supportedCurrencies": [
+    "USD"
+  ],
+  "profile": "starter-casino",
+  "imageTheme": {
+    "description": "A majestic Egyptian god Horus with massive spread golden feathered wings, standing heroically atop the apex of a golden pyramid. Wearing ornate ancient Egyptian royal armor, a blue and white nemes headcloth, and holding a glowing golden staff with a sun disc motif. Bright radiant sunburst rays burst from behind the character. Warm golden hour sunlight, ethereal clouds, rich digital fantasy painting style, 8k resolution, cinematic lighting",
+    "palette": [
+      "#F5D061",
+      "#FFD700",
+      "#1072BA",
+      "#D4AF37",
+      "#8B4513"
+    ],
+    "motifs": [
+      "Radiant golden sunburst rays backlighting",
+      "Polished metallic gold armor with lapis lazuli inlays",
+      "Soft volumetric cloud mist at base",
+      "Heroic low-angle perspective standing atop a pyramid tip"
+    ],
+    "visualStyle": "3D digital illustration, Egyptian mythology, majestic fantasy casino art"
+  },
+  "freeSpins": {
+    "count": 150
+  }
+}

@@ -1,0 +1,1235 @@
+{
+  "sites": [
+    {
+      "slug": "amunra",
+      "domains": [
+        "amunra7.casino"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "amunra",
+        "branch": "production",
+        "workerRouteIds": [
+          "bc536e639c97458698e6bd4342897a75"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "amunra-preview-1786988172465",
+          "environment": "preview",
+          "url": "https://3a8e56ec.amunra-1ya.pages.dev",
+          "timestamp": "2026-08-17T17:36:12.465Z",
+          "status": "success"
+        },
+        {
+          "id": "amunra-preview-1786988319220",
+          "environment": "preview",
+          "url": "https://fc6f204b.amunra-1ya.pages.dev",
+          "timestamp": "2026-08-17T17:38:39.220Z",
+          "status": "success"
+        },
+        {
+          "id": "amunra-production-1786988461900",
+          "environment": "production",
+          "url": "https://2bec689f.amunra-1ya.pages.dev",
+          "timestamp": "2026-08-17T17:41:01.900Z",
+          "status": "success"
+        },
+        {
+          "id": "amunra-preview-1786989874330",
+          "environment": "preview",
+          "url": "https://e165025b.amunra-1ya.pages.dev",
+          "timestamp": "2026-08-17T18:04:34.330Z",
+          "status": "success"
+        },
+        {
+          "id": "amunra-preview-1786990622505",
+          "environment": "preview",
+          "url": "https://8e9c0de8.amunra-1ya.pages.dev",
+          "timestamp": "2026-08-17T18:17:02.505Z",
+          "status": "success"
+        },
+        {
+          "id": "amunra-production-1786990698288",
+          "environment": "production",
+          "url": "https://3f022a0d.amunra-1ya.pages.dev",
+          "timestamp": "2026-08-17T18:18:18.288Z",
+          "status": "success"
+        },
+        {
+          "id": "amunra-preview-1786991930224",
+          "environment": "preview",
+          "url": "https://84b8e32f.amunra-1ya.pages.dev",
+          "timestamp": "2026-08-17T18:38:50.224Z",
+          "status": "success"
+        },
+        {
+          "id": "amunra-production-1786992009501",
+          "environment": "production",
+          "url": "https://039899ea.amunra-1ya.pages.dev",
+          "timestamp": "2026-08-17T18:40:09.502Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [
+        {
+          "domain": "amunra7.casino",
+          "state": "CLOUDFLARE_AUTHORITY_CONFIRMED",
+          "cloudflareZoneId": "e0a9202ec0690ed80f49eae13bfe0bad",
+          "cloudflareNameServers": [
+            "kay.ns.cloudflare.com",
+            "rick.ns.cloudflare.com"
+          ],
+          "updatedAt": "2026-08-17T18:39:10.958Z"
+        }
+      ],
+      "lastGeneratedAt": "2026-08-17T18:38:26.045Z",
+      "lastDeployedAt": "2026-08-17T18:40:09.502Z"
+    },
+    {
+      "slug": "betitall",
+      "domains": [
+        "betitall7.de"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "betitall",
+        "branch": "production",
+        "workerRouteIds": [
+          "f05a0afb452b470ab0c678224bbea3b6"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "betitall-preview-1786990632965",
+          "environment": "preview",
+          "url": "https://8055a6af.betitall.pages.dev",
+          "timestamp": "2026-08-17T18:17:12.965Z",
+          "status": "success"
+        },
+        {
+          "id": "betitall-production-1786990688443",
+          "environment": "production",
+          "url": "https://52e4edab.betitall.pages.dev",
+          "timestamp": "2026-08-17T18:18:08.443Z",
+          "status": "success"
+        },
+        {
+          "id": "betitall-preview-1786991918346",
+          "environment": "preview",
+          "url": "https://d8de596e.betitall.pages.dev",
+          "timestamp": "2026-08-17T18:38:38.346Z",
+          "status": "success"
+        },
+        {
+          "id": "betitall-production-1786991984247",
+          "environment": "production",
+          "url": "https://9f755087.betitall.pages.dev",
+          "timestamp": "2026-08-17T18:39:44.247Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [
+        {
+          "domain": "betitall7.de",
+          "state": "CLOUDFLARE_AUTHORITY_CONFIRMED",
+          "cloudflareZoneId": "c46e14aad0d1834f454239387b36783c",
+          "cloudflareNameServers": [
+            "kay.ns.cloudflare.com",
+            "rick.ns.cloudflare.com"
+          ],
+          "updatedAt": "2026-08-17T18:39:10.032Z"
+        }
+      ],
+      "lastGeneratedAt": "2026-08-17T18:38:24.996Z",
+      "lastDeployedAt": "2026-08-17T18:39:44.247Z"
+    },
+    {
+      "slug": "betovo",
+      "domains": [
+        "betovo7.com"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "betovo",
+        "branch": "production",
+        "workerRouteIds": [
+          "noop-route-betovo.example.com",
+          "7c55183c5d5241f98343d535c9588f04"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "noop-preview-1786985090395",
+          "environment": "preview",
+          "url": "https://preview.betovo.pages.dev",
+          "timestamp": "2026-08-17T16:44:50.395Z",
+          "status": "success"
+        },
+        {
+          "id": "noop-production-1786985090397",
+          "environment": "production",
+          "url": "https://betovo.pages.dev",
+          "timestamp": "2026-08-17T16:44:50.397Z",
+          "status": "success"
+        },
+        {
+          "id": "betovo-preview-1786985666661",
+          "environment": "preview",
+          "url": "https://bcf65660.betovo.pages.dev",
+          "timestamp": "2026-08-17T16:54:26.661Z",
+          "status": "success"
+        },
+        {
+          "id": "betovo-preview-1786985959555",
+          "environment": "preview",
+          "url": "https://5f3f0b44.betovo.pages.dev",
+          "timestamp": "2026-08-17T16:59:19.555Z",
+          "status": "success"
+        },
+        {
+          "id": "betovo-preview-1786987793198",
+          "environment": "preview",
+          "url": "https://684b1c63.betovo.pages.dev",
+          "timestamp": "2026-08-17T17:29:53.198Z",
+          "status": "success"
+        },
+        {
+          "id": "betovo-preview-1786987951751",
+          "environment": "preview",
+          "url": "https://26dfe3c1.betovo.pages.dev",
+          "timestamp": "2026-08-17T17:32:31.751Z",
+          "status": "success"
+        },
+        {
+          "id": "betovo-production-1786987968482",
+          "environment": "production",
+          "url": "https://cb41af87.betovo.pages.dev",
+          "timestamp": "2026-08-17T17:32:48.482Z",
+          "status": "success"
+        },
+        {
+          "id": "betovo-preview-1786990667039",
+          "environment": "preview",
+          "url": "https://486a320f.betovo.pages.dev",
+          "timestamp": "2026-08-17T18:17:47.039Z",
+          "status": "success"
+        },
+        {
+          "id": "betovo-production-1786990719140",
+          "environment": "production",
+          "url": "https://a1503003.betovo.pages.dev",
+          "timestamp": "2026-08-17T18:18:39.140Z",
+          "status": "success"
+        },
+        {
+          "id": "betovo-preview-1786991973849",
+          "environment": "preview",
+          "url": "https://beb0e061.betovo.pages.dev",
+          "timestamp": "2026-08-17T18:39:33.849Z",
+          "status": "success"
+        },
+        {
+          "id": "betovo-production-1786992032224",
+          "environment": "production",
+          "url": "https://6bdd6e0c.betovo.pages.dev",
+          "timestamp": "2026-08-17T18:40:32.224Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [
+        {
+          "domain": "betovo.example.com",
+          "state": "SKIPPED_NOT_CONFIGURED",
+          "updatedAt": "2026-08-17T16:44:50.396Z"
+        },
+        {
+          "domain": "betovo7.com",
+          "state": "CLOUDFLARE_AUTHORITY_CONFIRMED",
+          "cloudflareZoneId": "091400933bb684075203d0bdbb789e2b",
+          "cloudflareNameServers": [
+            "kay.ns.cloudflare.com",
+            "rick.ns.cloudflare.com"
+          ],
+          "updatedAt": "2026-08-17T18:39:44.257Z"
+        }
+      ],
+      "lastGeneratedAt": "2026-08-17T18:39:10.950Z",
+      "lastDeployedAt": "2026-08-17T18:40:32.224Z"
+    },
+    {
+      "slug": "crazytower",
+      "domains": [
+        "crazytower7.com",
+        "www.crazytower7.com"
+      ],
+      "templateId": "casino-v1",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "crazytower",
+        "branch": "production",
+        "workerRouteIds": [
+          "0ec73bff59434842bbcb7df43272e40e",
+          "3d7a5f02deb549098e1dd3fb2bda0df2"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "crazytower-preview-1786045799918",
+          "environment": "preview",
+          "url": "https://ca934e7b.crazytower.pages.dev",
+          "timestamp": "2026-08-06T19:49:59.918Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-preview-1786046136842",
+          "environment": "preview",
+          "url": "https://948e19ea.crazytower.pages.dev",
+          "timestamp": "2026-08-06T19:55:36.842Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-preview-1786049486925",
+          "environment": "preview",
+          "url": "https://9eba49cc.crazytower.pages.dev",
+          "timestamp": "2026-08-06T20:51:26.925Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-preview-1786087836782",
+          "environment": "preview",
+          "url": "https://a629d459.crazytower.pages.dev",
+          "timestamp": "2026-08-07T07:30:36.782Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-preview-1786090379203",
+          "environment": "preview",
+          "url": "https://b16d690b.crazytower.pages.dev",
+          "timestamp": "2026-08-07T08:12:59.203Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-preview-1786090623063",
+          "environment": "preview",
+          "url": "https://5a6757c4.crazytower.pages.dev",
+          "timestamp": "2026-08-07T08:17:03.063Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-preview-1786092540683",
+          "environment": "preview",
+          "url": "https://b36c8e49.crazytower.pages.dev",
+          "timestamp": "2026-08-07T08:49:00.683Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-preview-1786092841752",
+          "environment": "preview",
+          "url": "https://8fe3cfa0.crazytower.pages.dev",
+          "timestamp": "2026-08-07T08:54:01.752Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-preview-1786097731447",
+          "environment": "preview",
+          "url": "https://07712fd5.crazytower.pages.dev",
+          "timestamp": "2026-08-07T10:15:31.447Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-preview-1786098016058",
+          "environment": "preview",
+          "url": "https://b6f9f123.crazytower.pages.dev",
+          "timestamp": "2026-08-07T10:20:16.058Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-production-1786098031678",
+          "environment": "production",
+          "url": "https://42bb7ced.crazytower.pages.dev",
+          "timestamp": "2026-08-07T10:20:31.678Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-preview-1786101164991",
+          "environment": "preview",
+          "url": "https://4e54434c.crazytower.pages.dev",
+          "timestamp": "2026-08-07T11:12:44.991Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-preview-1786101436206",
+          "environment": "preview",
+          "url": "https://24e29ffb.crazytower.pages.dev",
+          "timestamp": "2026-08-07T11:17:16.207Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-production-1786101455299",
+          "environment": "production",
+          "url": "https://ae202ab9.crazytower.pages.dev",
+          "timestamp": "2026-08-07T11:17:35.299Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-preview-1786104166627",
+          "environment": "preview",
+          "url": "https://0a364fb3.crazytower.pages.dev",
+          "timestamp": "2026-08-07T12:02:46.628Z",
+          "status": "success"
+        },
+        {
+          "id": "crazytower-production-1786104183960",
+          "environment": "production",
+          "url": "https://1bb4b7f8.crazytower.pages.dev",
+          "timestamp": "2026-08-07T12:03:03.960Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [],
+      "lastGeneratedAt": "2026-08-07T12:02:31.052Z",
+      "lastDeployedAt": "2026-08-07T12:03:03.960Z"
+    },
+    {
+      "slug": "karhubet",
+      "domains": [
+        "karhubet7.com"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "karhubet",
+        "branch": "production",
+        "workerRouteIds": [
+          "6b3af74828dc44baa253d217373603ee"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "karhubet-preview-1786989917304",
+          "environment": "preview",
+          "url": "https://8530d7a5.karhubet.pages.dev",
+          "timestamp": "2026-08-17T18:05:17.304Z",
+          "status": "success"
+        },
+        {
+          "id": "karhubet-production-1786989978036",
+          "environment": "production",
+          "url": "https://18610be9.karhubet.pages.dev",
+          "timestamp": "2026-08-17T18:06:18.036Z",
+          "status": "success"
+        },
+        {
+          "id": "karhubet-preview-1786990656419",
+          "environment": "preview",
+          "url": "https://c02d5339.karhubet.pages.dev",
+          "timestamp": "2026-08-17T18:17:36.419Z",
+          "status": "success"
+        },
+        {
+          "id": "karhubet-production-1786990709565",
+          "environment": "production",
+          "url": "https://eacbc83e.karhubet.pages.dev",
+          "timestamp": "2026-08-17T18:18:29.565Z",
+          "status": "success"
+        },
+        {
+          "id": "karhubet-preview-1786991962334",
+          "environment": "preview",
+          "url": "https://963a8355.karhubet.pages.dev",
+          "timestamp": "2026-08-17T18:39:22.334Z",
+          "status": "success"
+        },
+        {
+          "id": "karhubet-production-1786992021002",
+          "environment": "production",
+          "url": "https://2c3fb454.karhubet.pages.dev",
+          "timestamp": "2026-08-17T18:40:21.002Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [
+        {
+          "domain": "karhubet7.com",
+          "state": "CLOUDFLARE_AUTHORITY_CONFIRMED",
+          "cloudflareZoneId": "0d51a672178ed06cc95870568bbad293",
+          "cloudflareNameServers": [
+            "kay.ns.cloudflare.com",
+            "rick.ns.cloudflare.com"
+          ],
+          "updatedAt": "2026-08-17T18:39:33.862Z"
+        }
+      ],
+      "lastGeneratedAt": "2026-08-17T18:38:51.419Z",
+      "lastDeployedAt": "2026-08-17T18:40:21.002Z"
+    },
+    {
+      "slug": "mad",
+      "domains": [
+        "mad-casino777.com",
+        "www.mad-casino777.com"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "mad",
+        "branch": "production",
+        "workerRouteIds": [
+          "f9c78083817c48b7bcc96559e47fcce4",
+          "b272a7b4e24d4ed78e1888ff82418645"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "mad-preview-1786195006865",
+          "environment": "preview",
+          "url": "https://ebc9690c.mad-dm5.pages.dev",
+          "timestamp": "2026-08-08T13:16:46.865Z",
+          "status": "success"
+        },
+        {
+          "id": "mad-preview-1786195704969",
+          "environment": "preview",
+          "url": "https://39559fe2.mad-dm5.pages.dev",
+          "timestamp": "2026-08-08T13:28:24.969Z",
+          "status": "success"
+        },
+        {
+          "id": "mad-production-1786195724495",
+          "environment": "production",
+          "url": "https://4968cdbf.mad-dm5.pages.dev",
+          "timestamp": "2026-08-08T13:28:44.495Z",
+          "status": "success"
+        },
+        {
+          "id": "mad-preview-1786198208105",
+          "environment": "preview",
+          "url": "https://f18b6649.mad-dm5.pages.dev",
+          "timestamp": "2026-08-08T14:10:08.105Z",
+          "status": "success"
+        },
+        {
+          "id": "mad-preview-1786199044280",
+          "environment": "preview",
+          "url": "https://23499df4.mad-dm5.pages.dev",
+          "timestamp": "2026-08-08T14:24:04.280Z",
+          "status": "success"
+        },
+        {
+          "id": "mad-production-1786199065775",
+          "environment": "production",
+          "url": "https://8a31910b.mad-dm5.pages.dev",
+          "timestamp": "2026-08-08T14:24:25.775Z",
+          "status": "success"
+        },
+        {
+          "id": "mad-preview-1786199550112",
+          "environment": "preview",
+          "url": "https://232c3ba7.mad-dm5.pages.dev",
+          "timestamp": "2026-08-08T14:32:30.112Z",
+          "status": "success"
+        },
+        {
+          "id": "mad-production-1786199571417",
+          "environment": "production",
+          "url": "https://a897cafd.mad-dm5.pages.dev",
+          "timestamp": "2026-08-08T14:32:51.417Z",
+          "status": "success"
+        },
+        {
+          "id": "mad-preview-1786200045348",
+          "environment": "preview",
+          "url": "https://e4531c1a.mad-dm5.pages.dev",
+          "timestamp": "2026-08-08T14:40:45.348Z",
+          "status": "success"
+        },
+        {
+          "id": "mad-production-1786200064245",
+          "environment": "production",
+          "url": "https://ec3ca2f2.mad-dm5.pages.dev",
+          "timestamp": "2026-08-08T14:41:04.245Z",
+          "status": "success"
+        },
+        {
+          "id": "mad-preview-1786200810122",
+          "environment": "preview",
+          "url": "https://d7525581.mad-dm5.pages.dev",
+          "timestamp": "2026-08-08T14:53:30.122Z",
+          "status": "success"
+        },
+        {
+          "id": "mad-production-1786200828495",
+          "environment": "production",
+          "url": "https://046869a4.mad-dm5.pages.dev",
+          "timestamp": "2026-08-08T14:53:48.495Z",
+          "status": "success"
+        },
+        {
+          "id": "mad-preview-1786200948511",
+          "environment": "preview",
+          "url": "https://060a0aa0.mad-dm5.pages.dev",
+          "timestamp": "2026-08-08T14:55:48.511Z",
+          "status": "success"
+        },
+        {
+          "id": "mad-production-1786200966800",
+          "environment": "production",
+          "url": "https://b6df4a9e.mad-dm5.pages.dev",
+          "timestamp": "2026-08-08T14:56:06.800Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [],
+      "lastGeneratedAt": "2026-08-08T14:55:33.555Z",
+      "lastDeployedAt": "2026-08-08T14:56:06.800Z"
+    },
+    {
+      "slug": "moon",
+      "domains": [
+        "mooonwin.casino"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "moon",
+        "branch": "production",
+        "workerRouteIds": [
+          "6d73b39d53a243e899e8a01a74a5e909"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "moon-preview-1786453720225",
+          "environment": "preview",
+          "url": "https://61a6d1d7.moon-3b9.pages.dev",
+          "timestamp": "2026-08-11T13:08:40.225Z",
+          "status": "success"
+        },
+        {
+          "id": "moon-preview-1786454249353",
+          "environment": "preview",
+          "url": "https://e7bcbc31.moon-3b9.pages.dev",
+          "timestamp": "2026-08-11T13:17:29.354Z",
+          "status": "success"
+        },
+        {
+          "id": "moon-production-1786454267827",
+          "environment": "production",
+          "url": "https://b48234d4.moon-3b9.pages.dev",
+          "timestamp": "2026-08-11T13:17:47.827Z",
+          "status": "success"
+        },
+        {
+          "id": "moon-preview-1786466561539",
+          "environment": "preview",
+          "url": "https://a9534540.moon-3b9.pages.dev",
+          "timestamp": "2026-08-11T16:42:41.539Z",
+          "status": "success"
+        },
+        {
+          "id": "moon-production-1786466578218",
+          "environment": "production",
+          "url": "https://e74fbbc8.moon-3b9.pages.dev",
+          "timestamp": "2026-08-11T16:42:58.218Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [],
+      "lastGeneratedAt": "2026-08-11T16:42:20.199Z",
+      "lastDeployedAt": "2026-08-11T16:42:58.218Z"
+    },
+    {
+      "slug": "partycasino",
+      "domains": [
+        "partycasino7.uk"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "partycasino",
+        "branch": "production",
+        "workerRouteIds": [
+          "47cee041b7c145419aa3fb78065f9477"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "partycasino-preview-1786988121662",
+          "environment": "preview",
+          "url": "https://0688e0f0.partycasino.pages.dev",
+          "timestamp": "2026-08-17T17:35:21.662Z",
+          "status": "success"
+        },
+        {
+          "id": "partycasino-preview-1786989008145",
+          "environment": "preview",
+          "url": "https://7288e7db.partycasino.pages.dev",
+          "timestamp": "2026-08-17T17:50:08.145Z",
+          "status": "success"
+        },
+        {
+          "id": "partycasino-production-1786989172209",
+          "environment": "production",
+          "url": "https://8801e49c.partycasino.pages.dev",
+          "timestamp": "2026-08-17T17:52:52.209Z",
+          "status": "success"
+        },
+        {
+          "id": "partycasino-preview-1786990644187",
+          "environment": "preview",
+          "url": "https://e41b3866.partycasino.pages.dev",
+          "timestamp": "2026-08-17T18:17:24.187Z",
+          "status": "success"
+        },
+        {
+          "id": "partycasino-production-1786990678141",
+          "environment": "production",
+          "url": "https://5882f9a3.partycasino.pages.dev",
+          "timestamp": "2026-08-17T18:17:58.141Z",
+          "status": "success"
+        },
+        {
+          "id": "partycasino-preview-1786991949559",
+          "environment": "preview",
+          "url": "https://1fbda5f9.partycasino.pages.dev",
+          "timestamp": "2026-08-17T18:39:09.559Z",
+          "status": "success"
+        },
+        {
+          "id": "partycasino-production-1786991994639",
+          "environment": "production",
+          "url": "https://43261c89.partycasino.pages.dev",
+          "timestamp": "2026-08-17T18:39:54.639Z",
+          "status": "success"
+        },
+        {
+          "id": "partycasino-preview-1786992285623",
+          "environment": "preview",
+          "url": "https://2f34d7b7.partycasino.pages.dev",
+          "timestamp": "2026-08-17T18:44:45.623Z",
+          "status": "success"
+        },
+        {
+          "id": "partycasino-production-1786992314620",
+          "environment": "production",
+          "url": "https://5d7d1d37.partycasino.pages.dev",
+          "timestamp": "2026-08-17T18:45:14.620Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [
+        {
+          "domain": "partycasino7.uk",
+          "state": "CLOUDFLARE_AUTHORITY_CONFIRMED",
+          "cloudflareZoneId": "a3796ce64e48ff7f96b8d68bbe2b231d",
+          "cloudflareNameServers": [
+            "kay.ns.cloudflare.com",
+            "rick.ns.cloudflare.com"
+          ],
+          "updatedAt": "2026-08-17T18:44:46.583Z"
+        }
+      ],
+      "lastGeneratedAt": "2026-08-17T18:44:34.284Z",
+      "lastDeployedAt": "2026-08-17T18:45:14.620Z"
+    },
+    {
+      "slug": "pokobet",
+      "domains": [
+        "pokobet7.nl"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "pokobet",
+        "branch": "production",
+        "workerRouteIds": [
+          "1b30e7cb18e843eaa37d2b7c34a485a6"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "pokobet-preview-1786988591931",
+          "environment": "preview",
+          "url": "https://a58c64f7.pokobet.pages.dev",
+          "timestamp": "2026-08-17T17:43:11.931Z",
+          "status": "success"
+        },
+        {
+          "id": "pokobet-production-1786988969440",
+          "environment": "production",
+          "url": "https://e333baef.pokobet.pages.dev",
+          "timestamp": "2026-08-17T17:49:29.440Z",
+          "status": "success"
+        },
+        {
+          "id": "pokobet-preview-1786990762192",
+          "environment": "preview",
+          "url": "https://b00d3de2.pokobet.pages.dev",
+          "timestamp": "2026-08-17T18:19:22.192Z",
+          "status": "success"
+        },
+        {
+          "id": "pokobet-production-1786990837352",
+          "environment": "production",
+          "url": "https://a87d1965.pokobet.pages.dev",
+          "timestamp": "2026-08-17T18:20:37.352Z",
+          "status": "success"
+        },
+        {
+          "id": "pokobet-preview-1786992082036",
+          "environment": "preview",
+          "url": "https://ea542968.pokobet.pages.dev",
+          "timestamp": "2026-08-17T18:41:22.036Z",
+          "status": "success"
+        },
+        {
+          "id": "pokobet-production-1786992118333",
+          "environment": "production",
+          "url": "https://72d2a15a.pokobet.pages.dev",
+          "timestamp": "2026-08-17T18:41:58.333Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [
+        {
+          "domain": "pokobet7.nl",
+          "state": "CLOUDFLARE_AUTHORITY_CONFIRMED",
+          "cloudflareZoneId": "e04647e401a5c66a24912e0fb4524ed7",
+          "cloudflareNameServers": [
+            "kay.ns.cloudflare.com",
+            "rick.ns.cloudflare.com"
+          ],
+          "updatedAt": "2026-08-17T18:41:23.249Z"
+        }
+      ],
+      "lastGeneratedAt": "2026-08-17T18:40:52.168Z",
+      "lastDeployedAt": "2026-08-17T18:41:58.333Z"
+    },
+    {
+      "slug": "shakebet",
+      "domains": [
+        "shakebet-nl.casino"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "shakebet",
+        "branch": "production",
+        "workerRouteIds": [
+          "84cc84505ea04bcd92a38b18d6ae25cc"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "shakebet-preview-1786562938147",
+          "environment": "preview",
+          "url": "https://4d0ba672.shakebet-27l.pages.dev",
+          "timestamp": "2026-08-12T19:28:58.147Z",
+          "status": "success"
+        },
+        {
+          "id": "shakebet-production-1786563031906",
+          "environment": "production",
+          "url": "https://10cdd987.shakebet-27l.pages.dev",
+          "timestamp": "2026-08-12T19:30:31.906Z",
+          "status": "success"
+        },
+        {
+          "id": "shakebet-preview-1786563706763",
+          "environment": "preview",
+          "url": "https://7b691421.shakebet-27l.pages.dev",
+          "timestamp": "2026-08-12T19:41:46.763Z",
+          "status": "success"
+        },
+        {
+          "id": "shakebet-production-1786563721387",
+          "environment": "production",
+          "url": "https://b890a623.shakebet-27l.pages.dev",
+          "timestamp": "2026-08-12T19:42:01.387Z",
+          "status": "success"
+        },
+        {
+          "id": "shakebet-preview-1786564739747",
+          "environment": "preview",
+          "url": "https://020b699a.shakebet-27l.pages.dev",
+          "timestamp": "2026-08-12T19:58:59.747Z",
+          "status": "success"
+        },
+        {
+          "id": "shakebet-production-1786564755985",
+          "environment": "production",
+          "url": "https://a9fbbd26.shakebet-27l.pages.dev",
+          "timestamp": "2026-08-12T19:59:15.985Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [],
+      "lastGeneratedAt": "2026-08-12T19:58:42.671Z",
+      "lastDeployedAt": "2026-08-12T19:59:15.985Z"
+    },
+    {
+      "slug": "slotowl",
+      "domains": [
+        "slotowl7.com"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "slotowl",
+        "branch": "production",
+        "workerRouteIds": [
+          "f973d5dd9acb444896cd7ed53cb80ce5"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "slotowl-preview-1786990031580",
+          "environment": "preview",
+          "url": "https://3cdcdba7.slotowl.pages.dev",
+          "timestamp": "2026-08-17T18:07:11.580Z",
+          "status": "success"
+        },
+        {
+          "id": "slotowl-production-1786990462571",
+          "environment": "production",
+          "url": "https://5cf51dee.slotowl.pages.dev",
+          "timestamp": "2026-08-17T18:14:22.571Z",
+          "status": "success"
+        },
+        {
+          "id": "slotowl-preview-1786990772678",
+          "environment": "preview",
+          "url": "https://7550a0e2.slotowl.pages.dev",
+          "timestamp": "2026-08-17T18:19:32.678Z",
+          "status": "success"
+        },
+        {
+          "id": "slotowl-production-1786990826181",
+          "environment": "production",
+          "url": "https://0274b590.slotowl.pages.dev",
+          "timestamp": "2026-08-17T18:20:26.181Z",
+          "status": "success"
+        },
+        {
+          "id": "slotowl-preview-1786992066856",
+          "environment": "preview",
+          "url": "https://b23123be.slotowl.pages.dev",
+          "timestamp": "2026-08-17T18:41:06.856Z",
+          "status": "success"
+        },
+        {
+          "id": "slotowl-production-1786992130028",
+          "environment": "production",
+          "url": "https://082fe59b.slotowl.pages.dev",
+          "timestamp": "2026-08-17T18:42:10.028Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [
+        {
+          "domain": "slotowl7.com",
+          "state": "CLOUDFLARE_AUTHORITY_CONFIRMED",
+          "cloudflareZoneId": "81706c57a55ddde19c2597442b7058cb",
+          "cloudflareNameServers": [
+            "kay.ns.cloudflare.com",
+            "rick.ns.cloudflare.com"
+          ],
+          "updatedAt": "2026-08-17T18:41:24.571Z"
+        }
+      ],
+      "lastGeneratedAt": "2026-08-17T18:40:54.716Z",
+      "lastDeployedAt": "2026-08-17T18:42:10.028Z"
+    },
+    {
+      "slug": "snatchcasino",
+      "domains": [
+        "snatchcasino7.de"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "snatchcasino",
+        "branch": "production",
+        "workerRouteIds": [
+          "5a2eb72f69494b8b8bad0d8732aeb948"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "snatchcasino-preview-1786990816092",
+          "environment": "preview",
+          "url": "https://21ade02e.snatchcasino.pages.dev",
+          "timestamp": "2026-08-17T18:20:16.092Z",
+          "status": "success"
+        },
+        {
+          "id": "snatchcasino-production-1786990864083",
+          "environment": "production",
+          "url": "https://410ec0b1.snatchcasino.pages.dev",
+          "timestamp": "2026-08-17T18:21:04.083Z",
+          "status": "success"
+        },
+        {
+          "id": "snatchcasino-preview-1786992108579",
+          "environment": "preview",
+          "url": "https://562eed0b.snatchcasino.pages.dev",
+          "timestamp": "2026-08-17T18:41:48.579Z",
+          "status": "success"
+        },
+        {
+          "id": "snatchcasino-production-1786992152907",
+          "environment": "production",
+          "url": "https://2df64cd3.snatchcasino.pages.dev",
+          "timestamp": "2026-08-17T18:42:32.907Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [
+        {
+          "domain": "snatchcasino7.de",
+          "state": "CLOUDFLARE_AUTHORITY_CONFIRMED",
+          "cloudflareZoneId": "2e47f2887b6cc488727d87f0350980fe",
+          "cloudflareNameServers": [
+            "kay.ns.cloudflare.com",
+            "rick.ns.cloudflare.com"
+          ],
+          "updatedAt": "2026-08-17T18:42:10.460Z"
+        }
+      ],
+      "lastGeneratedAt": "2026-08-17T18:41:25.497Z",
+      "lastDeployedAt": "2026-08-17T18:42:32.907Z"
+    },
+    {
+      "slug": "testcasino01",
+      "domains": [
+        "testcasino01.example"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "testcasino01",
+        "branch": "production",
+        "workerRouteIds": [
+          "noop-route-testcasino01.example"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "noop-preview-1786807713928",
+          "environment": "preview",
+          "url": "https://preview.testcasino01.pages.dev",
+          "timestamp": "2026-08-15T15:28:33.928Z",
+          "status": "success"
+        },
+        {
+          "id": "noop-production-1786807713953",
+          "environment": "production",
+          "url": "https://testcasino01.pages.dev",
+          "timestamp": "2026-08-15T15:28:33.953Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [],
+      "lastGeneratedAt": "2026-08-15T15:28:33.923Z",
+      "lastDeployedAt": "2026-08-15T15:28:33.953Z"
+    },
+    {
+      "slug": "winningz",
+      "domains": [
+        "winningz7.casino"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "winningz",
+        "branch": "production",
+        "workerRouteIds": [
+          "caefdafcd8d24b3b94a6206810f4b75e"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "winningz-preview-1786989294814",
+          "environment": "preview",
+          "url": "https://77a49780.winningz.pages.dev",
+          "timestamp": "2026-08-17T17:54:54.815Z",
+          "status": "success"
+        },
+        {
+          "id": "winningz-production-1786989688632",
+          "environment": "production",
+          "url": "https://896ca3c1.winningz.pages.dev",
+          "timestamp": "2026-08-17T18:01:28.632Z",
+          "status": "success"
+        },
+        {
+          "id": "winningz-preview-1786990750835",
+          "environment": "preview",
+          "url": "https://233a0443.winningz.pages.dev",
+          "timestamp": "2026-08-17T18:19:10.835Z",
+          "status": "success"
+        },
+        {
+          "id": "winningz-production-1786990797008",
+          "environment": "production",
+          "url": "https://fe23a81d.winningz.pages.dev",
+          "timestamp": "2026-08-17T18:19:57.008Z",
+          "status": "success"
+        },
+        {
+          "id": "winningz-preview-1786992191083",
+          "environment": "preview",
+          "url": "https://bca5aa7e.winningz.pages.dev",
+          "timestamp": "2026-08-17T18:43:11.083Z",
+          "status": "success"
+        },
+        {
+          "id": "winningz-production-1786992205544",
+          "environment": "production",
+          "url": "https://fabee79d.winningz.pages.dev",
+          "timestamp": "2026-08-17T18:43:25.544Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [
+        {
+          "domain": "winningz7.casino",
+          "state": "CLOUDFLARE_AUTHORITY_CONFIRMED",
+          "cloudflareZoneId": "dace348427be8843e3014e7843ff226b",
+          "cloudflareNameServers": [
+            "kay.ns.cloudflare.com",
+            "rick.ns.cloudflare.com"
+          ],
+          "updatedAt": "2026-08-17T18:43:12.513Z"
+        }
+      ],
+      "lastGeneratedAt": "2026-08-17T18:42:58.849Z",
+      "lastDeployedAt": "2026-08-17T18:43:25.544Z"
+    },
+    {
+      "slug": "winshark",
+      "domains": [
+        "win-shark-ch.com"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "winshark",
+        "branch": "production",
+        "workerRouteIds": [
+          "fa44ea55be2449e4b385a043c8670ead"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "winshark-preview-1786560260894",
+          "environment": "preview",
+          "url": "https://2428ef5d.winshark.pages.dev",
+          "timestamp": "2026-08-12T18:44:20.894Z",
+          "status": "success"
+        },
+        {
+          "id": "winshark-production-1786560353299",
+          "environment": "production",
+          "url": "https://7d277b27.winshark.pages.dev",
+          "timestamp": "2026-08-12T18:45:53.299Z",
+          "status": "success"
+        },
+        {
+          "id": "winshark-preview-1786563636875",
+          "environment": "preview",
+          "url": "https://cddddefc.winshark.pages.dev",
+          "timestamp": "2026-08-12T19:40:36.875Z",
+          "status": "success"
+        },
+        {
+          "id": "winshark-production-1786563652130",
+          "environment": "production",
+          "url": "https://7699bb62.winshark.pages.dev",
+          "timestamp": "2026-08-12T19:40:52.131Z",
+          "status": "success"
+        },
+        {
+          "id": "winshark-preview-1786564323320",
+          "environment": "preview",
+          "url": "https://e42dd3f1.winshark.pages.dev",
+          "timestamp": "2026-08-12T19:52:03.320Z",
+          "status": "success"
+        },
+        {
+          "id": "winshark-production-1786564338378",
+          "environment": "production",
+          "url": "https://53251b1a.winshark.pages.dev",
+          "timestamp": "2026-08-12T19:52:18.378Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [],
+      "lastGeneratedAt": "2026-08-12T19:51:45.664Z",
+      "lastDeployedAt": "2026-08-12T19:52:18.378Z"
+    },
+    {
+      "slug": "winsly",
+      "domains": [
+        "winsly7.com"
+      ],
+      "templateId": "casino-v2",
+      "templateVersion": "0.0.1",
+      "cloudflare": {
+        "projectName": "winsly",
+        "branch": "production",
+        "workerRouteIds": [
+          "56ded31d16cd41ca9b6b56beb4ce86ff"
+        ]
+      },
+      "deployments": [
+        {
+          "id": "winsly-preview-1786990787300",
+          "environment": "preview",
+          "url": "https://6e2a625d.winsly.pages.dev",
+          "timestamp": "2026-08-17T18:19:47.300Z",
+          "status": "success"
+        },
+        {
+          "id": "winsly-production-1786990852115",
+          "environment": "production",
+          "url": "https://5e426a35.winsly.pages.dev",
+          "timestamp": "2026-08-17T18:20:52.115Z",
+          "status": "success"
+        },
+        {
+          "id": "winsly-preview-1786992096474",
+          "environment": "preview",
+          "url": "https://e36db5b4.winsly.pages.dev",
+          "timestamp": "2026-08-17T18:41:36.474Z",
+          "status": "success"
+        },
+        {
+          "id": "winsly-production-1786992141819",
+          "environment": "production",
+          "url": "https://8d0a3cae.winsly.pages.dev",
+          "timestamp": "2026-08-17T18:42:21.819Z",
+          "status": "success"
+        }
+      ],
+      "domainProvisioning": [
+        {
+          "domain": "winsly7.com",
+          "state": "CLOUDFLARE_AUTHORITY_CONFIRMED",
+          "cloudflareZoneId": "b6cca6a884071c717c9fc8907edff441",
+          "cloudflareNameServers": [
+            "kay.ns.cloudflare.com",
+            "rick.ns.cloudflare.com"
+          ],
+          "updatedAt": "2026-08-17T18:41:58.339Z"
+        }
+      ],
+      "lastGeneratedAt": "2026-08-17T18:41:24.227Z",
+      "lastDeployedAt": "2026-08-17T18:42:21.819Z"
+    }
+  ]
+}

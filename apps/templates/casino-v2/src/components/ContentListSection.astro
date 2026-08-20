@@ -1,0 +1,40 @@
+---
+import { cssVars } from "../lib/theme";
+
+const {
+  id,
+  title,
+  paragraphs = [],
+  items = [],
+  theme = {},
+} = Astro.props;
+
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+---
+
+<section
+  id={id}
+  class="site-section px-4 py-10 sm:px-6 sm:py-12 lg:px-8"
+  style={`${cssVars(theme)} --section-bg:${sectionBg};`}
+>
+  <div class="mx-auto max-w-5xl">
+    <h2 class="gradient-heading text-2xl font-black sm:text-3xl md:text-4xl">{title}</h2>
+
+    {paragraphs.slice(0, 1).map((text) => <p class="mt-4 max-w-3xl leading-8" style="color:var(--muted-text)">{text}</p>)}
+
+    {
+      items.length > 0 && (
+        <ul class="mt-6 grid gap-3 sm:grid-cols-2">
+          {items.map((item) => (
+            <li class="glass-card rounded-xl p-4 leading-7" style="color:var(--text)">
+              <span class="mr-2 font-black" style="color:var(--accent);">✓</span>
+              {item}
+            </li>
+          ))}
+        </ul>
+      )
+    }
+
+    {paragraphs.slice(1).map((text) => <p class="mt-4 leading-8" style="color:var(--muted-text)">{text}</p>)}
+  </div>
+</section>

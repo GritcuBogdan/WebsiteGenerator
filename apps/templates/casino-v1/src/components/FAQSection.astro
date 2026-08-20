@@ -1,0 +1,76 @@
+---
+import { cssVars } from "../lib/theme";
+
+const {
+  id = "faq",
+  title = "FAQ",
+  items = [],
+  layout = "accordion",
+  theme = {
+    primary: "#2563eb",
+    secondary: "#111827",
+    surface: "#ffffff",
+    text: "#1f2937",
+  },
+} = Astro.props;
+
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+const titleColor = theme.title || theme.headingText || "var(--heading-text)";
+const isGrid = layout === "grid";
+---
+
+<section
+  id={id}
+  class="site-section px-4 py-7 sm:px-6 sm:py-9 lg:px-8"
+  style={`${cssVars(theme)} --section-bg:${sectionBg}; --section-text:${theme.text || "var(--text)"};`}
+>
+  <div class="mx-auto max-w-7xl">
+    <h2 class="text-2xl font-black sm:text-3xl md:text-4xl" style={`color:${titleColor}`}>
+      {title}
+    </h2>
+
+    <div class:list={["mt-6", isGrid ? "grid gap-4 md:grid-cols-2" : "space-y-4"]}>
+      {
+        items.map((item, index) => (
+          <details
+            class="faq-item group rounded-lg border p-4 shadow-sm transition duration-300 open:shadow-lg sm:p-5"
+            style="background:var(--surface); border-color:var(--border);"
+            open={index === 0 && !isGrid}
+          >
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left">
+              <h3 class="text-base font-black sm:text-lg" style="color:var(--heading-text)">
+                {item.question}
+              </h3>
+              <span
+                class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border text-sm font-black transition duration-300 group-open:rotate-180"
+                style="border-color:var(--border); color:var(--primary);"
+                aria-hidden="true"
+              >
+                v
+              </span>
+            </summary>
+            <div class="faq-answer grid transition-all duration-300 ease-out">
+              <p class="overflow-hidden pt-3 leading-8" style="color:var(--muted-text)">
+                {item.answer}
+              </p>
+            </div>
+          </details>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-answer {
+    grid-template-rows: 0fr;
+  }
+
+  .faq-item[open] .faq-answer {
+    grid-template-rows: 1fr;
+  }
+</style>

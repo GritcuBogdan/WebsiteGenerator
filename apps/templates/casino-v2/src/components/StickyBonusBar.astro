@@ -1,0 +1,85 @@
+---
+import { cssVars } from "../lib/theme";
+import { getRedirectHref } from "../lib/affiliate";
+import OptimizedImage from "./OptimizedImage.astro";
+
+const {
+  casinoSlug = "",
+  logo = "",
+  casinoName = "",
+  headline = "",
+  bullets = [],
+  disclaimer = "",
+  buttonText = "Get Bonus",
+  buttonLink = "",
+  theme = {},
+} = Astro.props;
+
+const redirectHref = buttonLink || getRedirectHref(casinoSlug);
+const offerText = bullets
+  .filter(Boolean)
+  .map((bullet: string) => bullet.trim().replace(/^\+\s*/, ""))
+  .join(" + ");
+---
+
+<a
+  href={redirectHref}
+  class="sticky-bonus-bar glass-card fixed inset-x-0 bottom-0 z-[55] flex items-center gap-2 border-t px-3 py-2 sm:gap-3 sm:px-5 sm:py-3"
+  style={`${cssVars(theme)} padding-bottom:max(0.5rem, env(safe-area-inset-bottom)); box-shadow:0 -12px 30px -12px color-mix(in srgb, var(--primary) 45%, transparent);`}
+  aria-label={`${casinoName} - ${headline}${offerText ? `: ${offerText}` : ""}`}
+>
+  {
+    logo && (
+      <span class="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-lg sm:h-12 sm:w-12" style="background:var(--surface-muted);">
+        <OptimizedImage src={logo} alt={casinoName} width="48" height="48" responsive={false} class="h-full w-full object-contain p-1" />
+      </span>
+    )
+  }
+
+  <span class="min-w-0 flex-1">
+    <span class="block truncate text-xs font-black leading-tight sm:text-base" style="color:var(--text);">
+      {headline}
+    </span>
+    {
+      offerText && (
+        <span class="line-clamp-2 text-[11px] leading-snug sm:line-clamp-1 sm:text-sm" style="color:var(--accent);">
+          {offerText}
+        </span>
+      )
+    }
+    {
+      disclaimer && (
+        <span class="hidden text-[10px] leading-tight opacity-60 sm:block" style="color:var(--muted-text);">
+          {disclaimer}
+        </span>
+      )
+    }
+  </span>
+
+  <span class="cta-button shrink-0 whitespace-nowrap rounded-full px-3 py-2 text-[11px] font-black sm:px-5 sm:py-2.5 sm:text-sm">
+    {buttonText}
+  </span>
+</a>
+
+<style>
+  .sticky-bonus-bar {
+    animation: sticky-bonus-bar-in 400ms ease both;
+  }
+
+  @keyframes sticky-bonus-bar-in {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .sticky-bonus-bar {
+      animation: none;
+    }
+  }
+</style>

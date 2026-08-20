@@ -1,0 +1,42 @@
+---
+import { cssVars } from "../lib/theme";
+
+const {
+  id = "quote",
+  title = "",
+  eyebrow = "",
+  text = "",
+  author = "",
+  compact = false,
+  theme = {},
+} = Astro.props;
+
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+---
+
+<section
+  id={id}
+  class:list={["site-section px-4 sm:px-6 lg:px-8", compact ? "py-0" : "py-10 sm:py-12"]}
+  style={`${cssVars(theme)} --section-bg:${sectionBg};`}
+>
+  <div class="mx-auto max-w-4xl">
+    {(title || eyebrow) && (
+      <div class="mb-5">
+        {eyebrow && <p class="text-sm font-black uppercase tracking-[0.16em]" style="color:var(--accent)">{eyebrow}</p>}
+        {title && <h2 class="gradient-heading mt-2 text-2xl font-black sm:text-3xl">{title}</h2>}
+      </div>
+    )}
+
+    <figure class="glass-card glow-border relative overflow-hidden rounded-2xl p-6 sm:p-8">
+      <div class="absolute -right-2 -top-6 text-8xl font-black leading-none opacity-10" style="color:var(--primary)">"</div>
+      <blockquote class="relative text-lg font-semibold leading-8 sm:text-xl sm:leading-9" style="color:var(--text)">
+        {text}
+      </blockquote>
+      {author && (
+        <figcaption class="mt-5 text-sm font-bold" style="color:var(--muted-text)">
+          {author}
+        </figcaption>
+      )}
+    </figure>
+  </div>
+</section>

@@ -1,0 +1,30 @@
+{
+  "slug": "betitall",
+  "domains": [
+    "betitall7.de"
+  ],
+  "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+  "locales": [
+    {
+      "code": "de-DE",
+      "default": true
+    }
+  ],
+  "contentSource": "library",
+  "profile": "starter-casino",
+  "theme": {
+    "primary": "#FF8A3D",
+    "secondary": "#1B0F24",
+    "accent": "#A855F7"
+  },
+  "banner": {
+    "text": "Willkommensbonus – 520 CHF + 220 Freispiele",
+    "desktop": "/images/_shared/starter-casino-banner.png"
+  },
+  "stickyBanner": {
+    "headline": "Willkommensbonus",
+    "bullets": [
+      "520 CHF + 220 Freispiele"
+    ]
+  }
+}

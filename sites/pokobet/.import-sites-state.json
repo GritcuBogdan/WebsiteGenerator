@@ -1,0 +1,44 @@
+{
+  "config": {
+    "slug": "pokobet",
+    "domains": [
+      "pokobet7.nl"
+    ],
+    "affiliateUrl": "https://direct.reradirectbox.com/click?pid=51&offer_id=251",
+    "locales": [
+      {
+        "code": "nl-NL",
+        "default": true
+      }
+    ],
+    "contentSource": "library",
+    "profile": "starter-casino",
+    "theme": {
+      "primary": "#9B59D0",
+      "secondary": "#1A0F26",
+      "accent": "#FF6FD8"
+    }
+  },
+  "data": {
+    "brandName": "Poko Bet",
+    "welcomeBonus": {
+      "amount": 500,
+      "currency": "EUR"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "profile": "starter-casino"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "partycasino",
+  "domains": [
+    "partycasino7.uk"
+  ],
+  "affiliateUrl": "https://direct.reradirectbox.com/click?pid=51&offer_id=251",
+  "locales": [
+    {
+      "code": "en-US",
+      "default": true
+    }
+  ],
+  "contentSource": "library",
+  "profile": "starter-casino",
+  "theme": {
+    "primary": "#8B1E2B",
+    "secondary": "#0D0505",
+    "accent": "#E63946"
+  },
+  "banner": {
+    "text": "Welcome Bonus – £400 + 100 Free Spins",
+    "desktop": "/images/_shared/starter-casino-banner.png"
+  },
+  "stickyBanner": {
+    "headline": "Welcome Bonus",
+    "bullets": [
+      "£400 + 100 Free Spins"
+    ]
+  }
+}

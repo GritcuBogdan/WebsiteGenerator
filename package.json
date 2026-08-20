@@ -1,0 +1,26 @@
+{
+  "name": "casino-site-generator",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "workspaces": [
+    "apps/templates/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "generate": "tsx packages/generator-cli/src/cli.ts generate",
+    "new-site": "tsx packages/generator-cli/src/cli.ts new-site",
+    "import-sites": "tsx packages/generator-cli/src/cli.ts import-sites",
+    "validate-sites": "tsx packages/generator-cli/src/cli.ts validate-sites",
+    "content:validate": "tsx packages/generator-cli/src/cli.ts content:validate",
+    "content:stats": "tsx packages/generator-cli/src/cli.ts content:stats",
+    "content:dedupe": "tsx packages/generator-cli/src/cli.ts content:dedupe"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0"
+  }
+}

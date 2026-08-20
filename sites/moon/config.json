@@ -1,0 +1,48 @@
+{
+  "slug": "moon",
+  "domains": [
+    "mooonwin.casino"
+  ],
+  "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+  "template": "casino-v2",
+  "locales": [
+    {
+      "code": "en",
+      "docx": "casino.en.docx",
+      "default": true
+    }
+  ],
+  "theme": {
+    "primary": "#3B82F6",
+    "secondary": "#0B1F3A",
+    "accent": "#60A5FA",
+    "background": "#071525",
+    "surface": "#0D2138",
+    "text": "#FFFFFF",
+    "mutedText": "#A8B8CC",
+    "border": "rgba(255, 255, 255, 0.12)",
+    "linkHover": "#93C5FD",
+    "navbarBackground": "#050F1C",
+    "navbarText": "#FFFFFF"
+  },
+
+  "navbar": {
+    "logo": "/images/moon/logotype-white.png",
+    "brandName": "Moon Win",
+    "showBrandName": false
+  },
+  "banner": {
+    "desktop": "/images/moon/sticky.jpg",
+    "buttonText": "Claim Bonus",
+    "buttonColor": "#3B82F6",
+    "buttonTextColor": "#FFFFFF",
+    "textColor": "#FFFFFF"
+  },
+  "stickyBanner": {
+    "logo": "/images/moon/sticky.png",
+    "bullets": [
+      "Claim Your Welcome Bonus Up to $10,000",
+      "180 Free Spins"
+    ]
+  }
+}

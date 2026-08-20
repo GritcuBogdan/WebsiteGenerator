@@ -1,0 +1,41 @@
+{
+  "slug": "golisimo",
+  "domains": ["golisimogreece.com"],
+  "affiliateUrl": "https://direct.reradirectbox.com/click?pid=51&offer_id=1597&l=1784539273",
+  "template": "casino-v1",
+  "locales": [
+    { "code": "el", "docx": "casino.el.docx", "default": true, "label": "Greek", "flagImage": "/images/golisimo/flags/gr.png" },
+    { "code": "en", "docx": "casino.en.docx", "label": "English", "flagImage": "/images/golisimo/flags/gb.png" }
+  ],
+  "theme": {
+    "primary": "#2563EB",
+    "secondary": "#0F2747",
+    "accent": "#38BDF8",
+    "background": "#F4F8FF",
+    "surface": "#FFFFFF",
+    "text": "#172033",
+    "mutedText": "#5D6B82",
+    "border": "rgba(37, 99, 235, 0.16)",
+    "sectionBackground": "transparent",
+    "headingText": "#0F2747",
+    "link": "#1D4ED8",
+    "linkHover": "#0EA5E9",
+    "footerBackground": "#0B1F3A",
+    "footerText": "#EAF2FF",
+    "navigationBackground": "#EEF6FF",
+    "rowColor": "#DBEAFE",
+    "rowTextColor": "#0F2747"
+  },
+  "navbar": {
+    "logo": "/images/golisimo/logo.png",
+    "brandName": "Golisimo Casino"
+  },
+  "footer": {
+    "legalPageSlugs": ["responsible-gaming", "privacy-policy", "cookies-policy", "betting-rules", "terms-conditions", "contacts"]
+  },
+  "banner": {
+    "desktop": "/images/golisimo/banner.webp",
+    "buttonColor": "#2563EB"
+  },
+  "ogImage": "/images/golisimo/banner.webp"
+}

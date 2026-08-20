@@ -1,0 +1,42 @@
+{
+  "brandName": "Party Casino",
+  "welcomeBonus": {
+    "amount": 400,
+    "currency": "GBP"
+  },
+  "minimumDeposit": 20,
+  "gameCount": 1800,
+  "paymentMethods": [
+    "Visa",
+    "Mastercard",
+    "Skrill"
+  ],
+  "withdrawalMethods": [
+    "Bank Transfer",
+    "Skrill"
+  ],
+  "supportedCurrencies": [
+    "USD"
+  ],
+  "profile": "starter-casino",
+  "imageTheme": {
+    "description": "A vibrant Dia de los Muertos Mexican festival scene with festive Papel Picado bunting hanging above a cobblestone street. In the center, a confident female explorer wearing a brown leather cowboy hat, flanked by two decorated Mexican sugar skulls. In the foreground, an ornate silver and gold jester Venetian mask with bells. Dynamic red neon light streaks bursting outward across the ground. Heavy black gradient fade on the right side for text overlay, warm festival lighting, detailed slot art style",
+    "palette": [
+      "#000000",
+      "#FFCC00",
+      "#E83338",
+      "#8B0000",
+      "#D4AF37"
+    ],
+    "motifs": [
+      "Smooth black gradient transition fading out the right side",
+      "Ornate sugar skull illustrations flanking the main character",
+      "Venetian jester mask with golden detail centered in front",
+      "Red laser sparks and glowing light streaks radiating across cobblestone street"
+    ],
+    "visualStyle": "Day of the Dead Mexican festival theme, slot game banner graphic, dark gradient fade"
+  },
+  "freeSpins": {
+    "count": 100
+  }
+}

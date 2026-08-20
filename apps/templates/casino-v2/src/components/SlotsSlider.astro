@@ -1,0 +1,219 @@
+---
+import { cssVars } from "../lib/theme";
+import { getRedirectHref } from "../lib/affiliate";
+import OptimizedImage from "./OptimizedImage.astro";
+
+const {
+  title = "Featured Slots",
+  casinoSlug = "",
+  slots = [],
+  playText = "Play",
+  theme = {},
+} = Astro.props;
+
+const redirectHref = getRedirectHref(casinoSlug);
+// Roughly constant perceived speed regardless of list length (~5s/card),
+// with a floor so a short list still reads as a deliberate drift rather
+// than a blink.
+const durationSeconds = Math.max(slots.length * 5, 20);
+---
+
+{
+  slots.length > 0 && (
+    <div class="mx-auto mt-10 max-w-7xl sm:mt-14" style={cssVars(theme)}>
+      <div class="mb-4 flex items-center gap-3 px-4 sm:mb-5 sm:gap-4 sm:px-6 lg:px-8">
+        <span
+          class="h-8 w-1.5 shrink-0 rounded-full sm:h-10"
+          style="background:linear-gradient(180deg, var(--primary, #8b5cf6), var(--accent, #f5c542));"
+          aria-hidden="true"
+        />
+        <h2 class="gradient-heading text-3xl font-black sm:text-4xl md:text-5xl" style="color:var(--text)">
+          {title}
+        </h2>
+      </div>
+
+      {
+        // width:100vw + the negative margin below is what breaks this out
+        // of both the hero's own padding AND this component's max-w-7xl
+        // wrapper, all the way to the true screen edge on any viewport
+        // width - a plain negative margin sized off the parent only
+        // cancels that parent's own box, it can't reach past an ancestor's
+        // max-width. overflow-x:auto (not hidden) is what makes this a
+        // real scroll container: native touch/trackpad swipe works for
+        // free, and the drag/wheel handlers below add the same for a
+        // mouse. The JS auto-advance only runs while nothing is being
+        // dragged/scrolled, so the two behaviors don't fight each other.
+      }
+      <div
+        class="slots-marquee-track flex gap-3 overflow-x-auto sm:gap-4"
+        data-duration={durationSeconds}
+      >
+        {[0, 1].map((copy) => (
+          <div class="flex shrink-0 gap-3 pl-4 sm:gap-4 sm:pl-6 lg:pl-8" aria-hidden={copy === 1 ? "true" : undefined}>
+            {slots.map((slot) => (
+              <a
+                href={redirectHref}
+                tabindex={copy === 1 ? -1 : 0}
+                draggable="false"
+                class="glass-card group relative w-28 shrink-0 overflow-hidden rounded-2xl transition duration-300 hover:-translate-y-1 hover:glow-border active:scale-[0.97] sm:w-36 md:w-40"
+                aria-label={`${slot.title} - ${playText}`}
+              >
+                <OptimizedImage
+                  src={slot.image}
+                  alt={slot.alt || slot.title}
+                  loading="lazy"
+                  width="320"
+                  height="420"
+                  responsive={false}
+                  class="aspect-[3/4] w-full object-cover transition duration-500 group-hover:scale-105"
+                />
+                <div
+                  class="absolute inset-x-0 bottom-0 p-2.5"
+                  style="background:linear-gradient(180deg, transparent, rgba(6,5,14,0.92) 85%);"
+                >
+                  <p
+                    class="line-clamp-2 inline-block rounded-md px-1.5 py-1 text-[11px] font-black leading-tight text-white sm:text-xs"
+                    style="background:rgba(6,5,14,0.55);"
+                  >
+                    {slot.title}
+                  </p>
+                </div>
+              </a>
+            ))}
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+<style>
+  .slots-marquee-track {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    touch-action: pan-x;
+    cursor: grab;
+    user-select: none;
+  }
+
+  .slots-marquee-track::-webkit-scrollbar {
+    display: none;
+  }
+
+  .slots-marquee-track.is-dragging {
+    cursor: grabbing;
+    scroll-snap-type: none;
+  }
+</style>
+
+<script>
+  // Two identical copies of the card list sit side by side; once scrollLeft
+  // passes the width of one copy, subtracting that width jumps back to the
+  // pixel-identical start of the second copy - invisible, so the loop never
+  // shows a seam whether it's the auto-advance or a manual drag that
+  // crosses it.
+  document.querySelectorAll<HTMLElement>(".slots-marquee-track").forEach((track) => {
+    const singleSetWidth = track.scrollWidth / 2;
+    if (singleSetWidth <= 0) return;
+
+    const duration = Number(track.dataset.duration) || 30;
+    const pxPerSecond = singleSetWidth / duration;
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    let isInteracting = false;
+    let isDragging = false;
+    let activePointerId: number | null = null;
+    let dragStartX = 0;
+    let dragStartScroll = 0;
+    let resumeTimer: ReturnType<typeof setTimeout> | undefined;
+    let lastFrameTime: number | null = null;
+
+    // A tap and a drag both start as a plain pointerdown; capturing the
+    // pointer (and thus swallowing the click) right away would make every
+    // slot un-clickable, since captured pointers retarget the synthesized
+    // click to the track instead of the <a> under the finger/cursor. So
+    // capture is deferred until real movement crosses this threshold -
+    // taps below it fall through to the anchor's native click/navigation.
+    const DRAG_THRESHOLD_PX = 6;
+
+    function pause() {
+      isInteracting = true;
+      if (resumeTimer) clearTimeout(resumeTimer);
+    }
+
+    function scheduleResume() {
+      if (resumeTimer) clearTimeout(resumeTimer);
+      resumeTimer = setTimeout(() => {
+        isInteracting = false;
+      }, 2000);
+    }
+
+    track.addEventListener("wheel", () => {
+      pause();
+      scheduleResume();
+    }, { passive: true });
+
+    track.addEventListener("touchstart", pause, { passive: true });
+    track.addEventListener("touchend", scheduleResume, { passive: true });
+
+    track.addEventListener("pointerdown", (event) => {
+      pause();
+      activePointerId = event.pointerId;
+      dragStartX = event.clientX;
+      dragStartScroll = track.scrollLeft;
+    });
+
+    track.addEventListener("pointermove", (event) => {
+      if (activePointerId === null || event.pointerId !== activePointerId) return;
+      const delta = event.clientX - dragStartX;
+      if (!isDragging) {
+        if (Math.abs(delta) < DRAG_THRESHOLD_PX) return;
+        isDragging = true;
+        track.classList.add("is-dragging");
+        track.setPointerCapture(activePointerId);
+      }
+      track.scrollLeft = dragStartScroll - delta;
+    });
+
+    const endDrag = () => {
+      activePointerId = null;
+      if (!isDragging) {
+        scheduleResume();
+        return;
+      }
+      isDragging = false;
+      track.classList.remove("is-dragging");
+      scheduleResume();
+    };
+    track.addEventListener("pointerup", endDrag);
+    track.addEventListener("pointercancel", endDrag);
+
+    // Wrap-around applies to every scroll change regardless of source
+    // (auto-advance, drag, wheel, or native touch momentum), so it's on
+    // the "scroll" event itself rather than duplicated in each handler.
+    track.addEventListener("scroll", () => {
+      if (track.scrollLeft >= singleSetWidth) {
+        track.scrollLeft -= singleSetWidth;
+      } else if (track.scrollLeft < 0) {
+        track.scrollLeft += singleSetWidth;
+      }
+    }, { passive: true });
+
+    if (prefersReducedMotion) return;
+
+    function tick(now: number) {
+      if (lastFrameTime === null) lastFrameTime = now;
+      const deltaSeconds = (now - lastFrameTime) / 1000;
+      lastFrameTime = now;
+
+      if (!isInteracting && !isDragging) {
+        track.scrollLeft += pxPerSecond * deltaSeconds;
+      }
+
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  });
+</script>

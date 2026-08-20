@@ -1,0 +1,119 @@
+---
+import { cssVars } from "../lib/theme";
+import { getRedirectHref } from "../lib/affiliate";
+
+const {
+  id = "auth-form",
+  title = "Create your account",
+  casinoSlug = "",
+  subtitle = "",
+  fields,
+  buttonText = "Continue",
+  closeLabel = "Close",
+  legalText = "",
+  theme = {},
+} = Astro.props;
+
+const defaultFields =
+  Astro.props.type === "signinForm"
+    ? [
+        { label: "Email", name: "email", type: "email", placeholder: "you@example.com" },
+        { label: "Password", name: "password", type: "password", placeholder: "Your password" },
+      ]
+    : [
+        { label: "Name", name: "name", type: "text", placeholder: "Your name" },
+        { label: "Email", name: "email", type: "email", placeholder: "you@example.com" },
+        { label: "Password", name: "password", type: "password", placeholder: "Create a password" },
+      ];
+
+const formFields = fields?.length ? fields : defaultFields;
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+const redirectHref = getRedirectHref(casinoSlug);
+---
+
+<section
+  id={id}
+  class="site-section px-4 py-10 sm:px-6 sm:py-12 lg:px-8"
+  style={`${cssVars(theme)} --section-bg:${sectionBg};`}
+>
+  <div class="mx-auto max-w-7xl">
+    <form
+      class="auth-redirect-form glass-card glow-border relative mx-auto max-w-md rounded-2xl p-5 sm:p-7"
+      data-redirect={redirectHref}
+      aria-label={title}
+    >
+      <button
+        type="button"
+        class="auth-redirect-close absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full text-lg font-bold"
+        data-redirect={redirectHref}
+        style="background:var(--surface-muted); color:var(--muted-text);"
+        aria-label={closeLabel}
+      >
+        ×
+      </button>
+
+      <div class="pr-10">
+        <h2 class="gradient-heading text-2xl font-black sm:text-3xl">{title}</h2>
+        {subtitle && <p class="mt-2 leading-7" style="color:var(--muted-text)">{subtitle}</p>}
+      </div>
+
+      <div class="mt-6 space-y-4">
+        {
+          formFields.map((field) => (
+            <label class="block">
+              <span class="text-sm font-bold" style="color:var(--text)">
+                {field.label}
+              </span>
+              <input
+                class="auth-redirect-field mt-2 min-h-12 w-full rounded-xl border px-4 text-base outline-none transition duration-300 focus:-translate-y-0.5"
+                style="border-color:var(--border); background:var(--surface-muted); color:var(--text);"
+                data-redirect={redirectHref}
+                name={field.name}
+                type={field.type || "text"}
+                placeholder={field.placeholder || ""}
+                autocomplete={field.name}
+                readonly
+              />
+            </label>
+          ))
+        }
+      </div>
+
+      <button type="submit" class="cta-button mt-6 min-h-12 w-full rounded-xl px-5 py-3 text-base font-black shadow-lg">
+        {buttonText}
+      </button>
+
+      {legalText && <p class="mt-4 text-center text-sm leading-6" style="color:var(--muted-text)">{legalText}</p>}
+    </form>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLFormElement>(".auth-redirect-form").forEach((form) => {
+    const destination = form.dataset.redirect;
+    if (!destination) return;
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      window.location.href = destination;
+    });
+  });
+
+  document.querySelectorAll<HTMLButtonElement>(".auth-redirect-close").forEach((button) => {
+    const destination = button.dataset.redirect;
+    if (!destination) return;
+
+    button.addEventListener("click", () => {
+      window.location.href = destination;
+    });
+  });
+
+  document.querySelectorAll<HTMLInputElement>(".auth-redirect-field").forEach((field) => {
+    const destination = field.dataset.redirect;
+    if (!destination) return;
+
+    field.addEventListener("click", () => {
+      window.location.href = destination;
+    });
+  });
+</script>

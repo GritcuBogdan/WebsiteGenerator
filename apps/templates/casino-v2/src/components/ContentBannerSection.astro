@@ -1,0 +1,73 @@
+---
+import { cssVars } from "../lib/theme";
+import { getRedirectHref } from "../lib/affiliate";
+import OptimizedImage from "./OptimizedImage.astro";
+
+const {
+  id,
+  title,
+  casinoSlug = "",
+  paragraphs = [],
+  banner,
+  bannerMobile,
+  bannerText,
+  ctaText = "Learn More",
+  theme = {},
+} = Astro.props;
+
+const redirectHref = getRedirectHref(casinoSlug);
+const bannerImage = typeof banner === "string" ? banner : banner?.desktop;
+const mobileImage = typeof banner === "string" ? bannerMobile : banner?.mobile || bannerMobile;
+const imageAlt = typeof banner === "string" ? title : banner?.alt || title;
+const overlayText = typeof banner === "string" ? bannerText : banner?.text || bannerText;
+const linkText = typeof banner === "string" ? ctaText : banner?.buttonText || ctaText;
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+---
+
+<section
+  id={id}
+  class="site-section px-4 py-10 sm:px-6 sm:py-12 lg:px-8"
+  style={`${cssVars(theme)} --section-bg:${sectionBg};`}
+>
+  <div class="mx-auto max-w-6xl">
+    <h2 class="gradient-heading text-2xl font-black sm:text-3xl md:text-4xl">{title}</h2>
+
+    {
+      paragraphs.map((text) => (
+        <p class="mt-3 max-w-3xl text-sm leading-7 sm:mt-4 sm:text-base sm:leading-8" style="color:var(--muted-text)">
+          {text}
+        </p>
+      ))
+    }
+
+    {
+      bannerImage && (
+        <div class="glass-card glow-border relative mt-7 overflow-hidden rounded-2xl sm:mt-8">
+          <OptimizedImage
+            src={bannerImage}
+            mobileSrc={mobileImage}
+            alt={imageAlt}
+            width="1190"
+            height="400"
+            loading="lazy"
+            class="aspect-[4/3] w-full object-cover sm:aspect-[16/9] md:aspect-[1190/400]"
+          />
+
+          <div class="absolute inset-0 flex items-center justify-center p-4" style="background:linear-gradient(180deg, transparent, color-mix(in srgb, var(--background) 85%, transparent));">
+            <div class="w-full max-w-sm text-center sm:max-w-lg">
+              {overlayText && (
+                <p class="text-lg font-black leading-tight sm:text-2xl" style="color:#fff;">
+                  {overlayText}
+                </p>
+              )}
+
+              <a href={redirectHref} class="cta-button mt-5 inline-flex rounded-full px-6 py-3 text-sm font-black sm:px-8 sm:text-base">
+                {linkText}
+              </a>
+            </div>
+          </div>
+        </div>
+      )
+    }
+  </div>
+</section>

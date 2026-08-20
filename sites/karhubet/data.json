@@ -1,0 +1,42 @@
+{
+  "brandName": "Karhubet",
+  "welcomeBonus": {
+    "amount": 350,
+    "currency": "EUR"
+  },
+  "minimumDeposit": 20,
+  "gameCount": 1800,
+  "paymentMethods": [
+    "Visa",
+    "Mastercard",
+    "Skrill"
+  ],
+  "withdrawalMethods": [
+    "Bank Transfer",
+    "Skrill"
+  ],
+  "supportedCurrencies": [
+    "USD"
+  ],
+  "profile": "starter-casino",
+  "imageTheme": {
+    "description": "3D animated video game character style render of a powerful muscular black bear fighter in a fighting stance, wearing yellow boxing hand wraps and a blue karate belt. Outdoor martial arts boxing ring set in a lush green misty jungle forest background. Floating around in mid-air are rune-carved wooden nunchucks, a silver metal shuriken star, and thick golden coins. High detail fur texture, warm volumetric sunlight, energetic game art style, 8k resolution",
+    "palette": [
+      "#0F2E2E",
+      "#FFC700",
+      "#1A4D4E",
+      "#2B1A0E",
+      "#0040FF"
+    ],
+    "motifs": [
+      "Depth-of-field blur on foreground floating gold coins",
+      "Atmospheric volumetric sunlight filtering through forest canopy",
+      "Rune-engraved martial arts weapons suspended in mid-air",
+      "Detailed realistic fur texturing with bright blue rim lighting accents"
+    ],
+    "visualStyle": "3D video game character art, martial arts fantasy, vibrant forest training ring"
+  },
+  "freeSpins": {
+    "count": 125
+  }
+}

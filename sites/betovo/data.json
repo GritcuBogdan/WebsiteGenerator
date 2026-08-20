@@ -1,0 +1,25 @@
+{
+  "brandName": "Betovo",
+  "welcomeBonus": {
+    "amount": 500,
+    "currency": "EUR"
+  },
+  "minimumDeposit": 20,
+  "gameCount": 1800,
+  "paymentMethods": [
+    "Visa",
+    "Mastercard",
+    "Skrill"
+  ],
+  "withdrawalMethods": [
+    "Bank Transfer",
+    "Skrill"
+  ],
+  "supportedCurrencies": [
+    "USD"
+  ],
+  "profile": "starter-casino",
+  "freeSpins": {
+    "count": 200
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "brandName": "SlotOwl",
+  "welcomeBonus": {
+    "amount": 450,
+    "currency": "SEK"
+  },
+  "minimumDeposit": 20,
+  "gameCount": 1800,
+  "paymentMethods": [
+    "Visa",
+    "Mastercard",
+    "Skrill"
+  ],
+  "withdrawalMethods": [
+    "Bank Transfer",
+    "Skrill"
+  ],
+  "supportedCurrencies": [
+    "USD"
+  ],
+  "profile": "starter-casino",
+  "imageTheme": {
+    "description": "A high-energy casino hero banner against a deep royal purple sunburst background with radial rays and falling gold confetti. Four diverse character figures positioned symmetrically: on the left, a stylized glamorous pig character in a sparkly blue dress holding a microphone next to a soccer player kicking mid-air; on the right, a mystical blue wizard conjuring a glowing magic orb next to a smiling female live casino presenter holding dice. Floating gold coins with colorful wings scattered in the air. Vibrant neon pink highlights, high contrast, glossy digital art composition",
+    "palette": [
+      "#230344",
+      "#FF00BF",
+      "#130129",
+      "#FFD700",
+      "#00F0FF"
+    ],
+    "motifs": [
+      "Deep purple radial sunburst background rays with sparkling gold confetti",
+      "Floating winged gold coins with colorful feathery edges",
+      "Glow-enhanced magic effects like blue energy orbs and stage lighting",
+      "Symmetrical character composition flanking a central UI deposit widget"
+    ],
+    "visualStyle": "Vibrant purple sunburst, multi-character casino mashup hero banner graphic"
+  },
+  "freeSpins": {
+    "count": 175
+  }
+}

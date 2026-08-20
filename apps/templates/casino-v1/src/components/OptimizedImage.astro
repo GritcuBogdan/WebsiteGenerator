@@ -1,0 +1,64 @@
+---
+import { getResponsiveWebpSrcset, getWebpSrc, isLocalRasterImage } from "../lib/images";
+
+const {
+  src,
+  mobileSrc,
+  alt = "",
+  width,
+  height,
+  loading = "lazy",
+  decoding = "async",
+  sizes = "(min-width: 1280px) 1190px, 100vw",
+  responsive = true,
+  class: className = "",
+  imgClass,
+} = Astro.props;
+
+const imageClass = imgClass || className;
+const hasOptimizedSource = isLocalRasterImage(src);
+const hasOptimizedMobileSource = isLocalRasterImage(mobileSrc);
+const srcset = hasOptimizedSource
+  ? responsive
+    ? getResponsiveWebpSrcset(src)
+    : getWebpSrc(src)
+  : undefined;
+const mobileSrcset = hasOptimizedMobileSource
+  ? responsive
+    ? getResponsiveWebpSrcset(mobileSrc, [320, 640, 768])
+    : getWebpSrc(mobileSrc)
+  : undefined;
+---
+
+{
+  hasOptimizedSource || hasOptimizedMobileSource ? (
+    <picture>
+      {mobileSrcset && (
+        <source media="(max-width: 768px)" type="image/webp" srcset={mobileSrcset} sizes="100vw" />
+      )}
+      {srcset && <source type="image/webp" srcset={srcset} sizes={sizes} />}
+      {hasOptimizedMobileSource && (
+        <source media="(max-width: 768px)" srcset={mobileSrc} sizes="100vw" />
+      )}
+      <img
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        loading={loading}
+        decoding={decoding}
+        class={imageClass}
+      />
+    </picture>
+  ) : (
+    <img
+      src={src}
+      alt={alt}
+      width={width}
+      height={height}
+      loading={loading}
+      decoding={decoding}
+      class={imageClass}
+    />
+  )
+}

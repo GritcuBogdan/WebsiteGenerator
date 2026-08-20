@@ -1,0 +1,118 @@
+---
+import Table from "./UI/Table.astro";
+import { cssVars } from "../lib/theme";
+import QuoteSection from "./QuoteSection.astro";
+
+const {
+  id = "",
+  title = "",
+  blocks = [],
+  theme = {},
+} = Astro.props;
+
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+const sectionText = theme.text || theme.sectionText || "var(--text)";
+const titleColor = theme.title || theme.headingText || "var(--heading-text)";
+---
+
+<section
+  id={id}
+  class="site-section px-4 py-7 sm:px-6 sm:py-9 lg:px-8"
+  style={`${cssVars(theme)} --section-bg:${sectionBg}; --section-text:${sectionText};`}
+>
+  <div class="mx-auto max-w-7xl">
+    {
+      title && (
+        <h2 class="mb-5 text-2xl font-black sm:text-3xl md:text-4xl" style={`color:${titleColor}`}>
+          {title}
+        </h2>
+      )
+    }
+
+    <div class="space-y-6">
+      {
+        blocks.map((block) => {
+          switch (block.type) {
+            case "heading":
+              return block.level === 3 ? (
+                <h3 class="text-xl font-bold" style="color:var(--heading-text)">{block.text}</h3>
+              ) : (
+                <h4 class="text-lg font-semibold" style="color:var(--heading-text)">{block.text}</h4>
+              );
+
+            case "text":
+              return (
+                <div class="space-y-4">
+                  {block.paragraphs?.map((paragraph) => (
+                    <p class="leading-8" style="color:var(--muted-text)">
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              );
+
+            case "table":
+              return (
+                <Table
+                  columns={block.columns}
+                  rows={block.rows}
+                  theme={{ ...theme, ...block.theme }}
+                />
+              );
+
+            case "list":
+              return (
+                <div>
+                  {block.title && (
+                    <h3 class="mb-3 text-xl font-bold" style="color:var(--heading-text)">
+                      {block.title}
+                    </h3>
+                  )}
+                  <ul class="grid gap-3 sm:grid-cols-2">
+                    {block.items?.map((item) => (
+                      <li class="rounded-lg border p-4 leading-7 shadow-sm" style="background:var(--surface); border-color:var(--border); color:var(--section-text)">
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+
+
+            case "callout":
+              return (
+                <div
+                  class="rounded-lg border p-5 shadow-sm"
+                  style={`
+                    background:${block.background ?? "color-mix(in srgb, var(--primary) 8%, white)"};
+                    border-color:${block.borderColor ?? "var(--border)"};
+                    color:var(--section-text);
+                  `}
+                >
+                  {block.title && (
+                    <h3 class="mb-2 text-lg font-black" style="color:var(--heading-text)">
+                      {block.title}
+                    </h3>
+                  )}
+                  <p class="leading-7">{block.text}</p>
+                </div>
+              );
+
+            case "quote":
+              return (
+                <QuoteSection
+                  compact
+                  text={block.text}
+                  author={block.author}
+                  theme={{ ...theme, ...block.theme }}
+                />
+              );
+
+            default:
+              return null;
+          }
+        })
+      }
+    </div>
+  </div>
+</section>

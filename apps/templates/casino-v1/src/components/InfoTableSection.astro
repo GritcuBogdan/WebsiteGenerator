@@ -1,0 +1,80 @@
+---
+import Table from "./UI/Table.astro";
+import { cssVars } from "../lib/theme";
+
+
+const {
+  id,
+  title,
+  paragraphs = [],
+  columns = [],
+  rows = [],
+  theme = {}
+} = Astro.props;
+
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+const sectionText = theme.text || theme.sectionText || "var(--text)";
+const titleColor = theme.title || theme.headingText || "var(--heading-text)";
+---
+
+<section
+    id={id}
+    class="
+        site-section
+        px-4
+        py-7
+        sm:px-6
+        sm:py-9
+        lg:px-8
+    "
+    style={`${cssVars(theme)} --section-bg:${sectionBg}; --section-text:${sectionText};`}
+>
+  <div class="mx-auto max-w-7xl">
+
+  <h2
+      class="
+            text-2xl
+            font-black
+            sm:text-3xl
+            md:text-4xl
+        "
+      style={`color:${titleColor}`}
+  >
+    {title}
+  </h2>
+
+
+  {
+    paragraphs.map((text) => (
+
+        <p
+            class="
+                    mt-4
+                    text-sm
+                    leading-7
+                    sm:text-base
+                    sm:leading-8
+                "
+            style="color:var(--muted-text)"
+        >
+          {text}
+        </p>
+
+    ))
+  }
+
+
+
+  <div class="mt-6 sm:mt-8">
+
+    <Table
+        columns={columns}
+        rows={rows}
+        theme={theme}
+    />
+
+  </div>
+  </div>
+
+
+</section>

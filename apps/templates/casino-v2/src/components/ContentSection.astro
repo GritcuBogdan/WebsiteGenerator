@@ -1,0 +1,101 @@
+---
+import Table from "./UI/Table.astro";
+import { cssVars } from "../lib/theme";
+import QuoteSection from "./QuoteSection.astro";
+
+const {
+  id = "",
+  title = "",
+  blocks = [],
+  theme = {},
+} = Astro.props;
+
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+---
+
+<section
+  id={id}
+  class="site-section px-4 py-10 sm:px-6 sm:py-12 lg:px-8"
+  style={`${cssVars(theme)} --section-bg:${sectionBg};`}
+>
+  <div class="mx-auto max-w-4xl">
+    {
+      title && (
+        <h2 class="gradient-heading mb-6 text-2xl font-black sm:text-3xl md:text-4xl">{title}</h2>
+      )
+    }
+
+    <div class="space-y-6">
+      {
+        blocks.map((block) => {
+          switch (block.type) {
+            case "heading":
+              return block.level === 3 ? (
+                <h3 class="text-xl font-bold" style="color:var(--text)">{block.text}</h3>
+              ) : (
+                <h4 class="text-lg font-semibold" style="color:var(--text)">{block.text}</h4>
+              );
+
+            case "text":
+              return (
+                <div class="space-y-4">
+                  {block.paragraphs?.map((paragraph) => (
+                    <p class="leading-8" style="color:var(--muted-text)">
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              );
+
+            case "table":
+              return <Table columns={block.columns} rows={block.rows} theme={{ ...theme, ...block.theme }} />;
+
+            case "list":
+              return (
+                <div>
+                  {block.title && (
+                    <h3 class="mb-3 text-xl font-bold" style="color:var(--text)">
+                      {block.title}
+                    </h3>
+                  )}
+                  <ul class="grid gap-3 sm:grid-cols-2">
+                    {block.items?.map((item) => (
+                      <li class="glass-card rounded-xl p-4 leading-7" style="color:var(--text)">
+                        <span class="mr-2 font-black" style="color:var(--accent)">✓</span>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+
+            case "callout":
+              return (
+                <div
+                  class="rounded-xl border p-5"
+                  style={`
+                    background:${block.background ?? "color-mix(in srgb, var(--primary) 14%, transparent)"};
+                    border-color:${block.borderColor ?? "var(--border)"};
+                    color:var(--text);
+                  `}
+                >
+                  {block.title && (
+                    <h3 class="mb-2 text-lg font-black" style="color:var(--text)">
+                      {block.title}
+                    </h3>
+                  )}
+                  <p class="leading-7">{block.text}</p>
+                </div>
+              );
+
+            case "quote":
+              return <QuoteSection compact text={block.text} author={block.author} theme={{ ...theme, ...block.theme }} />;
+
+            default:
+              return null;
+          }
+        })
+      }
+    </div>
+  </div>
+</section>

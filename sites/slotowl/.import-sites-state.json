@@ -1,0 +1,44 @@
+{
+  "config": {
+    "slug": "slotowl",
+    "domains": [
+      "slotowl7.com"
+    ],
+    "affiliateUrl": "https://gorollingslots.com/dg2d0nnhm",
+    "locales": [
+      {
+        "code": "sv-SE",
+        "default": true
+      }
+    ],
+    "contentSource": "library",
+    "profile": "starter-casino",
+    "theme": {
+      "primary": "#4B1E8F",
+      "secondary": "#17021F",
+      "accent": "#FF00BF"
+    }
+  },
+  "data": {
+    "brandName": "SlotOwl",
+    "welcomeBonus": {
+      "amount": 450,
+      "currency": "SEK"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "profile": "starter-casino"
+  }
+}

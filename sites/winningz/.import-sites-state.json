@@ -1,0 +1,44 @@
+{
+  "config": {
+    "slug": "winningz",
+    "domains": [
+      "winningz7.casino"
+    ],
+    "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+    "locales": [
+      {
+        "code": "de-DE",
+        "default": true
+      }
+    ],
+    "contentSource": "library",
+    "profile": "starter-casino",
+    "theme": {
+      "primary": "#1FA35A",
+      "secondary": "#0B1712",
+      "accent": "#D4AF37"
+    }
+  },
+  "data": {
+    "brandName": "Winningz Casino",
+    "welcomeBonus": {
+      "amount": 500,
+      "currency": "EUR"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ],
+    "profile": "starter-casino"
+  }
+}

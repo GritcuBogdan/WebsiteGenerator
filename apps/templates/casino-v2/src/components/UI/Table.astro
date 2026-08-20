@@ -1,0 +1,46 @@
+---
+const {
+  columns = [],
+  rows = [],
+  theme = {},
+} = Astro.props;
+
+const rowColor = theme.rowColor || "var(--surface-muted)";
+const rowTextColor = theme.rowTextColor || "var(--text)";
+---
+
+<div class="glass-card overflow-x-auto rounded-xl">
+  <table class="min-w-full border-collapse">
+    <thead>
+      <tr>
+        {
+          columns.map((column) => (
+            <th
+              class="whitespace-nowrap border-b px-3 py-2.5 text-left text-xs font-black uppercase tracking-wide sm:px-4 sm:py-3 sm:text-sm md:px-6 md:py-4"
+              style="border-color:var(--border); background:color-mix(in srgb, var(--primary) 14%, transparent); color:var(--accent);"
+            >
+              {column}
+            </th>
+          ))
+        }
+      </tr>
+    </thead>
+
+    <tbody>
+      {
+        rows.map((row, index) => (
+          <tr
+            class="transition"
+            style={`background:${index % 2 === 0 ? "transparent" : rowColor}; color:${rowTextColor};`}
+          >
+            {row.map((cell) => (
+              <td class="whitespace-nowrap border-b px-3 py-2.5 text-xs sm:px-4 sm:py-3 sm:text-sm md:px-6 md:py-4" style="border-color:var(--border);">
+                {cell}
+              </td>
+            ))}
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>

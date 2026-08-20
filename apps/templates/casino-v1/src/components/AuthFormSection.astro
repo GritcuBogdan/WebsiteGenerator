@@ -1,0 +1,130 @@
+---
+import { cssVars } from "../lib/theme";
+import { getRedirectHref } from "../lib/affiliate";
+
+const {
+  id = "auth-form",
+  title = "Create your account",
+  casinoSlug = "",
+  subtitle = "",
+  fields,
+  buttonText = "Continue",
+  closeLabel = "Close",
+  legalText = "",
+  theme = {},
+} = Astro.props;
+
+const defaultFields =
+  Astro.props.type === "signinForm"
+    ? [
+        { label: "Email", name: "email", type: "email", placeholder: "you@example.com" },
+        { label: "Password", name: "password", type: "password", placeholder: "Your password" },
+      ]
+    : [
+        { label: "Name", name: "name", type: "text", placeholder: "Your name" },
+        { label: "Email", name: "email", type: "email", placeholder: "you@example.com" },
+        { label: "Password", name: "password", type: "password", placeholder: "Create a password" },
+      ];
+
+const formFields = fields?.length ? fields : defaultFields;
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+const cardBg = theme.cardBackground || theme.surface || "#ffffff";
+const titleColor = theme.title || theme.headingText || "var(--heading-text)";
+const buttonBg = theme.buttonBackground || theme.primary || "var(--primary)";
+const buttonTextColor = theme.buttonText || "#ffffff";
+const redirectHref = getRedirectHref(casinoSlug);
+---
+
+<section
+  id={id}
+  class="site-section px-4 py-7 sm:px-6 sm:py-9 lg:px-8"
+  style={`${cssVars(theme)} --section-bg:${sectionBg}; --section-text:${theme.text || "var(--text)"};`}
+>
+  <div class="mx-auto max-w-7xl">
+    <form
+      class="auth-redirect-form relative mx-auto max-w-md rounded-lg border p-5 shadow-xl sm:p-6"
+      style={`background:${cardBg}; border-color:${theme.border || "var(--border)"};`}
+      data-redirect={redirectHref}
+      aria-label={title}
+    >
+      <button
+        type="button"
+        class="auth-redirect-close absolute right-3 top-3 flex h-10 w-10 items-center justify-center rounded-full border text-lg font-bold"
+        data-redirect={redirectHref}
+        style="border-color:var(--border); color:var(--muted-text);"
+        aria-label={closeLabel}
+      >
+        x
+      </button>
+
+      <div class="pr-10">
+        <h2 class="text-2xl font-black sm:text-3xl" style={`color:${titleColor}`}>
+          {title}
+        </h2>
+        {subtitle && <p class="mt-2 leading-7" style="color:var(--muted-text)">{subtitle}</p>}
+      </div>
+
+      <div class="mt-6 space-y-4">
+        {
+          formFields.map((field) => (
+            <label class="block">
+              <span class="text-sm font-bold" style="color:var(--section-text)">
+                {field.label}
+              </span>
+              <input
+                class="auth-redirect-field mt-2 min-h-12 w-full rounded-lg border px-4 text-base outline-none transition duration-300 focus:-translate-y-0.5 focus:shadow-md"
+                style="border-color:var(--border); background:color-mix(in srgb, var(--surface) 70%, white); color:var(--text);"
+                data-redirect={redirectHref}
+                name={field.name}
+                type={field.type || "text"}
+                placeholder={field.placeholder || ""}
+                autocomplete={field.name}
+                readonly
+              />
+            </label>
+          ))
+        }
+      </div>
+
+      <button
+        type="submit"
+        class="shine-button mt-6 min-h-12 w-full rounded-lg px-5 py-3 text-base font-black shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-xl focus-visible:-translate-y-1"
+        style={`background:${buttonBg}; color:${buttonTextColor};`}
+      >
+        {buttonText}
+      </button>
+
+      {legalText && <p class="mt-4 text-center text-sm leading-6" style="color:var(--muted-text)">{legalText}</p>}
+    </form>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLFormElement>(".auth-redirect-form").forEach((form) => {
+    const destination = form.dataset.redirect;
+    if (!destination) return;
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      window.location.href = destination;
+    });
+  });
+
+  document.querySelectorAll<HTMLButtonElement>(".auth-redirect-close").forEach((button) => {
+    const destination = button.dataset.redirect;
+    if (!destination) return;
+
+    button.addEventListener("click", () => {
+      window.location.href = destination;
+    });
+  });
+
+  document.querySelectorAll<HTMLInputElement>(".auth-redirect-field").forEach((field) => {
+    const destination = field.dataset.redirect;
+    if (!destination) return;
+
+    field.addEventListener("click", () => {
+      window.location.href = destination;
+    });
+  });
+</script>

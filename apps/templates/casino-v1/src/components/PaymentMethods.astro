@@ -1,0 +1,117 @@
+---
+import { cssVars } from "../lib/theme";
+
+// Payment method logos are the same on every generated site, so the set is
+// hardcoded here rather than driven by casino data. Drop a real logo file
+// (any image extension) named after a method's `key` into
+// src/assets/payment-methods/ and it replaces the placeholder SVG below
+// automatically — no code change needed.
+const realLogos = import.meta.glob("../assets/payment-methods/*", {
+  eager: true,
+  query: "?url",
+  import: "default",
+}) as Record<string, string>;
+
+function realLogoFor(key: string) {
+  const entry = Object.entries(realLogos).find(([path]) => path.includes(`/${key}.`));
+  return entry?.[1];
+}
+
+const paymentMethods = [
+  {
+    key: "visa",
+    name: "Visa",
+    fallbackSvg: `<svg viewBox="0 0 120 44" role="img" aria-hidden="true"><rect width="120" height="44" rx="10" fill="#1A1F71"/><text x="60" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-style="italic" font-size="18" fill="#ffffff">VISA</text></svg>`,
+  },
+  {
+    key: "mastercard",
+    name: "Mastercard",
+    fallbackSvg: `<svg viewBox="0 0 120 44" role="img" aria-hidden="true"><rect width="120" height="44" rx="10" fill="#F3F4F6"/><circle cx="48" cy="22" r="13" fill="#EB001B"/><circle cx="72" cy="22" r="13" fill="#F79E1B" fill-opacity="0.85"/></svg>`,
+  },
+  {
+    key: "paypal",
+    name: "PayPal",
+    fallbackSvg: `<svg viewBox="0 0 120 44" role="img" aria-hidden="true"><rect width="120" height="44" rx="10" fill="#003087"/><text x="60" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-style="italic" font-size="16" fill="#ffffff">PayPal</text></svg>`,
+  },
+  {
+    key: "skrill",
+    name: "Skrill",
+    fallbackSvg: `<svg viewBox="0 0 120 44" role="img" aria-hidden="true"><rect width="120" height="44" rx="10" fill="#862165"/><text x="60" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="17" fill="#ffffff">skrill</text></svg>`,
+  },
+  {
+    key: "neteller",
+    name: "Neteller",
+    fallbackSvg: `<svg viewBox="0 0 120 44" role="img" aria-hidden="true"><rect width="120" height="44" rx="10" fill="#00A650"/><text x="60" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="13" letter-spacing="0.5" fill="#ffffff">NETELLER</text></svg>`,
+  },
+  {
+    key: "trustly",
+    name: "Trustly",
+    fallbackSvg: `<svg viewBox="0 0 120 44" role="img" aria-hidden="true"><rect width="120" height="44" rx="10" fill="#159895"/><text x="60" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-style="italic" font-size="16" fill="#ffffff">Trustly</text></svg>`,
+  },
+  {
+    key: "apple-pay",
+    name: "Apple Pay",
+    fallbackSvg: `<svg viewBox="0 0 120 44" role="img" aria-hidden="true"><rect width="120" height="44" rx="10" fill="#000000"/><text x="60" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#ffffff">Apple Pay</text></svg>`,
+  },
+  {
+    key: "google-pay",
+    name: "Google Pay",
+    fallbackSvg: `<svg viewBox="0 0 120 44" role="img" aria-hidden="true"><rect width="119" height="43" x="0.5" y="0.5" rx="10" fill="#ffffff" stroke="#E5E7EB"/><text x="60" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14"><tspan fill="#4285F4">G</tspan><tspan fill="#3C4043"> Pay</tspan></text></svg>`,
+  },
+  {
+    key: "bitcoin",
+    name: "Bitcoin",
+    fallbackSvg: `<svg viewBox="0 0 120 44" role="img" aria-hidden="true"><rect width="120" height="44" rx="10" fill="#F7931A"/><text x="60" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="16" fill="#ffffff">BTC</text></svg>`,
+  },
+  {
+    key: "bank-transfer",
+    name: "Bank Transfer",
+    fallbackSvg: `<svg viewBox="0 0 120 44" role="img" aria-hidden="true"><rect width="120" height="44" rx="10" fill="#374151"/><text x="60" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#ffffff">Bank Transfer</text></svg>`,
+  },
+].map((method) => ({ ...method, realSrc: realLogoFor(method.key) }));
+
+const { id = "payment-methods", title = "Payment Methods", theme = {} } = Astro.props;
+
+const sectionBg = theme.background || theme.sectionBackground || "transparent";
+const titleColor = theme.title || theme.headingText || "var(--heading-text)";
+---
+
+<section
+  id={id}
+  class="site-section px-4 py-10 sm:px-6 sm:py-12 lg:px-8"
+  style={`${cssVars(theme)} --section-bg:${sectionBg};`}
+>
+  <div class="mx-auto max-w-5xl text-center">
+    {title && (
+      <h2 class="text-2xl font-black sm:text-3xl" style={`color:${titleColor}`}>
+        {title}
+      </h2>
+    )}
+
+    <ul class="mx-auto mt-8 flex max-w-3xl flex-wrap items-center justify-center gap-4 sm:gap-5">
+      {
+        paymentMethods.map((method) => (
+          <li
+            class="flex h-16 w-28 items-center justify-center rounded-xl border p-1.5 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md sm:h-[4.5rem] sm:w-32"
+            style="background:var(--surface); border-color:var(--border);"
+            title={method.name}
+          >
+            <span class="sr-only">{method.name}</span>
+            {
+              method.realSrc ? (
+                <img
+                  src={method.realSrc}
+                  alt={method.name}
+                  loading="lazy"
+                  class="max-h-full max-w-full object-contain"
+                />
+              ) : (
+                <Fragment set:html={method.fallbackSvg} />
+              )
+            }
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>

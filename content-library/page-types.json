@@ -1,0 +1,140 @@
+[
+  {
+    "id": "home",
+    "aliases": ["index"],
+    "topic": "home",
+    "defaultSkeleton": "standard",
+    "allowedComponents": ["intro", "welcome-offer", "games", "payments", "security", "support", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "review",
+    "topic": "home",
+    "defaultSkeleton": "trust-focused",
+    "allowedComponents": ["intro", "verdict", "pros-cons", "rating-breakdown", "security", "games", "payments", "withdrawals", "support", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "bonus",
+    "topic": "bonus",
+    "defaultSkeleton": "bonus-focused",
+    "allowedComponents": ["intro", "welcome-offer", "how-to-claim", "terms", "payments", "free-spins", "support", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "slots",
+    "topic": "slots",
+    "defaultSkeleton": "slots-focused",
+    "allowedComponents": ["intro", "providers", "rtp", "volatility", "jackpots", "how-to-play", "mobile-play", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "casino-games",
+    "topic": "casino-games",
+    "defaultSkeleton": "casino-games-focused",
+    "allowedComponents": ["intro", "games", "providers", "payments", "mobile-play", "security", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "live-casino",
+    "topic": "live-casino",
+    "defaultSkeleton": "live-casino-focused",
+    "allowedComponents": ["intro", "games", "providers", "payments", "mobile-play", "security", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "payments",
+    "topic": "payments",
+    "defaultSkeleton": "payments-focused",
+    "allowedComponents": ["intro", "payments", "security", "withdrawals", "support", "mobile-play", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "withdrawals",
+    "aliases": ["withdrawal"],
+    "topic": "withdrawals",
+    "defaultSkeleton": "withdrawals-focused",
+    "allowedComponents": ["intro", "withdrawals", "withdrawal-limits", "security", "payments", "support", "mobile-play", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "mobile",
+    "topic": "mobile",
+    "defaultSkeleton": "mobile-focused",
+    "allowedComponents": ["intro", "mobile", "games", "payments", "security", "support", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "security",
+    "topic": "security",
+    "defaultSkeleton": "security-focused",
+    "allowedComponents": ["intro", "security", "payments", "support", "mobile-play", "privacy", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "login",
+    "topic": "login",
+    "defaultSkeleton": "login-focused",
+    "allowedComponents": ["intro", "how-to-login", "registration", "forgot-password", "account-access", "troubleshooting", "two-factor-authentication", "security", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "support",
+    "topic": "support",
+    "defaultSkeleton": "support-focused",
+    "allowedComponents": ["intro", "support", "security", "payments", "mobile-play", "privacy", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "no-deposit-bonus",
+    "topic": "bonus",
+    "defaultSkeleton": "no-deposit-focused",
+    "allowedComponents": ["intro", "no-deposit-bonus", "how-to-claim", "terms", "games", "payments", "support", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "free-spins",
+    "topic": "bonus",
+    "defaultSkeleton": "free-spins-focused",
+    "allowedComponents": ["intro", "free-spins", "eligible-games", "games", "providers", "terms", "payments", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "promo-code",
+    "topic": "bonus",
+    "defaultSkeleton": "promo-code-focused",
+    "allowedComponents": ["intro", "promo-code", "where-to-enter", "welcome-offer", "terms", "payments", "support", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "application",
+    "topic": "login",
+    "defaultSkeleton": "application-focused",
+    "allowedComponents": ["intro", "registration", "account-access", "security", "payments", "games", "support", "faq"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  },
+  {
+    "id": "registration",
+    "topic": "registration",
+    "defaultSkeleton": "registration-focused",
+    "allowedComponents": ["intro", "how-to-register", "eligibility", "verification", "bonus-signup", "faq", "cta"],
+    "requiredSections": ["intro"],
+    "targetWordCount": 1200
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "slug": "crazytower",
+  "domains": [
+    "crazytower7.com",
+    "www.crazytower7.com"
+  ],
+  "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+  "template": "casino-v1",
+  "locales": [
+    {
+      "code": "no",
+      "docx": "casino.no.docx",
+      "default": true
+    }
+  ],
+  "theme": {
+    "primary": "#C9A84C",
+    "secondary": "#1F1008",
+    "accent": "#F0D060",
+    "background": "#EDE0D4",
+    "surface": "#FDF5ED",
+    "text": "#1F1008",
+    "mutedText": "#8B7355",
+    "border": "rgba(31, 16, 8, 0.12)",
+    "linkHover": "#E8C840",
+    "navbarBackground": "#3D2817",
+    "navbarText": "#F5C542"
+  },
+  "navbar": {
+    "logo": "/images/crazytower/logotype.png",
+    "brandName": "CrazyTower Casino",
+    "showBrandName": false
+  },
+  "banner": {
+    "desktop": "/images/crazytower/crazytower-casino.png"
+  },
+  "stickyBanner": {
+    "logo": "/images/crazytower/favicon.png",
+    "bullets": [
+      "Få opptil 5000 kr Bonus",
+      " 200 Free Spins",
+      " 25 % Cashback"
+    ]
+  }
+}

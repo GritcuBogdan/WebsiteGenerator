@@ -1,0 +1,30 @@
+{
+  "slug": "pokobet",
+  "domains": [
+    "pokobet7.nl"
+  ],
+  "affiliateUrl": "https://direct.reradirectbox.com/click?pid=51&offer_id=251",
+  "locales": [
+    {
+      "code": "nl-NL",
+      "default": true
+    }
+  ],
+  "contentSource": "library",
+  "profile": "starter-casino",
+  "theme": {
+    "primary": "#9B59D0",
+    "secondary": "#1A0F26",
+    "accent": "#FF6FD8"
+  },
+  "banner": {
+    "text": "Welkomstbonus – € 550 + 250 Gratis Spins",
+    "desktop": "/images/_shared/starter-casino-banner.png"
+  },
+  "stickyBanner": {
+    "headline": "Welkomstbonus",
+    "bullets": [
+      "€ 550 + 250 Gratis Spins"
+    ]
+  }
+}

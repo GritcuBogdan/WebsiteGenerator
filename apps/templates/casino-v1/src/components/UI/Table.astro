@@ -1,0 +1,128 @@
+---
+const {
+    columns = [],
+    rows = [],
+    theme = {
+        primary: "#2563eb",
+        rowColor: "#dbeafe",
+        rowTextColor: "#000000"
+    }
+} = Astro.props;
+
+
+const rowColor = theme.rowColor || theme.primary;
+const rowTextColor = theme.rowTextColor || "#000000";
+---
+
+<div
+        class="
+        overflow-x-auto
+        rounded-xl
+        border
+        shadow-sm
+    "
+>
+
+    <table
+            class="
+            min-w-full
+            border-collapse
+        "
+    >
+
+        <thead>
+
+        <tr>
+
+            {
+                columns.map((column) => (
+
+                        <th
+                                class="
+                            whitespace-nowrap
+                            border-gray-900
+                            border
+                            px-3
+                            py-2.5
+                            text-left
+                            text-xs
+                            font-semibold
+                            sm:px-4
+                            sm:py-3
+                            sm:text-sm
+                            md:px-6
+                            md:py-4
+                        "
+                                style={`
+                            background:${rowColor};
+                            color:${rowTextColor};
+                        `}
+                        >
+                            {column}
+                        </th>
+
+                ))
+            }
+
+        </tr>
+
+        </thead>
+
+
+        <tbody>
+
+        {
+            rows.map((row, index) => (
+
+                    <tr
+                            class="
+                        transition
+                        hover:brightness-95
+                    "
+                            style={`
+                        background:${
+                                index % 2 === 0
+                                    ? `color-mix(in srgb, ${rowColor} 60%, white)`
+                                    : rowColor
+                            };
+                        color:${rowTextColor};
+                    `}
+                    >
+
+                        {
+                            row.map((cell) => (
+
+                                    <td
+                                            class="
+                                    whitespace-nowrap
+                                    border-gray-900
+                                    border
+                                    px-3
+                                    py-2.5
+                                    text-xs
+                                    sm:px-4
+                                    sm:py-3
+                                    sm:text-sm
+                                    md:px-6
+                                    md:py-4
+                                "
+                                            style={`
+                                    color:${rowTextColor};
+                                `}
+                                    >
+                                        {cell}
+                                    </td>
+
+                            ))
+                        }
+
+                    </tr>
+
+            ))
+        }
+
+        </tbody>
+
+    </table>
+
+</div>

@@ -1,0 +1,67 @@
+{
+  "slug": "winshark",
+  "domains": [
+    "win-shark-ch.com"
+  ],
+  "affiliateUrl": "https://wtno.pslera.com/?mid=374924_2168539",
+  "template": "casino-v2",
+  "locales": [
+    {
+      "code": "en",
+      "docx": "casino.en.docx"
+    },
+    {
+      "code": "de",
+      "docx": "casino.de.docx",
+      "default": true
+    }
+  ],
+  "theme": {
+    "primary": "#0EA5E9",
+    "secondary": "#0B3B5C",
+    "accent": "#22D3EE",
+    "background": "#04101C",
+    "surface": "#0B2237",
+    "text": "#E5F2FA",
+    "mutedText": "#8FB0C9",
+    "border": "rgba(94, 200, 230, 0.18)",
+    "headingText": "#F0FBFF",
+    "link": "#38BDF8",
+    "linkHover": "#7DD3FC",
+    "footerBackground": "#020810",
+    "footerText": "#9FC1D9",
+    "navbarBackground": "#12151E",
+    "navbarText": "#EAF6FF",
+    "rowColor": "#0E2C42",
+    "rowTextColor": "#DCEEF7"
+  },
+  "navbar": {
+    "logo": "/images/winshark/winshark.jpg",
+    "brandName": "WinShark Casino",
+    "showBrandName": false
+  },
+  "banner": {
+    "desktop": "/images/winshark/winshark-online-casino.png",
+    "text": "Welcome Package - 100% Match up to CHF 7,500 + 100 Free Spins - CLAIM NOW",
+    "byLocale": {
+      "de": {
+        "text": "Willkommenspaket – 100 % Match bis zu CHF 7.500 + 100 Freispiele – JETZT EINLÖSEN"
+      }
+    }
+  },
+  "stickyBanner": {
+    "logo": "/images/winshark/winshark.jpg",
+    "bullets": [
+      "Welcome Shark - 240% Up to €2500",
+      "300 free spins"
+    ],
+    "byLocale": {
+      "de": {
+        "bullets": [
+          "Willkommens-Hai – 240 % bis zu €2.500",
+          "300 Freispiele"
+        ]
+      }
+    }
+  }
+}
