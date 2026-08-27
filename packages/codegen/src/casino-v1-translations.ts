@@ -544,7 +544,139 @@ const fi: CasinoV1Dictionary = {
   },
 };
 
-const dictionaries: Record<string, CasinoV1Dictionary> = { en, el, de, no, nl, sv, fi };
+const et: CasinoV1Dictionary = {
+  nav: {
+    login: "Logi sisse",
+    registration: "Registreerimine",
+    signUp: "Loo konto",
+    application: "Avaleht",
+    withdrawal: "Väljamakse",
+    review: "Ülevaade",
+    bonus: "Boonus",
+    noDepositBonus: "Sissemakseta boonus",
+    freeSpins: "Tasuta spinnid",
+    promoCodes: "Sooduskoodid",
+    slots: "Mänguautomaadid",
+  },
+  footer: {
+    responsibleGaming: "Vastutustundlik mängimine",
+    privacyPolicy: "Privaatsuspoliitika",
+    cookiesPolicy: "Küpsiste poliitika",
+    bettingRules: "Mängureeglid",
+    termsConditions: "Kasutustingimused",
+    contacts: "Kontakt",
+  },
+  forms: {
+    login: {
+      title: "Logi sisse",
+      subtitle: "Ligipääs oma kontole.",
+      emailOrUsername: "E-post / Kasutajanimi",
+      password: "Parool",
+      rememberMe: "Jäta mind meelde",
+      loginButton: "Logi sisse",
+      forgotPassword: "Unustasid parooli",
+      closeLabel: "Sulge sisselogimisvorm",
+    },
+    registration: {
+      title: "Loo konto",
+      subtitle: "Alusta registreerimist oma põhiandmetega.",
+      username: "Kasutajanimi",
+      email: "E-post",
+      password: "Parool",
+      confirmPassword: "Kinnita parool",
+      country: "Riik",
+      signUpButton: "Registreeru",
+      closeLabel: "Sulge registreerimisvorm",
+    },
+  },
+  intro: {
+    ctaText: "Lunasta boonus",
+  },
+  promoBanner: {
+    heading: "Valmis alustama?",
+    overlayText: "Sinu tervitusboonus ootab",
+  },
+  stickyBanner: {
+    headline: "Tervitusboonus",
+    disclaimer: "Kehtivad tingimused. {age}+",
+    bullets: ["Kiired väljamaksed", "Tugi 24/7", "Turvaline ja litsentseeritud"],
+  },
+  ageGate: {
+    title: "Vanuse kinnitamine",
+    body: "{casinoName} on mõeldud ainult täiskasvanutele. Sisenemiseks pead olema vähemalt {age}-aastane.",
+    confirmText: "Jah, olen {age}+",
+    declineText: "Ei, lahku",
+    footnote: "Jätkates kinnitad, et vastad oma jurisdiktsiooni hasartmängude miinimumvanuse nõudele.",
+  },
+};
+
+const hu: CasinoV1Dictionary = {
+  nav: {
+    login: "Bejelentkezés",
+    registration: "Regisztráció",
+    signUp: "Fiók létrehozása",
+    application: "Kezdőlap",
+    withdrawal: "Kifizetés",
+    review: "Értékelés",
+    bonus: "Bónusz",
+    noDepositBonus: "Befizetés nélküli bónusz",
+    freeSpins: "Ingyenes pörgetések",
+    promoCodes: "Promóciós kódok",
+    slots: "Nyerőgépek",
+  },
+  footer: {
+    responsibleGaming: "Felelős játék",
+    privacyPolicy: "Adatvédelmi irányelvek",
+    cookiesPolicy: "Süti-szabályzat",
+    bettingRules: "Játékszabályok",
+    termsConditions: "Általános Szerződési Feltételek",
+    contacts: "Kapcsolat",
+  },
+  forms: {
+    login: {
+      title: "Bejelentkezés",
+      subtitle: "Lépj be a fiókodba.",
+      emailOrUsername: "E-mail / Felhasználónév",
+      password: "Jelszó",
+      rememberMe: "Emlékezz rám",
+      loginButton: "Bejelentkezés",
+      forgotPassword: "Elfelejtett jelszó",
+      closeLabel: "Bejelentkezési űrlap bezárása",
+    },
+    registration: {
+      title: "Fiók létrehozása",
+      subtitle: "Kezdd el a regisztrációt az alapadataiddal.",
+      username: "Felhasználónév",
+      email: "E-mail",
+      password: "Jelszó",
+      confirmPassword: "Jelszó megerősítése",
+      country: "Ország",
+      signUpButton: "Regisztráció",
+      closeLabel: "Regisztrációs űrlap bezárása",
+    },
+  },
+  intro: {
+    ctaText: "Bónusz igénylése",
+  },
+  promoBanner: {
+    heading: "Készen állsz a kezdésre?",
+    overlayText: "A üdvözlő bónuszod vár rád",
+  },
+  stickyBanner: {
+    headline: "Üdvözlő bónusz",
+    disclaimer: "Feltételek érvényesek. {age}+",
+    bullets: ["Gyors kifizetések", "Ügyfélszolgálat 0-24", "Biztonságos és engedélyezett"],
+  },
+  ageGate: {
+    title: "Életkor-megerősítés",
+    body: "A(z) {casinoName} kizárólag felnőttek számára készült. A belépéshez legalább {age} évesnek kell lenned.",
+    confirmText: "Igen, {age}+ vagyok",
+    declineText: "Nem, kilépek",
+    footnote: "A folytatással megerősíted, hogy megfelelsz a saját joghatóságod szerinti szerencsejáték-korhatárnak.",
+  },
+};
+
+const dictionaries: Record<string, CasinoV1Dictionary> = { en, el, de, no, nl, sv, fi, et, hu };
 
 // additionalFooterTranslations is now only a legacy alias table for locales
 // that might still resolve here without a full CasinoV1Dictionary entry -
