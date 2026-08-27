@@ -1,0 +1,7 @@
+---
+id: eligible-games-001
+requires: [freeSpins]
+---
+A {{BRAND_NAME}} oldalon jóváírt {{FREE_SPINS_COUNT}} jellemzően csak bizonyos, előre kiválasztott nyerőgépes játékokra érvényes, nem pedig a teljes játékkínálatra. Ez az iparágban általános gyakorlat, mivel a pörgetéseket rendszerint egy adott játékkal vagy az akcióhoz kiválasztott néhány címmel kötött megállapodás finanszírozza, nem pedig egy mindenhol felhasználható, általános egyenlegként. Leggyakrabban a jogosult játékok a fő lobbiban megtalálható szokásos kategóriákból kerülnek ki, olyan ismerős formátumokkal, mint a több nyerővonal, a bónuszkörök és a promóciós használatra alkalmas, mérsékelt tétsáv.
+
+A jackpot nyerőgépek és a progresszív játékok ritkábban szerepelnek a free spins ajánlatokban, mivel a nyereményalapjukat és a tétstruktúrájukat rendszerint külön kezelik, és ugyanez jellemzően igaz az élő osztós játékokra és az asztali játékokra is, amelyek egyáltalán nem használnak pörgetési mechanikát. Mielőtt felhasználná a jóváírt pörgetéseket, érdemes egy pillanatra megnézni a promóciós panelt, hogy pontosan lássa, mely játékra vagy játékokra vonatkoznak, mivel egy nem jogosult játékon való próbálkozás egyszerűen nem regisztrál semmilyen aktivitást az ajánlathoz. Ha már ismeri a jogosult játékot, érdemes egy kis időt szánni a szabályainak és tétsávjának áttekintésére, így a legtöbbet hozhatja ki a kapott pörgetésekből.
