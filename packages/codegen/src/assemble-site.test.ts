@@ -103,20 +103,41 @@ test("builds a real banner on intro sections, wiring buttonLink to the redirect 
   });
 });
 
-test("page seo falls back to generated title/description when meta doesn't supply them", () => {
-  const casino = assembleSite(sampleParsedContent(), sampleConfig());
+test("page seo is built to the fixed contract: page name leads, brand and casino term always present", () => {
+  const casino = assembleSite(sampleParsedContent(), sampleConfig(), {
+    siteData: { geo: "CA", welcomeBonus: { amount: 500, currency: "CAD" }, paymentMethods: ["Visa", "Mastercard", "Skrill"] },
+  });
   const bonus = casino.pages.find((page) => page.slug === "bonus")!;
-  assert.equal(bonus.seo.title, "Bonus - Sample Casino");
-  assert.match(bonus.seo.description, /bonus/i);
+  assert.equal(bonus.seo.title, "Bonus — Sample Casino | Online Casino for Canada | Up to CAD 500");
+  assert.equal(
+    bonus.seo.description,
+    "Sample Casino: slots, live casino and fast payouts in CAD for players in Canada. Pay by Visa, Mastercard, Skrill or crypto.",
+  );
   assert.deepEqual(bonus.seo.keywords, ["sample-casino", "online casino", "casino bonus", "casino games"]);
 });
 
-test("page seo uses explicit meta when the docx supplied it", () => {
+test("the home page leads with the brand, every other page with its own name, so no two titles collide", () => {
+  const casino = assembleSite(sampleParsedContent(), sampleConfig(), { siteData: { geo: "CA" } });
+  assert.match(casino.pages.find((page) => page.slug === "index")!.seo.title, /^Sample Casino™ — Official Site/);
+  assert.equal(new Set(casino.pages.map((page) => page.seo.title)).size, casino.pages.length);
+});
+
+test("a page's own meta.title/description never overrides the contract - it knows neither geo nor bonus", () => {
   const content = sampleParsedContent();
   content.pages[0].meta = { title: "Explicit Title", description: "Explicit description." };
-  const casino = assembleSite(content, sampleConfig());
-  assert.equal(casino.pages[0].seo.title, "Explicit Title");
-  assert.equal(casino.pages[0].seo.description, "Explicit description.");
+  const casino = assembleSite(content, sampleConfig(), { siteData: { geo: "CA" } });
+  assert.notEqual(casino.pages[0].seo.title, "Explicit Title");
+  assert.notEqual(casino.pages[0].seo.description, "Explicit description.");
+  assert.match(casino.pages[0].seo.title, /Canada/);
+});
+
+test("brandName falls back to data.json, then the slug, when config.json has none", () => {
+  const config = { ...sampleConfig(), navbar: { logo: sampleConfig().navbar.logo } };
+  const fromData = assembleSite(sampleParsedContent(), config, { siteData: { brandName: "DataBrand", geo: "CA" } });
+  assert.match(fromData.pages[0].seo.title, /^DataBrand™/);
+
+  const fromSlug = assembleSite(sampleParsedContent(), config, { siteData: { geo: "CA" } });
+  assert.match(fromSlug.pages[0].seo.title, /^sample-casino™/);
 });
 
 test("throws when the content's locale isn't configured for the site", () => {

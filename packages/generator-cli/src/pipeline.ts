@@ -214,6 +214,27 @@ export async function generate(siteDir: string, options: GenerateOptions = {}): 
   let config: SiteConfig = configResolution.config;
   logger.info(`  "${config.slug}", ${config.locales.length} locale(s): ${config.locales.map((l) => l.code).join(", ")}`);
 
+  // sites/<slug>/data.json — the site's verified facts. Loaded HERE, before
+  // the parse-docx stage's contentSource branch, rather than inside that
+  // branch's "library" arm where it used to live: a docx-sourced site's
+  // pages need exactly the same brandName/geo/welcomeBonus facts for their
+  // SEO title and description as a library-composed site's do, and a docx
+  // supplies none of them. Absent is fine for a docx site (every field is
+  // optional, and nothing downstream invents a fact the file doesn't
+  // state); the "library" arm below still requires it, since content
+  // composition has nothing to compose from without it. Malformed content
+  // — including a `geo` that isn't an uppercase ISO 3166-1 alpha-2 code —
+  // now fails at load-config, before any stage does real work.
+  const dataPath = path.join(siteDir, "data.json");
+  let siteData: SiteData | undefined;
+  if (existsSync(dataPath)) {
+    try {
+      siteData = siteDataSchema.parse(JSON.parse(readFileSync(dataPath, "utf-8")));
+    } catch (error) {
+      throw new PipelineError("load-config", error);
+    }
+  }
+
   // "parse-docx" is a legacy name kept as-is (avoiding stage-name churn
   // for the CLI's --only= surface) even though it now covers both input
   // modes — see the architecture doc's §00/§09: composeContent() and
@@ -248,13 +269,14 @@ export async function generate(siteDir: string, options: GenerateOptions = {}): 
       }
     } else {
       // "library": data.json + content-library/ replace the docx as this
-      // site's input.
-      const dataPath = path.join(siteDir, "data.json");
-      let siteData: SiteData;
-      try {
-        siteData = siteDataSchema.parse(JSON.parse(readFileSync(dataPath, "utf-8")));
-      } catch (error) {
-        throw new PipelineError("parse-docx", error);
+      // site's input. The file itself was already read and validated above
+      // (it is not library-only any more) — only its presence still has to
+      // be enforced here, where it is genuinely mandatory.
+      if (!siteData) {
+        throw new PipelineError(
+          "parse-docx",
+          new Error(`Missing data.json at ${dataPath} — a "library" site composes its pages from it.`),
+        );
       }
 
       const library = options.contentLibrary ?? (await loadContentLibrary(path.join(repoRoot, "content-library")));
@@ -378,7 +400,7 @@ export async function generate(siteDir: string, options: GenerateOptions = {}): 
       const content = parsedByLocale.get(localeConfig.code);
       if (!content) continue;
       try {
-        let casino = assembleSite(content, effectiveConfig);
+        let casino = assembleSite(content, effectiveConfig, { siteData });
         if (TEMPLATES_WITH_MANDATORY_CASINO_RULES.has(effectiveConfig.template)) {
           casino = applyCasinoV1Rules(casino, effectiveConfig, manifest, content.pages);
         }

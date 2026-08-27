@@ -39,6 +39,12 @@ export const casinoDatasetRowSchema = z
     // field already has a working template-level default nothing here sets).
     theme: themeSchema.partial().optional(),
   })
+  // Every fact field data.json accepts is a dataset column too, `geo`
+  // (site-data.ts) included — import-sites splits a row by field name, so
+  // a "geo" column on a spreadsheet export lands in data.json with no
+  // per-field plumbing here. Uppercase alpha-2 only, same as data.json: a
+  // row saying "Switzerland" or "ch" fails import with a named issue
+  // rather than reaching a build.
   .merge(siteDataSchema.omit({ profile: true }));
 export type CasinoDatasetRow = z.infer<typeof casinoDatasetRowSchema>;
 

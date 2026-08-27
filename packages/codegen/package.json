@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "schema": "*",
-    "image-pipeline": "*"
+    "image-pipeline": "*",
+    "content-library": "*"
   }
 }

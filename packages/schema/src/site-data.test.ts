@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { siteDataSchema } from "./site-data.js";
+import { resolveGeo, siteDataSchema } from "./site-data.js";
 
 test("an empty object is valid — every field is optional", () => {
   const result = siteDataSchema.safeParse({});
@@ -64,4 +64,29 @@ test("images accepts both single strings and arrays as role values", () => {
     images: { logo: "logo.png", slots: ["a.webp", "b.webp"] },
   });
   assert.equal(result.success, true);
+});
+
+test('geo accepts one uppercase alpha-2 code for the whole site', () => {
+  const parsed = siteDataSchema.parse({ brandName: "BetWest", geo: "CH" });
+  assert.equal(parsed.geo, "CH");
+  assert.equal(resolveGeo(parsed.geo, "de-DE"), "CH");
+});
+
+test("geo accepts a per-locale map for the case where a second language targets a different market", () => {
+  const parsed = siteDataSchema.parse({ geo: { "de-DE": "CH", "en-US": "GB" } });
+  assert.equal(resolveGeo(parsed.geo, "de-DE"), "CH");
+  assert.equal(resolveGeo(parsed.geo, "en-US"), "GB");
+  // A locale the map doesn't mention still falls back to its own region subtag.
+  assert.equal(resolveGeo(parsed.geo, "fi-FI"), "FI");
+});
+
+test('geo rejects a country name or a lowercase code at load time', () => {
+  assert.equal(siteDataSchema.safeParse({ geo: "Switzerland" }).success, false);
+  assert.equal(siteDataSchema.safeParse({ geo: "ch" }).success, false);
+  assert.equal(siteDataSchema.safeParse({ geo: { "de-DE": "ch" } }).success, false);
+});
+
+test("geo falls back to the locale's region subtag when unset, and to nothing when there isn't one", () => {
+  assert.equal(resolveGeo(undefined, "de-DE"), "DE");
+  assert.equal(resolveGeo(undefined, "de"), undefined);
 });

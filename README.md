@@ -87,6 +87,7 @@ these:
 ```json
 {
   "brandName": "MyCasino",
+  "geo": "CA",
   "welcomeBonus": { "amount": 500, "currency": "USD" },
   "minimumDeposit": 20,
   "gameCount": 1500,
@@ -99,6 +100,22 @@ these:
   "contentVersion": "v1"
 }
 ```
+
+`geo` is the ISO 3166-1 alpha-2 code of the **market** the site sells to,
+which is not the same thing as the language it's written in — a `de-DE`
+site can be licensed for Switzerland (`"geo": "CH"`), and an `en` + `et`
+pair can address one Estonian market in two languages. It must be
+uppercase (`"Switzerland"` and `"ch"` fail at load time). Use one code for
+the whole site, or a per-locale map for the rarer case where a second
+language genuinely targets a different market:
+
+```json
+{ "geo": { "de-DE": "CH", "en-US": "GB" } }
+```
+
+Left unset, it falls back to the locale's own region subtag (`de-DE` → DE).
+Every page's `<title>` and meta description names it, so it's worth setting
+explicitly whenever the market and the language diverge.
 
 Only supply facts you actually have — every field is optional, and a page
 whose required facts are missing is skipped gracefully rather than

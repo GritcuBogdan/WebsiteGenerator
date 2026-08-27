@@ -1,5 +1,6 @@
 import {
   casinoSchema,
+  resolveGeo,
   type Casino,
   type CasinoPage,
   type CasinoSection,
@@ -8,7 +9,9 @@ import {
   type ParsedPage,
   type ParsedSection,
   type SiteConfig,
+  type SiteData,
 } from "schema";
+import { buildPagesSeo, type PageSeoStrings } from "./build-page-seo.js";
 import { translate } from "./casino-v1-translations.js";
 
 // Pages linked from the footer if (and only if) the docx actually produced
@@ -166,14 +169,16 @@ function buildStickyBanner(config: SiteConfig) {
   };
 }
 
-function buildPageSeo(page: ParsedPage, config: SiteConfig, locale: string, canonical: string) {
-  const brandName = config.navbar.brandName ?? config.slug;
-
+// The page's own meta.title/meta.description (a docx's, or a content-
+// library legal entry's metaTitle) is deliberately NOT honored here:
+// neither knows the site's geo or its bonus, so letting them win would
+// exempt exactly the pages that carry those facts. `strings` comes from
+// build-page-seo.ts, which builds both to the fixed contract for every
+// page - legal pages included - in the site's own language.
+function buildPageSeo(config: SiteConfig, locale: string, canonical: string, strings: PageSeoStrings) {
   return {
-    title: page.meta.title ?? `${page.title} - ${brandName}`,
-    description:
-      page.meta.description ??
-      `Read about ${page.title.toLowerCase()} at ${brandName}, including bonuses, payments, games and player support.`,
+    title: strings.title,
+    description: strings.description,
     keywords: config.seo?.keywords ?? [config.slug, ...DEFAULT_KEYWORD_SUFFIX],
     canonical,
     ogImage: config.ogImage ?? config.banner.desktop,
@@ -186,18 +191,45 @@ function buildPageSeo(page: ParsedPage, config: SiteConfig, locale: string, cano
 // (branding the docx can't supply: theme, logo, banner image, footer
 // boilerplate) into a full, schema-valid Casino. One call = one locale;
 // generate-content.ts packages multiple locales' output together.
-export function assembleSite(content: ParsedDocxContent, config: SiteConfig): Casino {
+export type AssembleSiteOptions = {
+  // sites/<slug>/data.json. Optional so a caller with no facts file still
+  // assembles (the SEO formula then simply has no bonus/payment fragments
+  // to spend, rather than inventing them), but the pipeline loads it for
+  // every site - docx-sourced ones included - because their pages need
+  // the same brand/geo/bonus facts as library-sourced ones.
+  siteData?: SiteData;
+};
+
+export function assembleSite(content: ParsedDocxContent, config: SiteConfig, options: AssembleSiteOptions = {}): Casino {
   const localeConfig = config.locales.find((entry) => entry.code === content.locale);
   if (!localeConfig) {
     throw new Error(`No locale "${content.locale}" configured for site "${config.slug}"`);
   }
   const defaultLocale = resolveDefaultLocale(config);
 
+  // brandName: config first (a site's branding file is the authority on
+  // how the brand is written), then data.json's, then the slug.
+  const brandName = config.navbar.brandName ?? options.siteData?.brandName ?? config.slug;
+  const seoBySlug = buildPagesSeo(
+    content.pages.map((page) => ({ slug: page.slug, title: page.title })),
+    {
+      brandName,
+      locale: content.locale,
+      geo: resolveGeo(options.siteData?.geo, content.locale),
+      siteData: options.siteData,
+    },
+  );
+
   const pages: CasinoPage[] = content.pages.map((page) => ({
     slug: page.slug,
     title: page.title,
     navLabel: page.navLabel,
-    seo: buildPageSeo(page, config, content.locale, pagePath(page.slug, content.locale, defaultLocale)),
+    seo: buildPageSeo(
+      config,
+      content.locale,
+      pagePath(page.slug, content.locale, defaultLocale),
+      seoBySlug.get(page.slug) ?? { title: page.title, description: page.title },
+    ),
     sections: page.sections.map((section) => buildSection(section, config)),
   }));
 
