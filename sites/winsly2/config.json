@@ -1,0 +1,20 @@
+{
+  "slug": "winsly2",
+  "domains": [
+    "winsly776.com"
+  ],
+  "affiliateUrl": "https://gorollingslots.com/dg2d0nnhm",
+  "locales": [
+    {
+      "code": "sv-SE",
+      "default": true
+    }
+  ],
+  "contentSource": "library",
+  "profile": "starter-casino",
+  "theme": {
+    "primary": "#E0301E",
+    "secondary": "#100404",
+    "accent": "#FF6B00"
+  }
+}

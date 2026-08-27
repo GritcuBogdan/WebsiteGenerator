@@ -22,7 +22,7 @@
   "data": {
     "brandName": "Poko Bet",
     "welcomeBonus": {
-      "amount": 500,
+      "amount": 550,
       "currency": "EUR"
     },
     "minimumDeposit": 20,

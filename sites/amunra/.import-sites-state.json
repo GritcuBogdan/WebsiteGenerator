@@ -22,7 +22,7 @@
   "data": {
     "brandName": "AmunRA",
     "welcomeBonus": {
-      "amount": 500,
+      "amount": 450,
       "currency": "EUR"
     },
     "minimumDeposit": 20,

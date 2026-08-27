@@ -22,7 +22,7 @@
   "data": {
     "brandName": "Bet It All",
     "welcomeBonus": {
-      "amount": 500,
+      "amount": 520,
       "currency": "CHF"
     },
     "minimumDeposit": 20,

@@ -308,5 +308,36 @@
     "supportedCurrencies": [
       "USD"
     ]
+  },
+  {
+    "slug": "winsly2",
+    "theme": {
+      "primary": "#E0301E",
+      "secondary": "#100404",
+      "accent": "#FF6B00"
+    },
+    "domain": "winsly776.com",
+    "affiliateUrl": "https://gorollingslots.com/dg2d0nnhm",
+    "locale": "sv-SE",
+    "profile": "starter-casino",
+    "brandName": "Winsly",
+    "welcomeBonus": {
+      "amount": 500,
+      "currency": "SEK"
+    },
+    "minimumDeposit": 20,
+    "gameCount": 1800,
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Skrill"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "Skrill"
+    ],
+    "supportedCurrencies": [
+      "USD"
+    ]
   }
 ]

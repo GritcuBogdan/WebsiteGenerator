@@ -22,7 +22,7 @@
   "data": {
     "brandName": "Snatch Casino",
     "welcomeBonus": {
-      "amount": 500,
+      "amount": 480,
       "currency": "CHF"
     },
     "minimumDeposit": 20,
