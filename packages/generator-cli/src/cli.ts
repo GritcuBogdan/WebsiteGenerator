@@ -77,7 +77,7 @@ async function main(): Promise<void> {
     if (!slug) throw new Error("Usage: new-site <slug>");
     const siteDir = newSite(slug, path.resolve("sites"));
     console.log(`Created ${siteDir}`);
-    console.log("Next: add casino.<locale>.docx and images/, edit config.json, then run:");
+    console.log("Next: edit data.json with real facts, add images/, then run:");
     console.log(`  npm run generate -- ${path.relative(process.cwd(), siteDir)}`);
     return;
   }
